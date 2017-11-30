@@ -3101,3 +3101,881 @@ LogInit: Object subsystem initialized
 [2017.11.30-18.39.35:667][724]LogSavePackage: Save=5.66ms
 [2017.11.30-18.39.35:667][724]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_SnakeOutline_mat42FC86DE40436C05AFE3F69F9C63BB35.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_SnakeOutline_mat.uasset'
 [2017.11.30-18.39.35:673][724]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_SnakeOutline_mat.uasset
+[2017.11.30-18.45.49:297][398]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\_School\Rapid Prototyping 1\MadCats\playerTruck_v05.fbx)
+[2017.11.30-18.45.49:369][398]LogFbx: ItemName: Model, ItemCount : 17
+[2017.11.30-18.45.49:369][398]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.11.30-18.45.49:369][398]LogFbx: ItemName: Material, ItemCount : 2
+[2017.11.30-18.45.49:369][398]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.11.30-18.45.49:369][398]LogFbx: ItemName: Video, ItemCount : 2
+[2017.11.30-18.45.49:369][398]LogFbx: ItemName: Deformer, ItemCount : 12
+[2017.11.30-18.45.49:369][398]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.11.30-18.45.49:369][398]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.30-18.45.49:374][398]LogFbx: Loading FBX Scene from D:\_School\Rapid Prototyping 1\MadCats\playerTruck_v05.fbx
+[2017.11.30-18.45.49:481][398]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.30-18.46.17:122][398]LogFbx: Loading FBX Scene from D:\_School\Rapid Prototyping 1\MadCats\playerTruck_v05.fbx
+[2017.11.30-18.46.17:231][398]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node START [playerTruck.001] 
+[2017.11.30-18.46.17:232][398]LogFbx: 	Total Deformer Count -922709888.
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node 1] Skin playerTruck.001 (Type Skin).
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: 	Attribute () Type (4).
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node Attribute Child 1] playerTruck.001 (Type Mesh).
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node END [playerTruck.001]
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node START [playerTruck] 
+[2017.11.30-18.46.17:232][398]LogFbx: 	Total Deformer Count 2052995200.
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node 1] Skin playerTruck (Type Skin).
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: 	Attribute () Type (4).
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node Attribute Child 1] playerTruck (Type Mesh).
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node END [playerTruck]
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node START [playerTruck.001] 
+[2017.11.30-18.46.17:232][398]LogFbx: 	Total Deformer Count -922707088.
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node 1] Skin playerTruck.001 (Type Skin).
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: 	Attribute () Type (4).
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node Attribute Child 1] playerTruck.001 (Type Mesh).
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node END [playerTruck.001]
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node START [playerTruck] 
+[2017.11.30-18.46.17:232][398]LogFbx: 	Total Deformer Count 2052987776.
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node 1] Skin playerTruck (Type Skin).
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: 	Attribute () Type (4).
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node Attribute Child 1] playerTruck (Type Mesh).
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node END [playerTruck]
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node START [playerTruck.001] 
+[2017.11.30-18.46.17:232][398]LogFbx: 	Total Deformer Count -922700048.
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node 1] Skin playerTruck.001 (Type Skin).
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: 	Attribute () Type (4).
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node Attribute Child 1] playerTruck.001 (Type Mesh).
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node END [playerTruck.001]
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node START [playerTruck] 
+[2017.11.30-18.46.17:232][398]LogFbx: 	Total Deformer Count 2052986176.
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node 1] Skin playerTruck (Type Skin).
+[2017.11.30-18.46.17:232][398]LogFbx: =================================================
+[2017.11.30-18.46.17:232][398]LogFbx: 	Attribute () Type (4).
+[2017.11.30-18.46.17:232][398]LogFbx: 		[Node Attribute Child 1] playerTruck (Type Mesh).
+[2017.11.30-18.46.17:232][398]LogFbx: Dumping Node END [playerTruck]
+[2017.11.30-18.46.17:232][398]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node playerTruck.001 : The relative matrices do not match
+[2017.11.30-18.46.17:233][398]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node playerTruck : The relative matrices do not match
+[2017.11.30-18.46.17:233][398]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.11.30-18.46.17:233][398]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - playerTruck.001
+[2017.11.30-18.46.17:233][398]LogFbx: Warning: Recreating bind pose succeeded.
+[2017.11.30-18.46.17:233][398]LogFbx: Triangulating skeletal mesh playerTruck.001
+[2017.11.30-18.46.17:321][398]LogFbx: Triangulating skeletal mesh playerTruck
+[2017.11.30-18.46.17:424][398]LogFbx: Warning: Bones digested - 9  Depth of hierarchy - 5
+[2017.11.30-18.46.17:655][398]LogSkeletalMesh: Section 0: 3914 vertices, 4 active bones
+[2017.11.30-18.46.17:655][398]LogSkeletalMesh: Section 1: 3930 vertices, 4 active bones
+[2017.11.30-18.46.18:675][398]LogSkeletalMesh: Section 0: Material=0, 5506 triangles
+[2017.11.30-18.46.18:675][398]LogSkeletalMesh: Section 1: Material=1, 5516 triangles
+[2017.11.30-18.46.37:287][398]LogLinker: Can't find file '/Game/Levels/PlsIgnoreMe/playerTruck_v05_PhysicsAsset'
+[2017.11.30-18.46.37:288][398]LogLinker: Can't find file '/Game/Levels/PlsIgnoreMe/playerTruck_v05_PhysicsAsset'
+[2017.11.30-18.46.37:294][398]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_31:PersistentLevel.SkeletalMeshActor_14.SkeletalMeshComponent0'
+[2017.11.30-18.46.37:301][398]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.30-18.47.03:063][103]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.30-18.47.04:730][259]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.Actor_11.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.11.30-18.47.04:763][259]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_33:PersistentLevel.Actor_11.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2017.11.30-18.47.13:828][837]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.Actor_12.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.11.30-18.47.13:851][837]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.Actor_12.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2017.11.30-18.48.19:585][302]Cmd: SELECT NONE
+[2017.11.30-18.49.32:601][452]LogSavePackage: Save=114.54ms
+[2017.11.30-18.49.32:601][452]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/CharacterShaderTest_Auto2707D89534AD3C5C547746BBB78CC598A.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/CharacterShaderTest_Auto2.umap'
+[2017.11.30-18.49.32:604][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/CharacterShaderTest_Auto2.umap
+[2017.11.30-18.49.32:606][452]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/CharacterShaderTest' took 0.140
+[2017.11.30-18.49.32:606][452]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.140
+[2017.11.30-18.49.32:608][452]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/PlsIgnoreMe/playerTruck_v05] ([1] browsable assets)...
+[2017.11.30-18.49.32:619][452]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Levels/PlsIgnoreMe/playerTruck_v05.playerTruck_v05]
+[2017.11.30-18.49.32:619][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/PlsIgnoreMe/playerTruck_v05]
+[2017.11.30-18.49.32:646][452]LogSavePackage: Save=24.60ms
+[2017.11.30-18.49.32:646][452]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_v05_Auto2BE1BB5D1477719FE679C98BA4AE3B4F9.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/PlsIgnoreMe/playerTruck_v05_Auto2.uasset'
+[2017.11.30-18.49.32:647][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/PlsIgnoreMe/playerTruck_v05_Auto2.uasset
+[2017.11.30-18.49.32:648][452]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/PlsIgnoreMe/playerTruck_v05_PhysicsAsset] ([1] browsable assets)...
+[2017.11.30-18.49.32:659][452]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Levels/PlsIgnoreMe/playerTruck_v05_PhysicsAsset.playerTruck_v05_PhysicsAsset]
+[2017.11.30-18.49.32:659][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/PlsIgnoreMe/playerTruck_v05_PhysicsAsset]
+[2017.11.30-18.49.32:673][452]LogSavePackage: Save=12.39ms
+[2017.11.30-18.49.32:673][452]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_v05_PhysicsAsset_AutD0A9E9B44D35EFBD4F7384A9DCAF38C2.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/PlsIgnoreMe/playerTruck_v05_PhysicsAsset_Auto2.uasset'
+[2017.11.30-18.49.32:674][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/PlsIgnoreMe/playerTruck_v05_PhysicsAsset_Auto2.uasset
+[2017.11.30-18.49.32:675][452]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/PlsIgnoreMe/e_Snake_v01_Skeleton] ([1] browsable assets)...
+[2017.11.30-18.49.32:675][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/PlsIgnoreMe/e_Snake_v01_Skeleton]
+[2017.11.30-18.49.32:683][452]LogSavePackage: Save=4.49ms
+[2017.11.30-18.49.32:683][452]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_v01_Skeleton_Auto2882AB108452AFD59CF4DD49312C49845.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/PlsIgnoreMe/e_Snake_v01_Skeleton_Auto2.uasset'
+[2017.11.30-18.49.32:685][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/PlsIgnoreMe/e_Snake_v01_Skeleton_Auto2.uasset
+[2017.11.30-18.49.32:685][452]LogFileHelpers: Auto-saving content packages took 0.077
+[2017.11.30-18.50.03:878][467]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (playerTruck_v05)
+[2017.11.30-18.50.21:275][811]MapCheck: New page: Map Check
+[2017.11.30-18.50.21:292][811]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.30-18.50.21:292][811]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.30-18.50.21:338][811]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.11.30-18.50.21:344][811]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.11.30-18.50.21:349][811]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2017.11.30-18.50.21:357][811]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_SnakeOutline_mat, compiling. 
+[2017.11.30-18.50.21:364][811]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mat_Outline__uvgrid1024-colour_png, compiling. 
+[2017.11.30-18.50.21:371][811]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mat_Main__truck_amb_tga, compiling. 
+[2017.11.30-18.50.21:916][811]TextureStreamingBuild: Display: Compiling optional shaders took 0.607 seconds.
+[2017.11.30-18.50.21:928][811]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
+[2017.11.30-18.50.21:932][811]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2017.11.30-18.50.21:941][811]LightingResults: New page: Lighting Build - Nov 30, 2017, 4:50:21 AM
+[2017.11.30-18.50.21:947][811]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.30-18.50.21:949][811]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.30-18.50.21:950][811]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.30-18.50.21:950][811]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.30-18.50.21:950][811]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17628
+[2017.11.30-18.50.26:472][811]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.30-18.50.26:472][811]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.30-18.50.26:472][811]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.30-18.50.26:472][811]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.30-18.50.26:472][811]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.30-18.50.26:472][811]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.30-18.50.26:609][811]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.30-18.50.26:609][811]MapCheck: New page: CharacterShaderTest - Nov 30, 2017, 4:50:26 AM
+[2017.11.30-18.50.26:609][811]MapCheck: Warning: e_Snake_v2 SkeletalMeshActor '/Game/Levels/PlsIgnoreMe/e_Snake_v01.e_Snake_v01' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.11.30-18.50.26:609][811]MapCheck: Warning: e_Snake_v01_2 SkeletalMeshActor '/Game/Levels/PlsIgnoreMe/e_Snake_v01.e_Snake_v01' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.11.30-18.50.26:609][811]MapCheck: Warning: playerTruck_v01_5 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.11.30-18.50.26:609][811]MapCheck: Warning: playerTruck_v01_5 Skeletal mesh actor has NULL SkeletalMesh property 
+[2017.11.30-18.50.26:609][811]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2017.11.30-18.50.26:662][811]MapCheck: Map check complete: 1 Error(s), 4 Warning(s), took 52.445ms to complete.
+[2017.11.30-18.50.26:684][811]LogEditorBuildUtils: Build time 0:05
+[2017.11.30-18.50.29:037][896]Job is a success!
+[2017.11.30-18.50.29:092][897]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.004s
+[2017.11.30-18.50.29:092][897]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2017.11.30-18.50.29:092][897]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
+[2017.11.30-18.50.29:092][897]LogVolumetricLightmapImport:      Bricks at Level
+[2017.11.30-18.50.29:092][897]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2017.11.30-18.50.29:092][897]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2017.11.30-18.50.29:092][897]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2017.11.30-18.50.29:130][897]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.11.30-18.50.29:130][897]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.11.30-18.50.29:130][897]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.30-18.50.29:130][897]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.30-18.50.29:130][897]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.11.30-18.50.29:130][897]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 128X128)
+[2017.11.30-18.50.29:148][897]Lightmass on eae-d-081: 1.63 sec total, 157 ms importing, 18 ms setup, 379 ms photons, 1.04 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 7.15 sec total, 1.16 sec processing.
+[2017.11.30-18.50.29:152][897]LogStaticLightingSystem: Illumination: 7.18 sec (18 ms encoding lightmaps, 10 ms encoding shadowmaps)
+[2017.11.30-18.50.29:152][897]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.30-18.50.29:152][897]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.30-18.50.29:477][897]DumpUnbuiltLightIteractions
+[2017.11.30-18.50.29:477][897]Lights with unbuilt interactions: 0
+[2017.11.30-18.50.29:477][897]
+[2017.11.30-18.50.29:477][897]Primitives with unbuilt interactions: 0
+[2017.11.30-18.50.29:522][898]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.30-18.50.29:522][898]MapCheck: New page: CharacterShaderTest - Nov 30, 2017, 4:50:29 AM
+[2017.11.30-18.50.29:522][898]MapCheck: Warning: e_Snake_v2 SkeletalMeshActor '/Game/Levels/PlsIgnoreMe/e_Snake_v01.e_Snake_v01' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.11.30-18.50.29:523][898]MapCheck: Warning: e_Snake_v01_2 SkeletalMeshActor '/Game/Levels/PlsIgnoreMe/e_Snake_v01.e_Snake_v01' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.11.30-18.50.29:523][898]MapCheck: Warning: playerTruck_v01_5 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2017.11.30-18.50.29:523][898]MapCheck: Warning: playerTruck_v01_5 Skeletal mesh actor has NULL SkeletalMesh property 
+[2017.11.30-18.50.29:568][898]MapCheck: Map check complete: 0 Error(s), 4 Warning(s), took 46.256ms to complete.
+[2017.11.30-18.50.37:721][509]Cmd: SELECT NONE
+[2017.11.30-18.51.19:128][727]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.51.19:223][727]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.51.19:263][727]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.51.19:327][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-18.51.19:333][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.30-18.51.19:339][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.30-18.51.19:344][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.11.30-18.51.19:350][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_4, compiling. 
+[2017.11.30-18.51.19:357][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.11.30-18.51.19:363][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_1, compiling. 
+[2017.11.30-18.51.19:369][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_0, compiling. 
+[2017.11.30-18.51.19:374][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_1, compiling. 
+[2017.11.30-18.51.19:378][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.30-18.51.19:382][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.30-18.51.19:386][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-18.51.19:390][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.11.30-18.51.23:546][940]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-18.51.23:546][940]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-18.51.23:546][940]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-18.51.23:546][940]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-18.51.23:546][940]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-18.51.39:671][971]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.51.43:499][129]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-18.51.43:499][129]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-18.51.43:499][129]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-18.51.43:499][129]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-18.51.43:499][129]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-18.52.03:335][446]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.52.06:520][597]LogMaterialEditor: Applying material e_Snake_mat
+[2017.11.30-18.52.07:142][597]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.52.07:208][597]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.52.07:283][597]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.52.07:369][597]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-18.52.10:343][597]TextureStreamingBuild: Display: Compiling optional shaders took 2.981 seconds.
+[2017.11.30-18.52.15:441][866]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-18.52.15:441][866]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-18.52.15:441][866]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-18.52.15:441][866]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-18.52.15:441][866]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-18.52.56:515][798]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.53.00:544][988]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-18.53.00:544][988]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-18.53.00:544][988]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-18.53.00:544][988]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-18.53.00:544][988]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-18.53.02:174][100]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-18.53.02:626][100]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.53.02:695][100]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.53.02:767][100]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-18.53.02:853][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-18.53.05:846][100]TextureStreamingBuild: Display: Compiling optional shaders took 3.001 seconds.
+[2017.11.30-18.53.10:024][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-18.53.10:055][100]LogSavePackage: Save=23.64ms
+[2017.11.30-18.53.10:055][100]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_matAB3FD8504A2BDCA857E1A484A2E5DF2B.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-18.53.10:058][100]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-18.53.10:066][100]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-18.53.10:066][100]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-18.53.10:066][100]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-18.53.10:066][100]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-18.53.10:066][100]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-18.59.28:891][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/playerTruck_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset" SILENT=true
+[2017.11.30-18.59.28:907][272]LogSavePackage: Save=13.69ms
+[2017.11.30-18.59.28:907][272]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_mat718FB102453008EABA72F88163DCA371.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset'
+[2017.11.30-18.59.28:911][272]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset
+[2017.11.30-18.59.34:073][576]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-18.59.34:178][576]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-18.59.34:217][576]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-18.59.34:282][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.30-18.59.38:113][805]MaterialEditorStats: Base pass shader: 101 instructions
+[2017.11.30-18.59.38:113][805]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2017.11.30-18.59.38:113][805]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-18.59.38:113][805]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.30-18.59.39:087][894]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-18.59.42:638][110]MaterialEditorStats: Base pass shader: 99 instructions
+[2017.11.30-18.59.42:638][110]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2017.11.30-18.59.42:638][110]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-18.59.42:639][110]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.30-19.00.07:686][444]LogSavePackage: Save=113.83ms
+[2017.11.30-19.00.07:686][444]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/CharacterShaderTest_Auto30084B623475E7BE28349F285CE758235.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/CharacterShaderTest_Auto3.umap'
+[2017.11.30-19.00.07:687][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/CharacterShaderTest_Auto3.umap
+[2017.11.30-19.00.07:690][444]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/CharacterShaderTest' took 0.136
+[2017.11.30-19.00.07:690][444]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
+[2017.11.30-19.00.07:692][444]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/CharacterShaderTest_BuiltData] ([1] browsable assets)...
+[2017.11.30-19.00.07:692][444]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/CharacterShaderTest_BuiltData]
+[2017.11.30-19.00.07:707][444]LogSavePackage: Save=7.49ms
+[2017.11.30-19.00.07:707][444]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/CharacterShaderTest_BuiltData_Au3D2C47DC4921D4EEE7B9C4824A3BE71F.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/CharacterShaderTest_BuiltData_Auto3.uasset'
+[2017.11.30-19.00.07:708][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/Autosaves/Game/Levels/CharacterShaderTest_BuiltData_Auto3.uasset
+[2017.11.30-19.00.07:708][444]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.11.30-19.11.22:331][512]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.11.26:441][722]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-19.11.26:441][722]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-19.11.26:441][722]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.11.26:441][722]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.11.26:441][722]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.11.39:265][763]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.11.39:310][763]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.11.40:730][838]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.11.40:787][838]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.11.41:037][850]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.11.41:100][850]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.11.41:242][856]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.11.41:296][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.11.41:477][864]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.11.41:540][864]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.11.41:678][870]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.11.41:738][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.11.42:575][916]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.11.42:629][916]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.11.43:673][970]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.11.43:735][970]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.11.47:752][185]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-19.11.47:753][185]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-19.11.47:753][185]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.11.47:753][185]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.11.47:753][185]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.14.16:683][238]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.14.19:860][395]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.14.20:587][429]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.14.21:594][477]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.14.22:253][507]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.14.22:872][535]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.14.26:853][726]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-19.14.26:853][726]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-19.14.26:853][726]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.14.26:853][726]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.14.26:853][726]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.19.09:740][568]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.09:795][568]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.13:989][761]MaterialEditorStats: Base pass shader: 127 instructions
+[2017.11.30-19.19.13:990][761]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2017.11.30-19.19.13:990][761]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.19.13:990][761]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.19.13:990][761]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.19.17:799][ 26]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.21:731][206]MaterialEditorStats: Base pass shader: 128 instructions
+[2017.11.30-19.19.21:731][206]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2017.11.30-19.19.21:731][206]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.19.21:731][206]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.19.21:731][206]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.19.24:589][400]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.19.25:046][400]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.25:116][400]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.25:182][400]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.25:266][400]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.19.28:314][400]TextureStreamingBuild: Display: Compiling optional shaders took 3.056 seconds.
+[2017.11.30-19.19.32:554][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.19.32:586][400]LogSavePackage: Save=23.89ms
+[2017.11.30-19.19.32:586][400]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_matE8DA08644105F1936E3251821077153D.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.19.32:596][400]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.19.32:604][400]MaterialEditorStats: Base pass shader: 128 instructions
+[2017.11.30-19.19.32:604][400]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2017.11.30-19.19.32:604][400]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.19.32:604][400]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.19.32:604][400]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.19.50:048][589]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.50:088][589]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.11.30-19.19.52:963][711]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.19.53:628][711]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.53:732][711]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.53:802][711]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.19.53:888][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.19.57:048][711]TextureStreamingBuild: Display: Compiling optional shaders took 3.166 seconds.
+[2017.11.30-19.20.01:315][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.20.01:343][711]LogSavePackage: Save=24.88ms
+[2017.11.30-19.20.01:343][711]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_mat462BF89841E8E7C79E8D32ABFD6BB697.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.20.01:346][711]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.20.01:355][711]MaterialEditorStats: Base pass shader: 128 instructions
+[2017.11.30-19.20.01:356][711]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2017.11.30-19.20.01:356][711]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.20.01:356][711]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.20.01:356][711]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.20.06:152][ 18]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.20.24:211][934]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.20.42:597][ 18]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.20.43:075][ 37]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.20.51:509][497]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.20.51:562][497]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.20.55:461][662]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-19.20.55:461][662]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-19.20.55:462][662]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.20.55:462][662]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.20.55:462][662]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.20.58:208][839]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.20.58:662][839]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.20.58:728][839]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.20.58:800][839]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.20.58:892][839]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.21.01:893][839]TextureStreamingBuild: Display: Compiling optional shaders took 3.008 seconds.
+[2017.11.30-19.21.06:148][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.21.06:176][839]LogSavePackage: Save=24.76ms
+[2017.11.30-19.21.06:176][839]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_mat70BDB3584F23805195840B9614CA22AB.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.21.06:180][839]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.21.06:189][839]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.11.30-19.21.06:189][839]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2017.11.30-19.21.06:189][839]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.21.06:189][839]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.21.06:189][839]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.21.21:905][868]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.21.21:959][868]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.21.23:853][948]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.21.23:934][948]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.21.25:670][ 19]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.21.26:338][ 19]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.21.26:426][ 19]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.21.26:494][ 19]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.21.26:579][ 19]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.21.29:637][ 19]TextureStreamingBuild: Display: Compiling optional shaders took 3.065 seconds.
+[2017.11.30-19.21.33:889][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.21.33:916][ 19]LogSavePackage: Save=23.77ms
+[2017.11.30-19.21.33:916][ 19]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_mat69F64BE74BDF3835C84C3680419046D0.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.21.33:920][ 19]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.21.33:928][ 19]MaterialEditorStats: Base pass shader: 128 instructions
+[2017.11.30-19.21.33:928][ 19]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 203 instructions
+[2017.11.30-19.21.33:928][ 19]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.21.33:928][ 19]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.21.33:928][ 19]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.33.52:990][370]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.33.53:027][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.30-19.33.56:466][526]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.33.56:527][526]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.30-19.33.58:087][591]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.33.58:755][591]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.33.58:849][591]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.33.58:925][591]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.33.59:008][591]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.34.02:181][591]TextureStreamingBuild: Display: Compiling optional shaders took 3.180 seconds.
+[2017.11.30-19.34.06:424][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.34.06:457][591]LogSavePackage: Save=25.28ms
+[2017.11.30-19.34.06:457][591]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_matA5F8C44C421F2683AC0CD3BD7A555488.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.34.06:461][591]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.34.06:470][591]MaterialEditorStats: Base pass shader: 131 instructions
+[2017.11.30-19.34.06:470][591]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2017.11.30-19.34.06:470][591]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.34.06:470][591]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.34.06:470][591]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.34.22:022][613]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.22:066][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-19.34.25:422][759]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.34.26:084][759]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.26:154][759]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.26:228][759]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.26:323][759]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.34.29:398][759]TextureStreamingBuild: Display: Compiling optional shaders took 3.082 seconds.
+[2017.11.30-19.34.33:663][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.34.33:691][759]LogSavePackage: Save=24.36ms
+[2017.11.30-19.34.33:691][759]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_matBB56492E44C6008884AF6BBCD024DC48.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.34.33:695][759]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.34.33:703][759]MaterialEditorStats: Base pass shader: 131 instructions
+[2017.11.30-19.34.33:703][759]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2017.11.30-19.34.33:703][759]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.34.33:703][759]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.34.33:703][759]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.34.37:305][996]Cmd: TRANSACTION UNDO
+[2017.11.30-19.34.37:305][996]LogEditorTransaction: Undo Create Pin Link
+[2017.11.30-19.34.37:310][996]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.37:603][996]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-19.34.37:658][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.Actor_12.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2017.11.30-19.34.37:669][996]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.37:722][996]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-19.34.37:762][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.Actor_11.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.11.30-19.34.42:852][208]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.42:909][208]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-19.34.42:935][208]MaterialEditorStats: Base pass shader: 99 instructions
+[2017.11.30-19.34.42:935][208]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2017.11.30-19.34.42:935][208]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.11.30-19.34.42:935][208]MaterialEditorStats: Texture samplers: 2/16
+[2017.11.30-19.34.44:021][254]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.34.44:700][254]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.44:801][254]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.44:879][254]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.34.44:958][254]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.34.48:145][254]TextureStreamingBuild: Display: Compiling optional shaders took 3.194 seconds.
+[2017.11.30-19.34.52:423][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.34.52:452][254]LogSavePackage: Save=25.22ms
+[2017.11.30-19.34.52:452][254]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_matAA76A4FD403642C59F199E93D3286003.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.34.52:455][254]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.34.52:466][254]MaterialEditorStats: Base pass shader: 133 instructions
+[2017.11.30-19.34.52:466][254]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 209 instructions
+[2017.11.30-19.34.52:466][254]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.34.52:466][254]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.34.52:466][254]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.36.18:182][649]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.36.22:299][822]MaterialEditorStats: Base pass shader: 133 instructions
+[2017.11.30-19.36.22:299][822]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 209 instructions
+[2017.11.30-19.36.22:299][822]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.36.22:299][822]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.36.22:299][822]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.39.05:039][410]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.39.09:100][585]MaterialEditorStats: Base pass shader: 133 instructions
+[2017.11.30-19.39.09:100][585]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 209 instructions
+[2017.11.30-19.39.09:100][585]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.39.09:100][585]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.39.09:100][585]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.39.11:192][723]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.39.14:938][887]MaterialEditorStats: Base pass shader: 133 instructions
+[2017.11.30-19.39.14:938][887]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 209 instructions
+[2017.11.30-19.39.14:938][887]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.39.14:938][887]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.39.14:938][887]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.39.16:277][973]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.39.21:713][245]MaterialEditorStats: Base pass shader: 133 instructions
+[2017.11.30-19.39.21:713][245]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 209 instructions
+[2017.11.30-19.39.21:713][245]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.39.21:713][245]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.39.21:713][245]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.39.25:945][524]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.39.25:987][524]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.30-19.39.28:440][625]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.39.31:287][739]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.39.35:174][910]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.39.38:874][ 68]MaterialEditorStats: Base pass shader: 133 instructions
+[2017.11.30-19.39.38:874][ 68]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 209 instructions
+[2017.11.30-19.39.38:874][ 68]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.39.38:874][ 68]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.39.38:874][ 68]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.42.36:011][785]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.42.36:057][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-19.42.36:088][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.11.30-19.42.36:121][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_4, compiling. 
+[2017.11.30-19.42.36:151][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.42.36:181][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.11.30-19.42.40:231][957]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.42.43:878][108]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.42.46:357][210]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.42.48:269][285]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.42.48:948][285]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.42.49:036][285]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.42.49:110][285]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.42.49:198][285]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.42.52:232][285]TextureStreamingBuild: Display: Compiling optional shaders took 3.040 seconds.
+[2017.11.30-19.42.56:452][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.42.56:487][285]LogSavePackage: Save=26.47ms
+[2017.11.30-19.42.56:487][285]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_mat05B754224988B30FF802439B6541CE41.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.42.56:489][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.42.56:498][285]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-19.42.56:498][285]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-19.42.56:498][285]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.42.56:498][285]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.42.56:498][285]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.43.11:483][241]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.14:018][344]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.14:076][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-19.43.15:643][409]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.17:412][482]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.18:832][537]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.43.19:504][537]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.19:604][537]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.19:681][537]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.19:764][537]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.43.22:964][537]TextureStreamingBuild: Display: Compiling optional shaders took 3.207 seconds.
+[2017.11.30-19.43.27:247][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.43.27:275][537]LogSavePackage: Save=24.46ms
+[2017.11.30-19.43.27:275][537]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_matFBAA95BC484B554BEC32A28A36B425D0.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.43.27:279][537]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.43.27:286][537]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-19.43.27:286][537]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-19.43.27:286][537]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.43.27:286][537]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.43.27:286][537]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.43.31:449][796]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.33:035][859]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.43.33:721][859]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.33:828][859]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.33:902][859]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.43.33:986][859]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.43.37:137][859]TextureStreamingBuild: Display: Compiling optional shaders took 3.159 seconds.
+[2017.11.30-19.43.41:377][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.43.41:407][859]LogSavePackage: Save=25.34ms
+[2017.11.30-19.43.41:407][859]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_mat13189871446FD9F40CC4B08D343A058F.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.43.41:410][859]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.43.41:417][859]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-19.43.41:417][859]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-19.43.41:417][859]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.43.41:417][859]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.43.41:417][859]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.43.57:089][820]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.44.00:867][971]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-19.44.00:867][971]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-19.44.00:867][971]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.44.00:867][971]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.44.00:867][971]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.46.07:174][738]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.46.11:303][912]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-19.46.11:303][912]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-19.46.11:303][912]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.46.11:303][912]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.46.11:303][912]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.46.15:954][192]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.46.22:478][507]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.46.26:253][661]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-19.46.26:253][661]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-19.46.26:253][661]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.46.26:253][661]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-19.46.26:253][661]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-19.48.02:745][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-19.48.02:749][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.30-19.48.02:754][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.30-19.48.02:758][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.11.30-19.48.02:762][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_4, compiling. 
+[2017.11.30-19.48.02:767][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.11.30-19.48.02:771][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_1, compiling. 
+[2017.11.30-19.48.02:775][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_0, compiling. 
+[2017.11.30-19.48.02:779][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_1, compiling. 
+[2017.11.30-19.48.02:786][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.30-19.48.02:792][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.30-19.48.02:798][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-19.48.02:804][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.11.30-19.48.02:809][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.30-19.48.42:209][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_20, compiling. 
+[2017.11.30-19.48.48:036][464]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_21, compiling. 
+[2017.11.30-19.49.18:463][579]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-19.49.18:914][579]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.49.18:981][579]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.49.19:047][579]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-19.49.19:106][579]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-19.49.22:423][579]TextureStreamingBuild: Display: Compiling optional shaders took 3.322 seconds.
+[2017.11.30-19.49.26:634][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-19.49.26:668][579]LogSavePackage: Save=25.61ms
+[2017.11.30-19.49.26:668][579]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_mat7C85B46342A401E10E3354BACC65338E.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-19.49.26:671][579]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-19.49.26:679][579]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-19.49.26:679][579]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-19.49.26:679][579]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-19.49.26:679][579]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-19.49.26:679][579]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-21.28.51:849][540]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-21.28.51:891][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.30-21.28.51:923][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.11.30-21.28.51:955][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_4, compiling. 
+[2017.11.30-21.28.51:986][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.30-21.28.52:016][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.11.30-21.28.52:046][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_21, compiling. 
+[2017.11.30-21.28.56:411][766]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-21.28.56:411][766]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-21.28.56:411][766]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-21.28.56:411][766]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-21.28.56:411][766]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.06.53:159][394]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.06.55:195][487]LogMaterialEditor: Applying material e_Snake_mat
+[2017.11.30-23.06.57:159][487]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.06.57:228][487]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.06.57:298][487]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.06.57:379][487]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-23.07.00:519][487]TextureStreamingBuild: Display: Compiling optional shaders took 3.144 seconds.
+[2017.11.30-23.07.05:737][747]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-23.07.05:737][747]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-23.07.05:737][747]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.07.05:737][747]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-23.07.05:737][747]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.07.23:345][916]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.07.27:181][ 81]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-23.07.27:181][ 81]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-23.07.27:181][ 81]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.07.27:181][ 81]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-23.07.27:181][ 81]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.07.45:488][293]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.07.49:396][461]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-23.07.49:396][461]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-23.07.49:396][461]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.07.49:396][461]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-23.07.49:396][461]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.07.52:505][667]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.07.54:200][738]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-23.07.54:874][738]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.07.54:961][738]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.07.55:036][738]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.07.55:127][738]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-23.07.58:236][738]TextureStreamingBuild: Display: Compiling optional shaders took 3.117 seconds.
+[2017.11.30-23.08.02:523][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-23.08.02:563][738]LogSavePackage: Save=26.76ms
+[2017.11.30-23.08.02:563][738]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_matD09AB3F7473EFB42A92FB6B5D802D4DA.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-23.08.02:572][738]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-23.08.02:580][738]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-23.08.02:580][738]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-23.08.02:580][738]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.08.02:580][738]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-23.08.02:580][738]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.08.08:045][ 98]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.08.11:893][259]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-23.08.11:893][259]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-23.08.11:893][259]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.08.11:893][259]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-23.08.11:893][259]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.08.29:375][403]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.08.32:654][542]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.08.36:632][710]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-23.08.36:632][710]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-23.08.36:632][710]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.08.36:632][710]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-23.08.36:632][710]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.08.49:315][534]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.08.52:383][660]LogMaterialEditor: Saving and Compiling material e_Snake_mat
+[2017.11.30-23.08.53:045][660]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.08.53:114][660]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.08.53:180][660]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
+[2017.11.30-23.08.53:268][660]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat, compiling. 
+[2017.11.30-23.08.56:385][660]TextureStreamingBuild: Display: Compiling optional shaders took 3.124 seconds.
+[2017.11.30-23.09.00:732][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/e_Snake_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset" SILENT=true
+[2017.11.30-23.09.00:761][660]LogSavePackage: Save=25.18ms
+[2017.11.30-23.09.00:761][660]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_mat5BC00F2D42DF16064F35FFA279101B2F.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset'
+[2017.11.30-23.09.00:765][660]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_mat.uasset
+[2017.11.30-23.09.00:772][660]MaterialEditorStats: Base pass shader: 134 instructions
+[2017.11.30-23.09.00:772][660]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 210 instructions
+[2017.11.30-23.09.00:772][660]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.09.00:772][660]MaterialEditorStats: Texture samplers: 6/16
+[2017.11.30-23.09.00:772][660]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.14.22:186][635]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\_School\Rapid Prototyping 1\MadCats\playerTruck_tex_spec.png)
+[2017.11.30-23.14.22:230][635]LogTexture: Display: Building textures: playerTruck_tex_spec (AutoDXT, 1024X1024)
+[2017.11.30-23.14.22:431][635]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\_School\Rapid Prototyping 1\MadCats\playerTruck_tex_diff.png)
+[2017.11.30-23.14.22:480][635]LogTexture: Display: Building textures: playerTruck_tex_diff (AutoDXT, 1024X1024)
+[2017.11.30-23.14.57:408][ 29]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\u0772806\Downloads\cell.png)
+[2017.11.30-23.14.57:414][ 29]LogTexture: Display: Building textures: cell (BGRA8, 1X128)
+[2017.11.30-23.15.02:630][343]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.30-23.15.17:648][992]LogTexture: Display: Building textures: cell (BGRA8, 1X128)
+[2017.11.30-23.15.24:208][725]LogTexture: Display: Building textures: cell (G8, 1X128)
+[2017.11.30-23.16.53:818][277]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.16.53:854][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.30-23.16.53:886][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.30-23.16.55:641][382]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.16.55:704][382]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.30-23.16.58:134][509]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.16.58:194][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.11.30-23.16.58:228][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.30-23.16.58:234][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.11.30-23.16.59:975][605]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.00:037][605]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.11.30-23.17.03:973][808]MaterialEditorStats: Base pass shader: 108 instructions
+[2017.11.30-23.17.03:973][808]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2017.11.30-23.17.03:973][808]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.17.03:973][808]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.30-23.17.03:973][808]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.17.05:020][894]LogMaterialEditor: Saving and Compiling material playerTruck_mat
+[2017.11.30-23.17.05:474][894]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.05:543][894]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.05:612][894]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.05:701][894]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy playerTruck_mat, compiling. 
+[2017.11.30-23.17.08:531][894]TextureStreamingBuild: Display: Compiling optional shaders took 2.837 seconds.
+[2017.11.30-23.17.12:694][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/playerTruck_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset" SILENT=true
+[2017.11.30-23.17.12:727][894]LogSavePackage: Save=18.12ms
+[2017.11.30-23.17.12:727][894]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_matCA2A2A5C42EA980757DAE6A4F59FB10A.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset'
+[2017.11.30-23.17.12:737][894]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset
+[2017.11.30-23.17.12:745][894]MaterialEditorStats: Base pass shader: 108 instructions
+[2017.11.30-23.17.12:745][894]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2017.11.30-23.17.12:745][894]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.17.12:745][894]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-23.17.12:745][894]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.17.30:290][406]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.32:286][519]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.36:135][742]MaterialEditorStats: Base pass shader: 108 instructions
+[2017.11.30-23.17.36:135][742]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2017.11.30-23.17.36:135][742]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.17.36:135][742]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.30-23.17.36:135][742]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.17.36:236][751]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.39:246][926]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.41:308][ 46]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.41:366][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.30-23.17.42:679][124]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.43:685][178]LogMaterialEditor: Saving and Compiling material playerTruck_mat
+[2017.11.30-23.17.44:347][178]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.44:434][178]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.44:503][178]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.44:586][178]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy playerTruck_mat, compiling. 
+[2017.11.30-23.17.47:542][178]TextureStreamingBuild: Display: Compiling optional shaders took 2.960 seconds.
+[2017.11.30-23.17.51:746][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/playerTruck_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset" SILENT=true
+[2017.11.30-23.17.51:765][178]LogSavePackage: Save=15.65ms
+[2017.11.30-23.17.51:765][178]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_mat67444CDA4757064EA11026B3DFA02B8C.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset'
+[2017.11.30-23.17.51:768][178]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset
+[2017.11.30-23.17.51:776][178]MaterialEditorStats: Base pass shader: 109 instructions
+[2017.11.30-23.17.51:776][178]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2017.11.30-23.17.51:776][178]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.17.51:776][178]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-23.17.51:776][178]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.17.56:945][624]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.17.58:908][734]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.02:281][916]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.02:804][945]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.04:470][ 38]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.04:528][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.11.30-23.18.06:275][136]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.07:643][210]LogMaterialEditor: Saving and Compiling material playerTruck_mat
+[2017.11.30-23.18.08:291][210]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.08:391][210]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.08:464][210]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.08:549][210]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy playerTruck_mat, compiling. 
+[2017.11.30-23.18.11:403][210]TextureStreamingBuild: Display: Compiling optional shaders took 2.861 seconds.
+[2017.11.30-23.18.15:560][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/playerTruck_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset" SILENT=true
+[2017.11.30-23.18.15:581][210]LogSavePackage: Save=16.57ms
+[2017.11.30-23.18.15:581][210]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_matA6F6C2AE4BEA7CCBE756D6945DFB9E7F.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset'
+[2017.11.30-23.18.15:584][210]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset
+[2017.11.30-23.18.15:592][210]MaterialEditorStats: Base pass shader: 109 instructions
+[2017.11.30-23.18.15:592][210]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2017.11.30-23.18.15:592][210]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.18.15:592][210]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-23.18.15:592][210]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.18.56:134][791]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.57:981][900]LogMaterialEditor: Saving and Compiling material playerTruck_mat
+[2017.11.30-23.18.58:650][900]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.58:736][900]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.58:811][900]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.18.58:898][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy playerTruck_mat, compiling. 
+[2017.11.30-23.19.01:730][900]TextureStreamingBuild: Display: Compiling optional shaders took 2.839 seconds.
+[2017.11.30-23.19.05:874][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/playerTruck_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset" SILENT=true
+[2017.11.30-23.19.05:894][900]LogSavePackage: Save=16.41ms
+[2017.11.30-23.19.05:894][900]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_mat94454D774F3215F805CD798E5C10A0E5.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset'
+[2017.11.30-23.19.05:898][900]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset
+[2017.11.30-23.19.05:906][900]MaterialEditorStats: Base pass shader: 109 instructions
+[2017.11.30-23.19.05:906][900]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2017.11.30-23.19.05:906][900]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.19.05:906][900]MaterialEditorStats: Texture samplers: 5/16
+[2017.11.30-23.19.05:906][900]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.19.50:256][653]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.19.53:719][847]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.19.55:686][953]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.19.57:355][ 42]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.19.58:535][104]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.02:213][304]MaterialEditorStats: Base pass shader: 109 instructions
+[2017.11.30-23.20.02:213][304]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2017.11.30-23.20.02:213][304]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.20.02:213][304]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.30-23.20.02:213][304]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.20.04:203][484]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.06:410][603]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.06:475][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.30-23.20.10:525][822]MaterialEditorStats: Base pass shader: 109 instructions
+[2017.11.30-23.20.10:525][822]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2017.11.30-23.20.10:525][822]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.20.10:525][822]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.30-23.20.10:525][822]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.20.12:727][ 11]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.15:307][146]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.16:867][228]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.18:110][293]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.21:942][494]MaterialEditorStats: Base pass shader: 109 instructions
+[2017.11.30-23.20.21:942][494]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2017.11.30-23.20.21:942][494]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.20.21:942][494]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.30-23.20.21:942][494]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.20.23:800][653]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.23:845][653]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.27:742][852]MaterialEditorStats: Base pass shader: 110 instructions
+[2017.11.30-23.20.27:742][852]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2017.11.30-23.20.27:742][852]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.20.27:742][852]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.30-23.20.27:742][852]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.20.30:160][ 51]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.33:886][230]MaterialEditorStats: Base pass shader: 110 instructions
+[2017.11.30-23.20.33:886][230]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2017.11.30-23.20.33:886][230]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.20.33:886][230]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.30-23.20.33:886][230]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.20.41:275][839]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.44:879][ 26]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.20.48:581][215]MaterialEditorStats: Base pass shader: 110 instructions
+[2017.11.30-23.20.48:581][215]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2017.11.30-23.20.48:581][215]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.11.30-23.20.48:581][215]MaterialEditorStats: Texture samplers: 4/16
+[2017.11.30-23.20.48:581][215]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.30-23.20.53:121][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/playerTruck_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset" SILENT=true
+[2017.11.30-23.20.53:132][425]LogSavePackage: Save=7.08ms
+[2017.11.30-23.20.53:132][425]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_matCA16271D4CD0C9CCB42F01AD8EFCDAD9.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset'
+[2017.11.30-23.20.53:133][425]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset
+[2017.11.30-23.21.00:120][559]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.21.00:187][559]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.21.00:259][559]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
+[2017.11.30-23.21.00:343][559]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy playerTruck_mat, compiling. 
+[2017.11.30-23.21.03:197][559]TextureStreamingBuild: Display: Compiling optional shaders took 2.860 seconds.
+[2017.11.30-23.21.31:419][697]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy playerTruckOutline_mat, compiling. 
+[2017.11.30-23.21.31:750][697]TextureStreamingBuild: Display: Compiling optional shaders took 0.334 seconds.
+[2017.11.30-23.21.31:776][697]LogSavePackage: Save=13.41ms
+[2017.11.30-23.21.31:776][697]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruckOutline_mat882292AC4A0F32C26DCB74ACBDA20E75.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruckOutline_mat.uasset'
+[2017.11.30-23.21.31:779][697]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruckOutline_mat.uasset
+[2017.11.30-23.21.34:754][ 44]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (playerTruck_v05)
+[2017.11.30-23.21.36:967][250]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_38:PersistentLevel.Actor_13.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2017.11.30-23.21.37:000][250]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_38:PersistentLevel.Actor_13.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2017.11.30-23.21.46:539][ 69]Cmd: SELECT NONE
+[2017.11.30-23.22.12:201][664]LogSavePackage: Save=118.73ms
+[2017.11.30-23.22.12:201][664]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/CharacterShaderTestF819E91644F2A62AC1DB8D817974FA85.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/CharacterShaderTest.umap'
+[2017.11.30-23.22.12:210][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/CharacterShaderTest.umap
+[2017.11.30-23.22.12:245][664]LogFileHelpers: Saving map 'CharacterShaderTest' took 0.230
+[2017.11.30-23.22.12:246][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/CharacterShaderTest_BuiltData" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/CharacterShaderTest_BuiltData.uasset" SILENT=true
+[2017.11.30-23.22.12:266][664]LogSavePackage: Save=12.26ms
+[2017.11.30-23.22.12:266][664]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/CharacterShaderTest_BuiltDataA849E0A04D3EB027E73C1F8B78C6FF64.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/CharacterShaderTest_BuiltData.uasset'
+[2017.11.30-23.22.12:276][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/CharacterShaderTest_BuiltData.uasset
+[2017.11.30-23.22.12:278][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/cell" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/cell.uasset" SILENT=true
+[2017.11.30-23.22.12:285][664]LogSavePackage: Save=5.30ms
+[2017.11.30-23.22.12:285][664]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/cellFEE873C64A0EB7F593A6ED9DA506291A.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/cell.uasset'
+[2017.11.30-23.22.12:288][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/cell.uasset
+[2017.11.30-23.22.12:301][664]LogSavePackage: Save=4.69ms
+[2017.11.30-23.22.12:301][664]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/e_Snake_v01_SkeletonA11124694052F13BEE4F38B8C32F0D50.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_v01_Skeleton.uasset'
+[2017.11.30-23.22.12:309][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/e_Snake_v01_Skeleton.uasset
+[2017.11.30-23.22.12:323][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/playerTruck_mat" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset" SILENT=true
+[2017.11.30-23.22.12:349][664]LogSavePackage: Save=18.07ms
+[2017.11.30-23.22.12:349][664]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_mat297EBC494FDE798C94E491AFDE84F2E6.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset'
+[2017.11.30-23.22.12:352][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_mat.uasset
+[2017.11.30-23.22.12:481][664]LogSavePackage: Save=117.55ms
+[2017.11.30-23.22.12:481][664]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_tex_diff8980BC5C407C049F33500A81A0EE1CE4.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_tex_diff.uasset'
+[2017.11.30-23.22.12:484][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_tex_diff.uasset
+[2017.11.30-23.22.12:583][664]LogSavePackage: Save=87.25ms
+[2017.11.30-23.22.12:583][664]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_tex_spec83C6EC744A34F3A42CFD238DE8D82D4A.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_tex_spec.uasset'
+[2017.11.30-23.22.12:586][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_tex_spec.uasset
+[2017.11.30-23.22.12:598][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlsIgnoreMe/playerTruck_v05" FILE="../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_v05.uasset" SILENT=true
+[2017.11.30-23.22.12:627][664]LogSavePackage: Save=26.11ms
+[2017.11.30-23.22.12:627][664]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_v051D647C544046C7C7A5E7DBA557C0E55F.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_v05.uasset'
+[2017.11.30-23.22.12:632][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_v05.uasset
+[2017.11.30-23.22.12:660][664]LogSavePackage: Save=12.11ms
+[2017.11.30-23.22.12:660][664]LogSavePackage: Moving '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Saved/playerTruck_v05_PhysicsAssetCE06816E4D729A056DC210BC39D9EFA8.tmp' to '../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_v05_PhysicsAsset.uasset'
+[2017.11.30-23.22.12:665][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u0772806/Documents/GitHub/MadCatzv2/Content/Levels/PlsIgnoreMe/playerTruck_v05_PhysicsAsset.uasset
