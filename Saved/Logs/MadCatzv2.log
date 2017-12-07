@@ -6965,3 +6965,688 @@ LogInit: Object subsystem initialized
 [2017.12.07-02.45.36:916][923]LogSavePackage: Save=142.99ms
 [2017.12.07-02.45.36:916][923]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGame_NickTestDA5EC727445CEB0E9A721A8485BD5FFD.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap'
 [2017.12.07-02.45.36:920][923]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap
+[2017.12.07-02.46.12:746][816]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-02.46.13:658][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.46.13:991][823]LogSavePackage: Save=306.96ms
+[2017.12.07-02.46.13:991][823]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPA15E06E948F30C6C93AD1492C5D03892.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.46.13:994][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.46.31:592][625]LogLinker: Warning: Can't find file '/Game/Levels/Effects_BuiltData'
+[2017.12.07-02.46.31:592][625]LogLinker: Warning: Can't find file for asset '/Game/Levels/Effects_BuiltData' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap.
+[2017.12.07-02.46.31:592][625]LoadErrors: Error: /Game/Levels/Effects : Can't find file for asset. /Game/Levels/Effects_BuiltData
+[2017.12.07-02.46.31:597][625]LogLinker: Warning: Can't find file '/Game/Levels/Effects_BuiltData'
+[2017.12.07-02.46.31:598][625]LogLinker: Warning: Can't find file for asset '/Game/Levels/Effects_BuiltData' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap.
+[2017.12.07-02.46.31:608][625]LogLinker: Warning: Can't find file '/Game/Levels/Effects_BuiltData'
+[2017.12.07-02.46.31:608][625]LoadErrors: Failed to load /Game/Levels/Effects_BuiltData.Effects_BuiltData Referenced by PersistentLevel
+[2017.12.07-02.46.31:608][625]LogLinker: Warning: Can't find file for asset '/Game/Levels/Effects_BuiltData' while loading NULL.
+[2017.12.07-02.46.31:612][625]LogAIModule: Creating AISystem for world Effects
+[2017.12.07-02.46.33:718][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FloorTile_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/FloorTile_BP.uasset" SILENT=true
+[2017.12.07-02.46.33:825][625]LogSavePackage: Save=75.90ms
+[2017.12.07-02.46.33:826][625]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/FloorTile_BP81CE02734B6769B1527FE9B33EFCC131.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/FloorTile_BP.uasset'
+[2017.12.07-02.46.33:829][625]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/FloorTile_BP.uasset
+[2017.12.07-02.46.34:083][625]LogSavePackage: Save=140.69ms
+[2017.12.07-02.46.34:083][625]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGame_NickTest92FD8C724CF1CD507D867A8506E0E065.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap'
+[2017.12.07-02.46.34:087][625]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap
+[2017.12.07-02.46.34:124][625]LogFileHelpers: Saving map 'MainGame_NickTest' took 0.295
+[2017.12.07-02.46.34:126][625]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-02.46.34:126][625]LightingResults: New page: Lighting Build
+[2017.12.07-02.46.34:126][625]LoadErrors: New page: Loading map: Effects.umap
+[2017.12.07-02.46.34:127][625]MapCheck: New page: Map Check
+[2017.12.07-02.46.34:127][625]LightingResults: New page: Lighting Build
+[2017.12.07-02.46.34:152][625]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-02.46.34:201][625]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-02.46.34:263][625]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.525ms to complete.
+[2017.12.07-02.46.34:263][625]LogFileHelpers: Loading map 'Effects' took 0.140
+[2017.12.07-02.46.40:245][885]LogEditorViewport: Clicking on Actor (LMB): MuzzleSmoke_C (MuzzleSmoke)
+[2017.12.07-02.46.41:533][938]LogEditorViewport: Clicking on Actor (LMB): Emitter (muzzleFlash)
+[2017.12.07-02.46.44:491][ 64]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.12.07-02.46.44:902][ 80]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.12.07-02.46.47:409][179]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.12.07-02.51.41:450][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.12.07-02.51.45:060][751]LogEditorViewport: Clicking on Actor (LMB): Emitter (damageSparks_2)
+[2017.12.07-02.52.53:684][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plasmaBall)
+[2017.12.07-02.53.19:371][822]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (rock_DM2)
+[2017.12.07-02.53.20:024][847]LogEditorViewport: Clicking on Actor (LMB): Emitter (gatheringEnergy)
+[2017.12.07-02.53.22:063][933]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (rock_DM2)
+[2017.12.07-02.53.28:034][175]LogEditorViewport: Clicking on Actor (LMB): MuzzleSmoke_C (MuzzleSmoke)
+[2017.12.07-02.53.29:352][229]LogEditorViewport: Clicking on Actor (LMB): Emitter (muzzleFlash)
+[2017.12.07-02.53.30:730][286]LogEditorViewport: Clicking on Actor (LMB): MuzzleSmoke_C (MuzzleSmoke)
+[2017.12.07-02.53.38:880][632]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.53.40:094][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Effects" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.07-02.53.40:210][632]LogSavePackage: Save=57.79ms
+[2017.12.07-02.53.40:210][632]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Effects45ED7BC043C80D207A350DBB8ECE78F1.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap'
+[2017.12.07-02.53.40:214][632]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap
+[2017.12.07-02.53.40:252][632]LogFileHelpers: Saving map 'Effects' took 0.226
+[2017.12.07-02.53.40:254][632]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-02.53.40:254][632]LightingResults: New page: Lighting Build
+[2017.12.07-02.53.40:255][632]LoadErrors: New page: Loading map: MainGame_NickTest.umap
+[2017.12.07-02.53.40:255][632]MapCheck: New page: Map Check
+[2017.12.07-02.53.40:255][632]LightingResults: New page: Lighting Build
+[2017.12.07-02.53.40:283][632]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-02.53.40:337][632]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-02.53.40:402][632]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.476ms to complete.
+[2017.12.07-02.53.40:402][632]LogFileHelpers: Loading map 'MainGame_NickTest' took 0.150
+[2017.12.07-02.53.41:492][678]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.53.41:581][678]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.53.41:581][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.53.41:581][678]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 12:53:41 PM)
+[2017.12.07-02.53.41:581][678]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-02.53.41:586][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004452s)
+[2017.12.07-02.53.41:587][678]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.53.41:587][678]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.12.07-02.53.41:587][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005578s)
+[2017.12.07-02.53.41:625][678]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.53.41:631][678]LogInit: FAudioDevice initialized.
+[2017.12.07-02.53.41:667][678]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.53.41:669][678]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-19.53.41
+[2017.12.07-02.53.41:669][678]LogWorld: Bringing up level for play took: 0.001070
+[2017.12.07-02.53.41:682][678]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.364
+[2017.12.07-02.53.41:683][678]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.53.45:391][817]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.53.45:391][817]LogBlueprintUserMessages: [Projectile_BP_C_0] X=4225.337 Y=0.691 Z=5.000
+[2017.12.07-02.53.48:112][927]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.53.48:112][927]LogBlueprintUserMessages: [Projectile_BP_C_1] X=3478.307 Y=0.764 Z=5.000
+[2017.12.07-02.53.48:806][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.53.48:894][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.53.51:326][ 52]LogAIModule: Creating AISystem for world Effects
+[2017.12.07-02.53.51:354][ 52]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-02.53.51:354][ 52]LightingResults: New page: Lighting Build
+[2017.12.07-02.53.51:355][ 52]LoadErrors: New page: Loading map: Effects.umap
+[2017.12.07-02.53.51:356][ 52]MapCheck: New page: Map Check
+[2017.12.07-02.53.51:356][ 52]LightingResults: New page: Lighting Build
+[2017.12.07-02.53.51:383][ 52]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-02.53.51:432][ 52]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-02.53.51:496][ 52]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.353ms to complete.
+[2017.12.07-02.53.51:496][ 52]LogFileHelpers: Loading map 'Effects' took 0.143
+[2017.12.07-02.55.05:997][352]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.07-02.55.07:474][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.07-02.55.08:156][442]LogEditorViewport: Clicking on Actor (LMB): Emitter (gatheringEnergy)
+[2017.12.07-02.55.10:614][547]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.55.10:645][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.55.10:645][547]PIE: New page: PIE session: Effects (Dec 6, 2017, 12:55:10 PM)
+[2017.12.07-02.55.10:647][547]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Effects
+[2017.12.07-02.55.10:653][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005505s)
+[2017.12.07-02.55.10:653][547]LogAIModule: Creating AISystem for world Effects
+[2017.12.07-02.55.10:653][547]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2017.12.07-02.55.10:654][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Effects.Effects to /Game/Levels/UEDPIE_0_Effects.Effects (0.006638s)
+[2017.12.07-02.55.10:688][547]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.55.10:695][547]LogInit: FAudioDevice initialized.
+[2017.12.07-02.55.10:726][547]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.55.10:728][547]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Effects.Effects up for play (max tick rate 0) at 2017.12.06-19.55.10
+[2017.12.07-02.55.10:729][547]LogWorld: Bringing up level for play took: 0.001574
+[2017.12.07-02.55.10:742][547]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Effects -0.577
+[2017.12.07-02.55.22:368][ 56]LogEditorViewport: Clicking on Actor (LMB): Emitter (gatheringEnergy)
+[2017.12.07-02.55.33:653][530]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.55.33:680][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.55.33:680][530]PIE: New page: PIE session: Effects (Dec 6, 2017, 12:55:33 PM)
+[2017.12.07-02.55.33:680][530]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Effects
+[2017.12.07-02.55.33:685][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004591s)
+[2017.12.07-02.55.33:685][530]LogAIModule: Creating AISystem for world Effects
+[2017.12.07-02.55.33:686][530]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2017.12.07-02.55.33:686][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Effects.Effects to /Game/Levels/UEDPIE_0_Effects.Effects (0.005585s)
+[2017.12.07-02.55.33:719][530]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.55.33:726][530]LogInit: FAudioDevice initialized.
+[2017.12.07-02.55.33:759][530]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.55.33:761][530]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Effects.Effects up for play (max tick rate 0) at 2017.12.06-19.55.33
+[2017.12.07-02.55.33:761][530]LogWorld: Bringing up level for play took: 0.001296
+[2017.12.07-02.55.33:775][530]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Effects 0.456
+[2017.12.07-02.55.43:469][956]LogEditorViewport: Clicking on Actor (LMB): Emitter (muzzleFlash)
+[2017.12.07-02.55.45:844][ 56]LogEditorViewport: Clicking on Actor (LMB): Emitter (gatheringEnergy)
+[2017.12.07-02.56.28:906][885]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2017.12.07-02.56.28:992][885]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2017.12.07-02.56.35:724][337]LogEditorViewport: Clicking on Actor (LMB): Emitter (muzzleFlash)
+[2017.12.07-02.56.37:031][445]LogEditorViewport: Clicking on Actor (LMB): Emitter (damageSparks)
+[2017.12.07-02.56.43:748][ 27]LogEditorViewport: Clicking on Actor (LMB): Emitter (gatheringEnergy)
+[2017.12.07-02.56.45:449][174]Cmd: DELETE
+[2017.12.07-02.56.45:449][174]Cmd: ACTOR DELETE
+[2017.12.07-02.56.45:451][174]LogEditorActor: Deleted Actor: Emitter
+[2017.12.07-02.56.45:473][174]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2017.12.07-02.56.55:245][ 52]Cmd: DELETE
+[2017.12.07-02.56.55:245][ 52]Cmd: ACTOR DELETE
+[2017.12.07-02.56.55:247][ 52]LogEditorActor: Deleted Actor: Emitter
+[2017.12.07-02.56.55:267][ 52]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.12.07-02.57.01:084][597]LogMaterial: Missing cached shader map for material M_Dust_Particle, compiling. 
+[2017.12.07-02.57.03:607][730]Cmd: DELETE
+[2017.12.07-02.57.03:607][730]Cmd: ACTOR DELETE
+[2017.12.07-02.57.03:610][730]LogEditorActor: Deleted Actor: Emitter
+[2017.12.07-02.57.03:637][730]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.12.07-02.57.14:011][407]Cmd: DELETE
+[2017.12.07-02.57.14:012][407]Cmd: ACTOR DELETE
+[2017.12.07-02.57.14:013][407]LogEditorActor: Deleted Actor: Emitter
+[2017.12.07-02.57.14:035][407]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.12.07-02.57.36:458][511]Cmd: DELETE
+[2017.12.07-02.57.36:458][511]Cmd: ACTOR DELETE
+[2017.12.07-02.57.36:459][511]LogEditorActor: Deleted Actor: Emitter
+[2017.12.07-02.57.36:481][511]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2017.12.07-02.57.46:816][423]Cmd: DELETE
+[2017.12.07-02.57.46:816][423]Cmd: ACTOR DELETE
+[2017.12.07-02.57.46:818][423]LogEditorActor: Deleted Actor: Emitter
+[2017.12.07-02.57.46:838][423]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.12.07-02.59.10:533][745]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (e_Snake_v02)
+[2017.12.07-02.59.52:131][ 63]LogRenderer: Reallocating scene render targets to support 1392x924 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-03.01.40:666][260]LogSavePackage: Save=13.88ms
+[2017.12.07-03.01.40:666][260]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/e_Snake_mat_Inst1_28A71FEE5480DA2F3F159769FF9B994AC.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1_2.uasset'
+[2017.12.07-03.01.40:675][260]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1_2.uasset
+[2017.12.07-03.01.40:885][260]LogSavePackage: Save=13.35ms
+[2017.12.07-03.01.40:885][260]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/e_Snake_mat_Inst_2CCECE5AE4AA3CE2039C4CC86C8257318.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst_2.uasset'
+[2017.12.07-03.01.40:888][260]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst_2.uasset
+[2017.12.07-03.02.01:612][966]SourceControl: On branch Nick_Audio
+[2017.12.07-03.02.01:612][966]SourceControl: Your branch is up-to-date with 'origin/Nick_Audio'.
+[2017.12.07-03.02.01:612][966]SourceControl: Changes to be committed:
+[2017.12.07-03.02.01:612][966]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.12.07-03.02.01:612][966]SourceControl: 	new file:   Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1_2.uasset
+[2017.12.07-03.02.01:612][966]SourceControl: 	new file:   Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst_2.uasset
+[2017.12.07-03.02.01:612][966]SourceControl: Changes not staged for commit:
+[2017.12.07-03.02.01:612][966]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.07-03.02.01:612][966]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.07-03.02.01:612][966]SourceControl: 	modified:   Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.02.01:612][966]SourceControl: 	modified:   Content/Blueprints/FloorTile_BP.uasset
+[2017.12.07-03.02.01:612][966]SourceControl: 	modified:   Content/Levels/Effects.umap
+[2017.12.07-03.02.01:612][966]SourceControl: 	modified:   Content/Levels/MainGame_NickTest.umap
+[2017.12.07-03.02.01:612][966]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.07-03.02.01:612][966]SourceControl: 	modified:   Saved/Logs/MadCatzv2.log
+[2017.12.07-03.02.01:935][966]LogSavePackage: Save=14.44ms
+[2017.12.07-03.02.01:935][966]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/e_Eagle_mat_Inst1_263627ED2476497EB5710739E8E8445AF.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Eagle_mat_Inst1_2.uasset'
+[2017.12.07-03.02.01:938][966]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Eagle_mat_Inst1_2.uasset
+[2017.12.07-03.02.20:282][462]SourceControl: On branch Nick_Audio
+[2017.12.07-03.02.20:282][462]SourceControl: Your branch is up-to-date with 'origin/Nick_Audio'.
+[2017.12.07-03.02.20:282][462]SourceControl: Changes to be committed:
+[2017.12.07-03.02.20:282][462]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.12.07-03.02.20:282][462]SourceControl: 	new file:   Content/Assets/Materials/PlsIgnoreMe/e_Eagle_mat_Inst1_2.uasset
+[2017.12.07-03.02.20:282][462]SourceControl: 	new file:   Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1_2.uasset
+[2017.12.07-03.02.20:282][462]SourceControl: 	new file:   Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst_2.uasset
+[2017.12.07-03.02.20:282][462]SourceControl: Changes not staged for commit:
+[2017.12.07-03.02.20:282][462]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.07-03.02.20:282][462]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.07-03.02.20:282][462]SourceControl: 	modified:   Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.02.20:282][462]SourceControl: 	modified:   Content/Blueprints/FloorTile_BP.uasset
+[2017.12.07-03.02.20:282][462]SourceControl: 	modified:   Content/Levels/Effects.umap
+[2017.12.07-03.02.20:282][462]SourceControl: 	modified:   Content/Levels/MainGame_NickTest.umap
+[2017.12.07-03.02.20:282][462]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.07-03.02.20:282][462]SourceControl: 	modified:   Saved/Logs/MadCatzv2.log
+[2017.12.07-03.02.20:592][462]LogSavePackage: Save=13.77ms
+[2017.12.07-03.02.20:592][462]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/e_Eagle_mat_Inst_2755361F34B0F06BF9D2EB18BD26956B9.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Eagle_mat_Inst_2.uasset'
+[2017.12.07-03.02.20:595][462]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Eagle_mat_Inst_2.uasset
+[2017.12.07-03.03.06:247][253]SourceControl: On branch Nick_Audio
+[2017.12.07-03.03.06:247][253]SourceControl: Your branch is up-to-date with 'origin/Nick_Audio'.
+[2017.12.07-03.03.06:247][253]SourceControl: Changes to be committed:
+[2017.12.07-03.03.06:247][253]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.12.07-03.03.06:247][253]SourceControl: 	new file:   Content/Assets/Materials/PlsIgnoreMe/e_Eagle_mat_Inst1_2.uasset
+[2017.12.07-03.03.06:247][253]SourceControl: 	new file:   Content/Assets/Materials/PlsIgnoreMe/e_Eagle_mat_Inst_2.uasset
+[2017.12.07-03.03.06:247][253]SourceControl: 	new file:   Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1_2.uasset
+[2017.12.07-03.03.06:247][253]SourceControl: 	new file:   Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst_2.uasset
+[2017.12.07-03.03.06:247][253]SourceControl: Changes not staged for commit:
+[2017.12.07-03.03.06:247][253]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.07-03.03.06:247][253]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.07-03.03.06:247][253]SourceControl: 	modified:   Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.03.06:247][253]SourceControl: 	modified:   Content/Blueprints/FloorTile_BP.uasset
+[2017.12.07-03.03.06:247][253]SourceControl: 	modified:   Content/Levels/Effects.umap
+[2017.12.07-03.03.06:247][253]SourceControl: 	modified:   Content/Levels/MainGame_NickTest.umap
+[2017.12.07-03.03.06:247][253]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.07-03.03.06:247][253]SourceControl: 	modified:   Saved/Logs/MadCatzv2.log
+[2017.12.07-03.03.06:592][253]LogSavePackage: Save=13.56ms
+[2017.12.07-03.03.06:592][253]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/e_gecko_mat_Inst_27D7384A9425F58ED0F921BB3F72F1B04.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_gecko_mat_Inst_2.uasset'
+[2017.12.07-03.03.06:595][253]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_gecko_mat_Inst_2.uasset
+[2017.12.07-03.04.02:097][468]LogSavePackage: Save=54.63ms
+[2017.12.07-03.04.02:097][468]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Effects_Auto84DF16C8348BA439BD57097AF49A577DE.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Levels/Effects_Auto8.umap'
+[2017.12.07-03.04.02:098][468]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Levels/Effects_Auto8.umap
+[2017.12.07-03.04.02:103][468]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Effects' took 0.116
+[2017.12.07-03.04.02:103][468]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2017.12.07-03.04.02:105][468]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst] ([1] browsable assets)...
+[2017.12.07-03.04.02:116][468]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst.e_Snake_mat_Inst]
+[2017.12.07-03.04.02:116][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst]
+[2017.12.07-03.04.02:143][468]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat_Inst, compiling. 
+[2017.12.07-03.04.02:578][468]TextureStreamingBuild: Display: Compiling optional shaders took 0.441 seconds.
+[2017.12.07-03.04.02:648][468]LogSavePackage: Save=13.72ms
+[2017.12.07-03.04.02:648][468]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/e_Snake_mat_Inst_Auto81A2192C84447C976C84166BA8980CC1B.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst_Auto8.uasset'
+[2017.12.07-03.04.02:649][468]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst_Auto8.uasset
+[2017.12.07-03.04.02:650][468]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1] ([1] browsable assets)...
+[2017.12.07-03.04.02:660][468]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1.e_Snake_mat_Inst1]
+[2017.12.07-03.04.02:660][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1]
+[2017.12.07-03.04.02:687][468]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat_Inst1, compiling. 
+[2017.12.07-03.04.02:924][468]TextureStreamingBuild: Display: Compiling optional shaders took 0.242 seconds.
+[2017.12.07-03.04.02:989][468]LogSavePackage: Save=15.14ms
+[2017.12.07-03.04.02:989][468]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/e_Snake_mat_Inst1_Auto8EDBC97F64DA25D23DE2F2B8603A299AE.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1_Auto8.uasset'
+[2017.12.07-03.04.02:991][468]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1_Auto8.uasset
+[2017.12.07-03.04.02:991][468]LogFileHelpers: Auto-saving content packages took 0.886
+[2017.12.07-03.05.34:859][441]LogEditorViewport: Clicking on Actor (LMB): Emitter (damageSparks)
+[2017.12.07-03.06.17:115][308]LogEditorViewport: Clicking on Actor (LMB): Emitter (muzzleFlash)
+[2017.12.07-03.06.22:331][633]LogEditorViewport: Clicking on Actor (LMB): Emitter (damageSmoke)
+[2017.12.07-03.07.18:260][260]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.07.19:303][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.07.19:641][282]LogSavePackage: Save=302.90ms
+[2017.12.07-03.07.19:641][282]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP6FBFE9814E0F85658394F0840B06FC8C.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.07.19:645][282]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.09.44:473][328]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.09.45:499][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.09.45:826][345]LogSavePackage: Save=302.04ms
+[2017.12.07-03.09.45:826][345]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPD2E93F76471047A54DF5849886A08D53.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.09.45:830][345]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.09.52:999][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.09.53:325][646]LogSavePackage: Save=300.48ms
+[2017.12.07-03.09.53:325][646]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP66F606924E7735FE70384EA5491F5843.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.09.53:329][646]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.09.54:458][691]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.13.19:737][115]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.13.20:778][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.13.21:119][143]LogSavePackage: Save=308.39ms
+[2017.12.07-03.13.21:119][143]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP9819F0B74323D03284454D85439DDA96.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.13.21:123][143]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.13.28:692][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.13.29:029][689]LogSavePackage: Save=311.20ms
+[2017.12.07-03.13.29:029][689]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPA1A8638B458555052FF498AA3BC81F8D.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.13.29:032][689]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.13.30:259][774]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.13.31:133][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.13.31:468][792]LogSavePackage: Save=309.90ms
+[2017.12.07-03.13.31:468][792]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP4E356C984055340706D917882FC95CAF.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.13.31:471][792]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.13.35:317][ 63]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.13.36:555][ 63]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy e_Snake_mat_Inst, compiling. 
+[2017.12.07-03.13.36:995][ 63]TextureStreamingBuild: Display: Compiling optional shaders took 0.445 seconds.
+[2017.12.07-03.13.37:060][ 63]LogSavePackage: Save=14.65ms
+[2017.12.07-03.13.37:060][ 63]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/e_Snake_mat_InstDC54979A48CE89EBEA13739DF89195B9.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst.uasset'
+[2017.12.07-03.13.37:066][ 63]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst.uasset
+[2017.12.07-03.13.37:099][ 63]LogSavePackage: Save=6.71ms
+[2017.12.07-03.13.37:099][ 63]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/e_Snake_mat_Inst13A56BACC48B9FE528557AFBA2F9176C5.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1.uasset'
+[2017.12.07-03.13.37:105][ 63]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Materials/PlsIgnoreMe/e_Snake_mat_Inst1.uasset
+[2017.12.07-03.13.37:173][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Effects" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.07-03.13.37:272][ 63]LogSavePackage: Save=52.61ms
+[2017.12.07-03.13.37:272][ 63]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Effects8592F494475A8CDE65DF89B5DC5BE107.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap'
+[2017.12.07-03.13.37:278][ 63]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap
+[2017.12.07-03.13.37:312][ 63]LogFileHelpers: Saving map 'Effects' took 0.206
+[2017.12.07-03.13.37:314][ 63]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-03.13.37:314][ 63]LightingResults: New page: Lighting Build
+[2017.12.07-03.13.37:315][ 63]LoadErrors: New page: Loading map: MainGame_NickTest.umap
+[2017.12.07-03.13.37:317][ 63]MapCheck: New page: Map Check
+[2017.12.07-03.13.37:317][ 63]LightingResults: New page: Lighting Build
+[2017.12.07-03.13.37:344][ 63]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-03.13.37:394][ 63]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-03.13.37:463][ 63]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.418ms to complete.
+[2017.12.07-03.13.37:463][ 63]LogFileHelpers: Loading map 'MainGame_NickTest' took 0.151
+[2017.12.07-03.13.38:349][132]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.13.38:451][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.13.38:452][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-03.13.38:452][132]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 1:13:38 PM)
+[2017.12.07-03.13.38:452][132]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-03.13.38:457][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004512s)
+[2017.12.07-03.13.38:457][132]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.13.38:457][132]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2017.12.07-03.13.38:458][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005597s)
+[2017.12.07-03.13.38:493][132]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-03.13.38:500][132]LogInit: FAudioDevice initialized.
+[2017.12.07-03.13.38:531][132]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-03.13.38:533][132]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-20.13.38
+[2017.12.07-03.13.38:533][132]LogWorld: Bringing up level for play took: 0.000975
+[2017.12.07-03.13.38:545][132]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.767
+[2017.12.07-03.13.38:546][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.13.41:360][311]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-03.13.41:360][311]LogBlueprintUserMessages: [Projectile_BP_C_0] X=3723.354 Y=0.764 Z=5.000
+[2017.12.07-03.13.44:240][507]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.13.44:240][507]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-03.13.50:348][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.13.50:395][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.13.56:072][366]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.13.56:779][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.13.57:112][366]LogSavePackage: Save=308.63ms
+[2017.12.07-03.13.57:112][366]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPACDE5488490F5C48D2405C8E62D2180E.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.13.57:115][366]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.13.58:839][491]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.13.58:874][491]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.13.58:874][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-03.13.58:874][491]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 1:13:58 PM)
+[2017.12.07-03.13.58:874][491]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-03.13.58:877][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003275s)
+[2017.12.07-03.13.58:878][491]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.13.58:878][491]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2017.12.07-03.13.58:878][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004381s)
+[2017.12.07-03.13.58:912][491]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-03.13.58:919][491]LogInit: FAudioDevice initialized.
+[2017.12.07-03.13.58:951][491]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-03.13.58:953][491]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-20.13.58
+[2017.12.07-03.13.58:953][491]LogWorld: Bringing up level for play took: 0.001103
+[2017.12.07-03.13.58:966][491]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.346
+[2017.12.07-03.13.58:966][491]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.14.01:677][658]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-03.14.01:677][658]LogBlueprintUserMessages: [Projectile_BP_C_0] X=4225.331 Y=0.691 Z=5.000
+[2017.12.07-03.14.11:706][317]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.14.11:706][317]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-03.14.22:525][ 23]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_9.Cube Cube
+[2017.12.07-03.14.22:525][ 23]LogBlueprintUserMessages: [Projectile_BP_C_3] X=1634.388 Y=0.478 Z=5.000
+[2017.12.07-03.14.24:330][147]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.14.24:330][147]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-03.14.24:360][149]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.14.24:360][149]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-03.14.37:658][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.14.37:699][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.14.53:643][178]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.14.53:671][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.14.53:671][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-03.14.53:671][178]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 1:14:53 PM)
+[2017.12.07-03.14.53:672][178]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-03.14.53:676][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004234s)
+[2017.12.07-03.14.53:676][178]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.14.53:676][178]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2017.12.07-03.14.53:677][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005153s)
+[2017.12.07-03.14.53:710][178]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-03.14.53:717][178]LogInit: FAudioDevice initialized.
+[2017.12.07-03.14.53:751][178]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-03.14.53:752][178]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-20.14.53
+[2017.12.07-03.14.53:753][178]LogWorld: Bringing up level for play took: 0.001068
+[2017.12.07-03.14.53:766][178]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.454
+[2017.12.07-03.14.53:766][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.14.53:872][182]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.14.53:872][182]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-03.14.55:887][304]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_2.Cube Cube
+[2017.12.07-03.14.55:887][304]LogBlueprintUserMessages: [Projectile_BP_C_0] X=1844.384 Y=0.478 Z=5.000
+[2017.12.07-03.14.58:825][497]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.14.58:825][497]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-03.15.02:938][767]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-03.15.02:939][767]LogBlueprintUserMessages: [Projectile_BP_C_1] X=1809.405 Y=0.478 Z=5.000
+[2017.12.07-03.15.04:041][839]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.15.04:041][839]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-03.15.06:612][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.15.06:659][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.15.14:997][684]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.15.15:984][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.15.16:324][703]LogSavePackage: Save=313.03ms
+[2017.12.07-03.15.16:324][703]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPA8E1EF534C264A3654B054929402335C.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.15.16:328][703]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.15.16:883][748]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.15.16:916][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.15.16:917][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-03.15.16:917][748]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 1:15:16 PM)
+[2017.12.07-03.15.16:917][748]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-03.15.16:920][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003252s)
+[2017.12.07-03.15.16:921][748]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.15.16:921][748]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.12.07-03.15.16:921][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004257s)
+[2017.12.07-03.15.16:954][748]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-03.15.16:960][748]LogInit: FAudioDevice initialized.
+[2017.12.07-03.15.16:991][748]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-03.15.16:993][748]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-20.15.16
+[2017.12.07-03.15.16:993][748]LogWorld: Bringing up level for play took: 0.001037
+[2017.12.07-03.15.17:006][748]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.306
+[2017.12.07-03.15.17:006][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.15.20:364][998]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.15.20:364][998]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-03.15.27:363][556]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.15.27:363][556]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-03.15.44:291][597]LogEditorViewport: Clicking on Actor (LMB): Character_BP_C (Character_BP)
+[2017.12.07-03.15.53:929][254]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.15.53:994][254]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.16.16:709][174]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.16.17:801][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.16.18:132][199]LogSavePackage: Save=305.78ms
+[2017.12.07-03.16.18:132][199]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP76B9312E46CDADD3A136BF83F3306328.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.16.18:135][199]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.17.12:696][432]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.17.13:504][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.17.13:836][433]LogSavePackage: Save=306.90ms
+[2017.12.07-03.17.13:836][433]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPC140AC3C4DD2208C368B7E8ABAE30E25.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.17.13:840][433]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.17.22:248][ 82]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.17.23:241][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.17.23:581][100]LogSavePackage: Save=312.73ms
+[2017.12.07-03.17.23:581][100]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP02C22132454666CA04831BAEEDFE46AD.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.17.23:584][100]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.17.44:976][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.17.45:309][894]LogSavePackage: Save=307.03ms
+[2017.12.07-03.17.45:309][894]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP9CF9E7CC482627672CDFF88EA6754E27.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.17.45:313][894]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.17.45:561][914]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.17.46:376][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.17.46:707][918]LogSavePackage: Save=304.80ms
+[2017.12.07-03.17.46:707][918]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP5E9F44A049D400F67618238D6F44987C.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.17.46:709][918]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.17.55:569][676]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.17.56:601][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.17.56:935][700]LogSavePackage: Save=307.30ms
+[2017.12.07-03.17.56:935][700]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP3D43B08D47024BD581B7E0A5DA1A1303.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.17.56:938][700]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.18.00:203][965]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.18.00:301][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.18.00:301][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-03.18.00:301][965]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 1:18:00 PM)
+[2017.12.07-03.18.00:301][965]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-03.18.00:305][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004104s)
+[2017.12.07-03.18.00:306][965]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.18.00:307][965]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2017.12.07-03.18.00:307][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005661s)
+[2017.12.07-03.18.00:342][965]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-03.18.00:348][965]LogInit: FAudioDevice initialized.
+[2017.12.07-03.18.00:377][965]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-03.18.00:378][965]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-20.18.00
+[2017.12.07-03.18.00:379][965]LogWorld: Bringing up level for play took: 0.000867
+[2017.12.07-03.18.00:391][965]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 1.081
+[2017.12.07-03.18.00:392][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.18.02:223][ 78]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.18.02:223][ 78]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-03.18.11:846][711]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.18.11:846][711]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-03.18.16:975][ 34]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.18.16:975][ 34]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-03.18.20:154][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.18.20:200][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.18.26:319][735]LogAIModule: Creating AISystem for world Effects
+[2017.12.07-03.18.28:143][735]LogSavePackage: Save=144.96ms
+[2017.12.07-03.18.28:143][735]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGame_NickTestB9A7C16D44C675758B376F979F595A94.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap'
+[2017.12.07-03.18.28:146][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap
+[2017.12.07-03.18.28:173][735]LogFileHelpers: Saving map 'MainGame_NickTest' took 0.297
+[2017.12.07-03.18.28:175][735]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-03.18.28:175][735]LightingResults: New page: Lighting Build
+[2017.12.07-03.18.28:175][735]LoadErrors: New page: Loading map: Effects.umap
+[2017.12.07-03.18.28:176][735]MapCheck: New page: Map Check
+[2017.12.07-03.18.28:176][735]LightingResults: New page: Lighting Build
+[2017.12.07-03.18.28:203][735]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-03.18.28:250][735]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-03.18.28:316][735]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.931ms to complete.
+[2017.12.07-03.18.28:320][735]LogFileHelpers: Loading map 'Effects' took 0.146
+[2017.12.07-03.18.56:093][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Audio/player_death" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Audio/player_death.uasset" SILENT=true
+[2017.12.07-03.18.56:133][239]LogSavePackage: Save=9.01ms
+[2017.12.07-03.18.56:133][239]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/player_death2780AC9343E95EA0A1B37E8DD7C38526.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Audio/player_death.uasset'
+[2017.12.07-03.18.56:136][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Audio/player_death.uasset
+[2017.12.07-03.19.19:991][  5]LogEditorViewport: Clicking on Actor (LMB): MuzzleSmoke_C (MuzzleSmoke)
+[2017.12.07-03.19.37:977][917]Cmd: DELETE
+[2017.12.07-03.19.37:977][917]Cmd: ACTOR DELETE
+[2017.12.07-03.19.37:979][917]LogEditorActor: Deleted Actor: Emitter
+[2017.12.07-03.19.38:001][917]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.12.07-03.19.40:269][174]Cmd: DELETE
+[2017.12.07-03.19.40:269][174]Cmd: ACTOR DELETE
+[2017.12.07-03.19.40:271][174]LogEditorActor: Deleted Actor: Emitter
+[2017.12.07-03.19.40:292][174]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2017.12.07-03.19.42:859][466]Cmd: DELETE
+[2017.12.07-03.19.42:860][466]Cmd: ACTOR DELETE
+[2017.12.07-03.19.42:861][466]LogEditorActor: Deleted Actor: Emitter
+[2017.12.07-03.19.42:883][466]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2017.12.07-03.22.06:034][643]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.22.06:951][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.22.07:324][660]LogSavePackage: Save=339.81ms
+[2017.12.07-03.22.07:324][660]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP55AFB44E4CD3CF3127D7068C59BC312E.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.22.07:328][660]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.22.19:492][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.22.19:828][647]LogSavePackage: Save=310.68ms
+[2017.12.07-03.22.19:829][647]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP49368E634483DD1611E06CB780DD2067.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.22.19:832][647]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.23.23:073][ 89]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.23.24:596][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Effects" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.07-03.23.24:702][ 89]LogSavePackage: Save=53.88ms
+[2017.12.07-03.23.24:702][ 89]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/EffectsE6522A7A4CC09BA0405203B9ABAD49C7.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap'
+[2017.12.07-03.23.24:706][ 89]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap
+[2017.12.07-03.23.24:742][ 89]LogFileHelpers: Saving map 'Effects' took 0.216
+[2017.12.07-03.23.24:744][ 89]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-03.23.24:744][ 89]LightingResults: New page: Lighting Build
+[2017.12.07-03.23.24:745][ 89]LoadErrors: New page: Loading map: MainGame_NickTest.umap
+[2017.12.07-03.23.24:746][ 89]MapCheck: New page: Map Check
+[2017.12.07-03.23.24:746][ 89]LightingResults: New page: Lighting Build
+[2017.12.07-03.23.24:772][ 89]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-03.23.24:821][ 89]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-03.23.24:886][ 89]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.23ms to complete.
+[2017.12.07-03.23.24:887][ 89]LogFileHelpers: Loading map 'MainGame_NickTest' took 0.144
+[2017.12.07-03.23.26:444][218]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.23.26:483][218]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.23.26:483][218]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.07-03.23.26:544][218]LogPlayLevel: [PlayLevel] Compiling Character_BP before play...
+[2017.12.07-03.23.26:618][218]LogBlueprint: Error: [Compiler Character_BP] This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2017.12.07-03.23.26:630][218]LogBlueprint: Warning: [Compiler Character_BP] [9174.22] Compile of Character_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 94 ms] (/Game/Blueprints/Character_BP.Character_BP)
+[2017.12.07-03.23.26:767][218]LogPlayLevel: PlayLevel: Blueprint regeneration took 283 ms (1 blueprints)
+[2017.12.07-03.23.26:767][218]BlueprintLog: Blueprint Character_BP failed to compile
+[2017.12.07-03.23.54:749][246]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.23.54:894][246]LogBlueprint: Error: [Compiler Character_BP] This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2017.12.07-03.23.55:050][246]LogBlueprint: Warning: [Compiler Character_BP] [9202.64] Compile of Character_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 300 ms] (/Game/Blueprints/Character_BP.Character_BP)
+[2017.12.07-03.23.55:461][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.23.55:806][265]LogSavePackage: Save=319.61ms
+[2017.12.07-03.23.55:806][265]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP2664622A42D18CD067BCE3A658FD688E.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.23.55:809][265]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.24.45:771][321]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.24.47:102][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.24.47:441][367]LogSavePackage: Save=312.48ms
+[2017.12.07-03.24.47:441][367]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPEE80290F4D231AB20FCBD19C3189574A.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.24.47:444][367]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.25.10:831][179]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.25.11:632][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.25.11:971][180]LogSavePackage: Save=312.79ms
+[2017.12.07-03.25.11:971][180]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPDF808F4C4B8BA7F61CCAA7B564B3AEE1.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.25.11:974][180]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.25.16:890][535]LogSavePackage: Save=147.86ms
+[2017.12.07-03.25.16:890][535]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGame_NickTest3CFF3533466D94EF1C96A98F15475802.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap'
+[2017.12.07-03.25.16:893][535]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap
+[2017.12.07-03.25.17:881][607]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.25.17:974][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.25.17:974][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-03.25.17:975][607]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 1:25:17 PM)
+[2017.12.07-03.25.17:975][607]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-03.25.17:979][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003872s)
+[2017.12.07-03.25.17:979][607]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.25.17:980][607]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2017.12.07-03.25.17:980][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005058s)
+[2017.12.07-03.25.18:013][607]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-03.25.18:020][607]LogInit: FAudioDevice initialized.
+[2017.12.07-03.25.18:056][607]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-03.25.18:058][607]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-20.25.18
+[2017.12.07-03.25.18:058][607]LogWorld: Bringing up level for play took: 0.001108
+[2017.12.07-03.25.18:070][607]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.763
+[2017.12.07-03.25.18:071][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.25.19:320][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.25.19:358][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.25.24:697][ 81]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.25.25:415][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.25.25:750][ 81]LogSavePackage: Save=308.63ms
+[2017.12.07-03.25.25:750][ 81]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP60FFB71B402A0B8CC89D74917C35F75B.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.25.25:753][ 81]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.25.26:400][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.25.26:723][123]LogSavePackage: Save=302.04ms
+[2017.12.07-03.25.26:723][123]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPD3EC366742BE7814CB587A8EEBA0C32D.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.25.26:724][123]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.25.27:307][170]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.25.27:340][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.25.27:340][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-03.25.27:340][170]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 1:25:27 PM)
+[2017.12.07-03.25.27:340][170]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-03.25.27:345][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004166s)
+[2017.12.07-03.25.27:345][170]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.25.27:345][170]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2017.12.07-03.25.27:346][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005127s)
+[2017.12.07-03.25.27:378][170]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-03.25.27:385][170]LogInit: FAudioDevice initialized.
+[2017.12.07-03.25.27:416][170]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-03.25.27:418][170]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-20.25.27
+[2017.12.07-03.25.27:418][170]LogWorld: Bringing up level for play took: 0.000886
+[2017.12.07-03.25.27:431][170]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.123
+[2017.12.07-03.25.27:431][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.25.28:937][272]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_2.Cube Cube
+[2017.12.07-03.25.28:937][272]LogBlueprintUserMessages: [Projectile_BP_C_0] X=1844.410 Y=0.478 Z=5.000
+[2017.12.07-03.25.29:624][326]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.25.29:624][326]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-03.25.31:520][474]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-03.25.31:520][474]LogBlueprintUserMessages: [Projectile_BP_C_1] X=2999.392 Y=0.478 Z=5.000
+[2017.12.07-03.25.36:327][848]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.25.36:327][848]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-03.25.41:363][223]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-03.25.41:363][223]LogBlueprintUserMessages: [Projectile_BP_C_2] X=1529.386 Y=0.478 Z=5.000
+[2017.12.07-03.25.42:961][344]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.25.42:961][344]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-03.25.45:032][515]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.25.45:074][515]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.26.10:584][472]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.26.11:678][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.26.12:016][494]LogSavePackage: Save=312.64ms
+[2017.12.07-03.26.12:016][494]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPDCA55F6043AFAF7C3C3A39BF12013D19.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.26.12:019][494]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.26.30:600][905]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.26.31:614][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.26.31:946][924]LogSavePackage: Save=310.70ms
+[2017.12.07-03.26.31:947][924]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP6945226E4E75C02C4249498CFAD14335.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.26.31:950][924]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.26.32:952][  4]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.26.33:045][  4]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.26.33:045][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-03.26.33:046][  4]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 1:26:33 PM)
+[2017.12.07-03.26.33:046][  4]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-03.26.33:050][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003870s)
+[2017.12.07-03.26.33:050][  4]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.26.33:051][  4]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2017.12.07-03.26.33:051][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005207s)
+[2017.12.07-03.26.33:084][  4]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-03.26.33:090][  4]LogInit: FAudioDevice initialized.
+[2017.12.07-03.26.33:122][  4]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-03.26.33:124][  4]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-20.26.33
+[2017.12.07-03.26.33:124][  4]LogWorld: Bringing up level for play took: 0.000953
+[2017.12.07-03.26.33:138][  4]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.17
+[2017.12.07-03.26.33:138][  4]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.26.34:695][104]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_2.Cube Cube
+[2017.12.07-03.26.34:695][104]LogBlueprintUserMessages: [Projectile_BP_C_0] X=1844.390 Y=0.478 Z=5.000
+[2017.12.07-03.26.34:976][124]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.26.34:977][124]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-03.26.40:845][545]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.26.40:845][545]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-03.26.46:595][959]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.26.46:595][959]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-03.26.49:740][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.26.49:787][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.27.26:225][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.27.26:570][ 46]LogSavePackage: Save=314.65ms
+[2017.12.07-03.27.26:570][ 46]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP2814D70D479FAFC75DD1DD8A626FA94C.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.27.26:573][ 46]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.27.26:763][ 61]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.27.27:723][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.27.28:063][ 75]LogSavePackage: Save=320.70ms
+[2017.12.07-03.27.28:063][ 75]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPDC53A01C4F290FCFDDB687B5165E1087.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.27.28:065][ 75]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-03.27.28:361][ 78]LogSavePackage: Save=40.43ms
+[2017.12.07-03.27.28:361][ 78]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/P_ExplosionBCA502114BA41381277C6A805B60EADF.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/StarterContent/Particles/P_Explosion.uasset'
+[2017.12.07-03.27.28:362][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/StarterContent/Particles/P_Explosion.uasset
+[2017.12.07-03.27.28:795][113]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-03.27.28:833][113]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.27.28:834][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-03.27.28:834][113]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 1:27:28 PM)
+[2017.12.07-03.27.28:834][113]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-03.27.28:837][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003481s)
+[2017.12.07-03.27.28:838][113]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-03.27.28:838][113]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2017.12.07-03.27.28:838][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004642s)
+[2017.12.07-03.27.28:872][113]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-03.27.28:878][113]LogInit: FAudioDevice initialized.
+[2017.12.07-03.27.28:913][113]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-03.27.28:914][113]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-20.27.28
+[2017.12.07-03.27.28:914][113]LogWorld: Bringing up level for play took: 0.000914
+[2017.12.07-03.27.28:928][113]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.379
+[2017.12.07-03.27.28:928][113]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.27.31:256][270]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_2.Cube Cube
+[2017.12.07-03.27.31:256][270]LogBlueprintUserMessages: [Projectile_BP_C_1] X=1844.434 Y=0.478 Z=5.000
+[2017.12.07-03.27.31:657][299]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_2.Cube Cube
+[2017.12.07-03.27.31:657][299]LogBlueprintUserMessages: [Projectile_BP_C_2] X=1844.400 Y=0.478 Z=5.000
+[2017.12.07-03.27.33:756][450]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.27.33:756][450]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-03.27.33:813][454]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.27.33:813][454]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-03.27.38:474][792]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-03.27.38:474][792]LogBlueprintUserMessages: [Projectile_BP_C_3] X=1704.395 Y=0.478 Z=5.000
+[2017.12.07-03.27.39:583][871]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-03.27.39:583][871]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-03.27.43:259][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.27.43:307][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-03.27.52:683][919]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-03.27.53:768][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-03.27.54:106][941]LogSavePackage: Save=313.47ms
+[2017.12.07-03.27.54:106][941]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP0E45610F4B9E0C01DF051BBB13C2B061.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-03.27.54:109][941]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
