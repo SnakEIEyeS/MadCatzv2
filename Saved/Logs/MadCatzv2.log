@@ -1,4 +1,4 @@
-﻿Log file open, 12/06/17 17:26:33
+﻿Log file open, 12/06/17 17:50:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,13 +7,15 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MadCatzv2
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1591986707) SRandInit(1591986707).
+LogInit: Display: RandInit(-1938786737) SRandInit(-1938786737).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.167663
+LogStats: Stats thread started at 0.164234
 LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestruction.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestructionEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -128,6 +130,7 @@ LogPluginManager: Mounting plugin OnlineSubsystemUtils
 LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin AndroidMoviePlayer
 LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
 LogPluginManager: Mounting plugin AppleARKit
 LogPluginManager: Mounting plugin AppleMoviePlayer
 LogPluginManager: Mounting plugin ArchVisCharacter
@@ -195,940 +198,733 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.07-00.26.35:263][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.07-00.26.35:263][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.07-00.26.35:274][  0]LogInit: Computer: eae-d-042
-[2017.12.07-00.26.35:274][  0]LogInit: User: u1148533
-[2017.12.07-00.26.35:274][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.07-00.26.35:274][  0]LogInit: High frequency timer resolution =3.513592 MHz
-[2017.12.07-00.26.35:274][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.12.07-00.26.35:274][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.07-00.26.35:274][  0]LogMemory: Process Physical Memory: 278.29 MB used, 278.29 MB peak
-[2017.12.07-00.26.35:274][  0]LogMemory: Process Virtual Memory: 276.09 MB used, 276.09 MB peak
-[2017.12.07-00.26.35:274][  0]LogMemory: Physical Memory: 12572.18 MB used,  20072.47 MB free, 32644.64 MB total
-[2017.12.07-00.26.35:274][  0]LogMemory: Virtual Memory: 700.89 MB used,  20072.47 MB free, 134217728.00 MB total
-[2017.12.07-00.26.35:393][  0]LogInit: Using OS detected language (en-US).
-[2017.12.07-00.26.35:393][  0]LogInit: Using OS detected locale (en-US).
-[2017.12.07-00.26.35:396][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.07-00.26.35:749][  0]LogInit: Setting process to per monitor DPI aware
-[2017.12.07-00.26.35:951][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.07-00.26.35:993][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.12.07-00.26.35:993][  0]LogD3D11RHI:       8096/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.12.07-00.26.35:998][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.12.07-00.26.35:998][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.12.07-00.26.35:999][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.07-00.26.35:999][  0]LogD3D11RHI:       0/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.07-00.26.35:999][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.07-00.26.36:005][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.07-00.26.36:005][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.07-00.26.36:005][  0]LogWindows: EnumDisplayDevices:
-[2017.12.07-00.26.36:005][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.12.07-00.26.36:005][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.12.07-00.26.36:005][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.12.07-00.26.36:005][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.12.07-00.26.36:006][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.12.07-00.26.36:006][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.12.07-00.26.36:006][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.12.07-00.26.36:006][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.12.07-00.26.36:006][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.12.07-00.26.36:006][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2017.12.07-00.26.36:006][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2017.12.07-00.26.36:006][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2017.12.07-00.26.36:034][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.07-00.26.36:044][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.12.07-00.26.36:135][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Intermediate/Shaders/WorkingDirectory/2316/).
-[2017.12.07-00.26.36:135][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1148533/AppData/Local/Temp/UnrealShaderWorkingDir/7FD13AA842D6C652F050E1884B6C048D/'.
-[2017.12.07-00.26.36:135][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.07-00.26.36:933][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.07-00.26.36:976][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.07-00.26.37:020][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.07-00.26.37:063][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.07-00.26.37:106][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.07-00.26.37:149][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.07-00.26.37:191][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.07-00.26.37:234][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.07-00.26.37:272][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.07-00.26.37:313][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.07-00.26.37:353][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.07-00.26.37:399][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.07-00.26.37:441][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.07-00.26.37:483][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.07-00.26.37:566][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.07-00.26.37:566][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.07-00.26.37:607][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.07-00.26.37:638][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.07-00.26.37:717][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.07-00.26.37:739][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.07-00.26.37:781][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.07-00.26.37:821][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.07-00.26.37:862][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.07-00.26.37:905][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.07-00.26.37:905][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.07-00.26.38:286][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.07-00.26.38:361][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/u1148533/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.07-00.26.38:361][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u1148533/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.12.07-00.26.38:361][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.07-00.26.38:361][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.07-00.26.38:361][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.07-00.26.38:362][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.07-00.26.38:377][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.07-00.26.38:389][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1148533/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.07-00.26.38:398][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.07-00.26.38:398][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.07-00.26.38:399][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.07-00.26.38:399][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.07-00.26.38:718][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.07-00.26.39:003][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.07-00.26.39:037][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.07-00.26.39:037][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.07-00.26.39:037][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.07-00.26.39:037][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.07-00.26.39:037][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.07-00.26.39:064][  0]LogNetVersion: MadCatzv2 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 834051207)
-[2017.12.07-00.26.39:212][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
-[2017.12.07-00.26.39:673][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.058090 seconds
-[2017.12.07-00.26.39:679][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.12.07-00.26.39:679][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
-[2017.12.07-00.26.39:679][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.07-00.26.39:724][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.07-00.26.42:124][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.07-00.26.42:165][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.07-00.26.42:772][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.07-00.26.43:160][  0]SourceControl: Source control is disabled
-[2017.12.07-00.26.44:552][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.07-00.26.44:794][  0]LogOcInput: OculusInput pre-init called
-[2017.12.07-00.26.45:048][  0]LogEngine: Initializing Engine...
-[2017.12.07-00.26.45:050][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.12.07-00.26.45:241][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.07-00.26.45:241][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.07-00.26.45:348][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.07-00.26.45:364][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.07-00.26.45:389][  0]LogInit: FAudioDevice initialized.
-[2017.12.07-00.26.45:499][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/u1148533/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.07-00.26.45:513][  0]LogInit: Texture streaming: Enabled
-[2017.12.07-00.26.45:596][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.07-00.26.45:704][  0]LogInit: Transaction tracking system initialized
-[2017.12.07-00.26.45:963][  0]BlueprintLog: New page: Editor Load
-[2017.12.07-00.26.46:682][  0]LocalizationService: Localization service is disabled
-[2017.12.07-00.26.47:292][  0]LogConsoleResponse: Display: 
-[2017.12.07-00.26.47:455][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.07-00.26.47:455][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.07-00.26.47:455][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.07-00.26.48:410][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/' took 0.01s
-[2017.12.07-00.26.48:448][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.07-00.26.48:448][  0]LightingResults: New page: Lighting Build
-[2017.12.07-00.26.48:482][  0]MapCheck: New page: Map Check
-[2017.12.07-00.26.48:482][  0]LightingResults: New page: Lighting Build
-[2017.12.07-00.26.48:677][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.12.07-00.26.48:683][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.07-00.26.48:693][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.07-00.26.48:736][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.93ms to complete.
-[2017.12.07-00.26.48:736][  0]LogFileHelpers: Loading map 'Template_Default' took 0.288
-[2017.12.07-00.26.48:899][  0]LogCollectionManager: Loaded 0 collections in 0.001771 seconds
-[2017.12.07-00.26.48:977][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Collections/' took 0.01s
-[2017.12.07-00.26.48:977][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Developers/u1148533/Collections/' took 0.01s
-[2017.12.07-00.26.48:977][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Collections/' took 0.01s
-[2017.12.07-00.26.48:977][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.12.07-00.26.48:985][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2363 classes and 519 folders.
-[2017.12.07-00.26.49:050][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2017.12.07-00.26.49:330][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2017.12.07-00.26.49:365][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2017.12.07-00.26.49:383][  0]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.07-00.26.49:387][  0]LogSlate: Took 0.000400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.07-00.26.49:398][  0]LogSlate: Took 0.004331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.07-00.26.49:516][  0]LogRenderer: Reallocating scene render targets to support 1224x640 Format 10 NumSamples 1 (Frame:1).
-[2017.12.07-00.26.49:658][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2017.12.07-00.26.49:659][  0]LogLoad: (Engine Initialization) Total time: 17.07 seconds
-[2017.12.07-00.26.49:659][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.07-00.26.49:659][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.12.07-00.26.49:659][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.12.07-00.26.49:669][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.07-00.26.49:685][  0]LogAssetRegistry: Asset discovery search completed in 10.4953 seconds
-[2017.12.07-00.26.49:686][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.07-00.26.49:686][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
-[2017.12.07-00.26.49:689][  0]SourceControl: On branch Olivia_NPC_testing
-[2017.12.07-00.26.49:689][  0]SourceControl: Your branch is up-to-date with 'origin/Olivia_NPC_testing'.
-[2017.12.07-00.26.49:689][  0]SourceControl: Changes not staged for commit:
-[2017.12.07-00.26.49:689][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.12.07-00.26.49:689][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.12.07-00.26.49:689][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.12.07-00.26.49:689][  0]SourceControl: 	modified:   Saved/Logs/MadCatzv2.log
-[2017.12.07-00.26.49:689][  0]SourceControl: Untracked files:
-[2017.12.07-00.26.49:690][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Intermediate/AssetRegistryCache/311563bb.bin
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Intermediate/AssetRegistryCache/c90e3f55.bin
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Intermediate/Config/CoalescedSourceConfigs/ApexDestruction.ini
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Assets/
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Blueprints/
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto1.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto2.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto3.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto4.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto5.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto6.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto7.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto8.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_Auto1.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_Auto2.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_Auto3.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_Auto4.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_Auto5.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_Auto6.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_Auto7.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_Auto8.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_Auto9.umap
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_BuiltData_Auto1.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Autosaves/Game/Levels/Nick_testLevel_BuiltData_Auto4.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/CharacterAnim_BlendSpace_2017-12-02-14-34-45.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-28-17-00-57.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-28-17-08-04.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-13-10-29.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-13-19-19.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-13-25-45.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-13-33-46.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-13-40-33.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-20-43-47.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-20-54-14.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-21-01-03.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-21-06-30.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-21-16-44.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-21-24-26.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-29-22-05-55.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-09-34-35.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-09-42-05.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-09-48-16.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-09-55-39.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-10-02-20.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-10-16-16.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-10-25-41.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-10-30-45.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-10-40-20.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-11-13-51.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-11-20-44.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-11-59-01.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-12-08-21.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-12-26-54.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-12-47-50.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-12-53-53.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-13-17-53.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-11-30-13-23-07.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-02-13-25-56.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-02-13-31-53.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-02-14-30-17.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-02-14-36-11.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-02-14-46-27.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-02-17-52-24.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-02-17-59-41.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-02-18-07-37.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-19-39-47.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-19-45-38.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-19-57-39.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-20-02-47.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-20-12-46.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-20-23-34.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-20-28-37.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-20-37-26.uasset
-[2017.12.07-00.26.49:690][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-21-38-11.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-22-27-37.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-22-35-02.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-03-22-42-16.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-04-21-19-10.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-04-23-12-48.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-04-23-32-11.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-05-09-21-42.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-05-09-30-59.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-05-11-04-48.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-05-11-26-46.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-05-12-43-54.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-05-12-49-36.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-05-16-25-31.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-12-59-52.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-13-05-37.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-13-11-58.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-13-17-22.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-13-22-29.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-14-52-32.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-14-58-39.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-15-03-54.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-15-19-28.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-15-26-38.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-15-31-52.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-16-05-31.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-16-43-54.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Character_BP_2017-12-06-16-51-40.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/DecalCollider_BP_2017-12-03-21-55-32.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/DecalCollider_BP_2017-12-03-22-09-41.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/DecalCollider_BP_2017-12-03-22-22-11.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/DecalCollider_BP_2017-12-03-22-35-03.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/DecalCollider_BP_2017-12-05-09-25-07.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/EnemyProjectile_BP1_2017-12-05-12-14-16.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/EnemyProjectile_BP_2017-12-05-12-16-11.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Enemy_2017-12-05-10-32-54.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Enemy_2017-12-05-10-55-23.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Enemy_2017-12-05-11-07-30.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Enemy_2017-12-05-11-26-21.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Enemy_2017-12-05-12-22-53.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Enemy_2017-12-05-16-23-10.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-04-21-42-46.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-04-23-01-57.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-04-23-13-24.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-04-23-31-44.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-05-00-10-51.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-05-09-25-51.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-05-09-30-53.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-05-09-39-14.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-06-16-16-11.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-06-16-21-54.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-06-16-34-35.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/FloorTile_BP_2017-12-06-16-51-48.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/GameMode_BP_2017-12-04-22-28-59.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/GameMode_BP_2017-12-04-23-01-38.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/GameMode_BP_2017-12-04-23-13-30.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/GameMode_BP_2017-12-04-23-33-15.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/GameMode_BP_2017-12-05-09-51-46.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/GameMode_BP_2017-12-05-10-30-04.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/HUD_BP_2017-12-03-21-14-58.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/HUD_BP_2017-12-03-21-21-04.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Hazard_BP_2017-12-05-09-26-34.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Hazard_BP_2017-12-05-11-21-25.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/Hazard_BP_2017-12-05-11-26-31.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/HoleDecal_2017-12-06-16-37-48.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/HoleDecal_2017-12-06-16-53-44.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/M_TrajectoryDecal_2017-12-06-16-01-31.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/M_TrajectoryDecal_2017-12-06-16-08-51.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGameMode_BP_2017-12-03-21-23-17.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGameMode_BP_2017-12-03-21-28-41.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGameMode_BP_2017-12-03-21-35-46.uasset
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_2017-12-04-23-35-41.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_2017-12-05-10-30-59.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-00-03-03.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-00-09-39.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-09-29-25.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-09-38-35.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-09-45-40.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-10-31-12.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-10-36-44.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-10-41-57.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-10-48-49.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-10-55-28.umap
-[2017.12.07-00.26.49:691][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-11-07-58.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-11-13-08.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-11-22-01.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-11-28-39.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-12-46-22.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-05-12-52-44.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-12-59-52.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-13-12-35.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-13-18-27.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-13-28-36.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-14-53-34.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-15-04-38.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-15-15-30.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-15-26-38.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-15-32-31.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-15-42-52.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-16-10-47.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-16-17-01.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-16-24-16.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-16-38-24.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-16-48-23.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-16-53-43.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-16-59-54.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/MainGame_NickTest_2017-12-06-17-05-27.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-28-16-01-49.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-28-16-11-51.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-28-16-38-25.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-28-17-00-57.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-13-12-17.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-13-18-36.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-13-26-29.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-13-35-02.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-13-40-38.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-13-50-39.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-20-43-46.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-20-54-14.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-21-01-23.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-21-11-53.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-21-26-00.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-22-03-37.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-22-13-50.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-29-23-59-41.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-09-34-56.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-09-45-09.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-09-55-39.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-10-05-56.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-10-16-16.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-10-27-04.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-10-34-18.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-10-45-17.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-10-59-18.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-11-14-06.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-11-21-09.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-12-17-01.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-12-23-47.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-12-30-32.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-12-53-59.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-11-30-13-21-02.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-02-13-31-53.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-02-14-21-58.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-02-14-34-27.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-02-14-46-41.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-02-18-03-32.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-02-18-14-02.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-02-18-32-38.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-19-41-09.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-19-49-12.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-19-57-18.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-20-12-47.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-20-18-45.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-20-26-08.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-20-31-10.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-20-36-49.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-20-44-11.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-20-54-20.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-21-06-01.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-21-23-37.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-21-28-58.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-21-34-51.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-21-48-34.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-21-58-35.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-22-09-36.umap
-[2017.12.07-00.26.49:692][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-22-19-40.umap
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-22-32-09.umap
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-03-22-42-16.umap
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_2017-12-04-21-19-12.umap
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-29-13-15-46.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-29-13-23-24.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-29-13-35-02.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-29-13-40-38.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-29-20-55-24.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-29-21-01-23.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-29-21-26-00.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-29-22-03-37.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-29-23-59-41.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-30-09-34-56.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-30-10-29-01.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-30-11-02-13.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-30-11-14-06.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-30-11-21-09.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-30-12-23-48.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-30-12-30-32.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-30-12-53-59.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-11-30-13-21-02.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-02-14-21-58.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-02-14-34-27.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-02-14-46-41.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-02-18-32-38.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-19-49-12.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-19-57-18.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-20-12-47.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-20-18-45.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-20-26-08.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-20-31-10.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-20-36-49.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-20-44-11.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-20-54-20.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-21-06-01.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-21-23-37.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-21-28-58.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-21-34-51.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-22-09-36.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Nick_testLevel_BuiltData_2017-12-03-22-22-06.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Obstacle_Bp_2017-12-03-19-51-15.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Obstacle_Bp_2017-12-03-20-30-55.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-11-28-17-10-26.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-11-29-13-17-51.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-11-29-13-26-04.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-11-29-13-37-51.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-11-30-09-33-14.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-11-30-10-16-16.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-11-30-10-34-16.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-20-09-01.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-20-15-20.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-20-20-41.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-20-25-51.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-20-33-07.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-20-38-08.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-20-44-00.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-20-51-35.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-20-56-53.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-21-04-35.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-03-23-05-51.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-05-00-01-18.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-05-00-06-37.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-05-09-19-36.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-05-09-28-22.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-05-09-34-47.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-05-09-45-24.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-05-11-22-30.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-05-11-27-32.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-06-12-57-46.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-06-16-12-11.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-06-16-17-30.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-06-16-23-27.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-06-16-29-23.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-06-16-37-48.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-06-16-47-35.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-06-16-53-01.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Projectile_BP_2017-12-06-17-03-38.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Resolve_Backup[2017-12-05-16-22-45]/
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Resolve_Backup[2017-12-05-16-25-26]/
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Resolve_Backup[2017-12-06-17-07-48]/
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/Shantanu_Level_2017-12-04-23-05-44.umap
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/SpawnController_BP_2017-12-05-10-28-17.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/SpawnController_BP_2017-12-05-10-34-45.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/SpawnController_BP_2017-12-06-15-29-56.uasset
-[2017.12.07-00.26.49:693][  0]SourceControl: 	Saved/Backup/TrajectoryBeam_2017-12-06-15-18-23.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelAnimBlueprint_2017-11-29-22-39-01.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelAnimBlueprint_2017-11-29-22-49-05.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelAnimBlueprint_2017-11-29-22-59-13.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelAnimBlueprint_2017-11-29-23-30-36.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelAnimBlueprint_2017-11-29-23-46-35.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelAnimBlueprint_2017-11-30-00-00-40.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelAnimBlueprint_2017-11-30-09-31-05.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelAnimBlueprint_2017-11-30-12-05-08.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelAnimComposite_2017-11-29-21-57-37.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelSpinBack_Anim_2017-11-29-23-59-43.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelSpinFront_Anim_2017-11-29-22-13-50.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/WheelSpinFront_Anim_2017-11-30-00-05-16.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-11-30-12-26-16.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-12-02-13-34-10.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-12-02-13-45-05.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-12-02-13-51-50.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-12-02-14-13-19.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-12-02-14-19-15.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-12-02-14-43-50.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-12-02-17-59-18.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-12-05-10-42-46.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_AnimBP_2017-12-05-11-08-40.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_Anim_2017-11-30-12-17-01.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/Wheel_Anim_2017-11-30-12-22-19.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/background1_2017-12-06-17-02-32.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/background2_2017-12-06-17-02-32.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/background3_2017-12-06-17-02-32.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/cactus_2017-12-06-17-06-55.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/eSnake_AnimBP_2017-12-05-10-42-01.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/eSnake_AnimBP_2017-12-05-10-47-45.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/eSnake_AnimBP_2017-12-05-10-53-23.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/eSnake_AnimBP_2017-12-05-10-58-40.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/eSnake_AnimBP_2017-12-05-11-05-46.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/e_Snake_mat_2017-12-06-15-26-38.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/e_Snake_mat_Inst_2017-12-06-15-26-38.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/e_Snake_v02_Skeleton_2017-12-05-11-12-54.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/farground1_2017-12-06-17-02-33.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/farground2_2017-12-06-17-02-33.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/farground3_2017-12-06-17-02-33.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/foreground1_2017-12-06-17-02-33.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/foreground2_2017-12-06-17-02-33.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/foreground3_2017-12-06-17-02-33.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/mat_Outline__uvgrid1024-colour_decal_2017-12-03-20-39-40.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/mat_Outline__uvgrid1024-colour_decal_2017-12-03-20-50-13.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/mat_Outline__uvgrid1024-colour_decal_2017-12-03-20-55-38.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/mat_Outline__uvgrid1024-colour_decal_2017-12-03-22-42-17.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/mat_Outline__uvgrid1024-colour_decal_2017-12-04-21-19-10.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/mat_Outline__uvgrid1024-colour_decal_2017-12-06-16-02-58.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/mat_Outline__uvgrid1024-colour_decal_2017-12-06-16-59-53.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/midground1_2017-12-06-17-02-33.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/midground2_2017-12-06-17-02-33.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/midground3_2017-12-06-17-02-33.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/pineTree_2017-12-06-17-06-56.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/plasmaBall_2017-12-06-17-06-56.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/plasmaMask_2017-12-06-17-06-56.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v00_2017-11-28-16-57-43.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v00_Skeleton_2017-11-29-22-22-41.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v01_Skeleton_2017-11-30-09-39-32.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v01_Skeleton_2017-11-30-10-05-57.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v05_Skeleton_2017-11-30-12-07-03.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v05_Skeleton_2017-11-30-12-17-01.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v05_Skeleton_2017-11-30-12-25-12.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v05_Skeleton_2017-11-30-12-30-29.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v05_Skeleton_2017-12-02-13-26-01.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v05_Skeleton_2017-12-02-14-56-41.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/playerTruck_v05_Skeleton_2017-12-02-18-32-49.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/rock_2017-12-06-17-06-56.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Backup/tree_2017-12-06-17-06-56.uasset
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-0529FA964CE91D95A2D67C9A042B626D/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-0EF30F7444EE8D5A90AF2BB46D8058F3/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-28F893D6433C5B1CD58DC9A47620BB95/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-4972F599456015B859174AA4BE50E38D/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-626089BB4DAF7DC481F7DDB68CC4932D/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-8AB9F9704AD86C0D0FA2CCABCB13216F/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-9F61B481447D6DC1FD08F8B77DA892FC/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-A7772E2E4227BCAA6F20EFBF37A0B7AF/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-A8AA39154489E8E7598DF49872EC61A0/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-B0D2301E4BDA9BE991D63DBD738BE688/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-B22FD956430D4C58676E829CD398C4A2/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-C5DDD9FF4818B9FA3F9E058CBC2315A3/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-C7130108426C0746A5946AA3019C7AD9/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-D768C1FE42C62F9B17DD4384292F3A7C/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-F071351648A71FD765EE57B9A37CC4C3/
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/Windows/ApexDestruction.ini
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/Windows/SourceControlSettings.ini
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/WorldState/2358346137.json
-[2017.12.07-00.26.49:694][  0]SourceControl: 	Saved/Config/WorldState/2985392994.json
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Config/WorldState/3193642804.json
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Config/WorldState/4238425882.json
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Crashes/
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Diff/
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2-backup-2017.12.05-10.07.37.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2-backup-2017.12.05-12.06.14.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2-backup-2017.12.05-16.15.44.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2-backup-2017.12.05-16.24.26.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2-backup-2017.12.06-11.55.49.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2-backup-2017.12.06-17.01.38.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2-backup-2017.12.06-17.04.42.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2-backup-2017.12.06-17.06.19.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2-backup-2017.12.06-17.26.33.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Logs/MadCatzv2_2-backup-2017.12.03-21.35.48.log
-[2017.12.07-00.26.49:695][  0]SourceControl: 	Saved/Screenshots/
-[2017.12.07-00.26.49:695][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.12.07-00.26.49:695][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.07-00.26.49:808][  0]LogSlate: Took 0.003718 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.07-00.26.58:019][975]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.07-00.26.58:210][975]LogTexture: Display: Building textures: playerTruck_tex_diff (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:210][975]LogTexture: Display: Building textures: playerTruck_tex_spec (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:210][975]LogTexture: Display: Building textures: e_Falcon_texA (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:210][975]LogTexture: Display: Building textures: e_Gekko_texB (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:210][975]LogTexture: Display: Building textures: e_Falcon_texB (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:210][975]LogTexture: Display: Building textures: e_Turtle_texA (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:420][975]LogTexture: Display: Building textures: e_Snake_texB (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:420][975]LogTexture: Display: Building textures: e_Gekko_texA (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:445][975]LogTexture: Display: Building textures: e_Turtle_texB (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:775][975]LogTexture: Display: Building textures: e_Duck_texA (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:776][975]LogTexture: Display: Building textures: e_Duck_texB (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:776][975]LogTexture: Display: Building textures: e_Eagle_texA (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:776][975]LogTexture: Display: Building textures: e_Eagle_texB (AutoDXT, 1024X1024)
-[2017.12.07-00.26.58:779][975]LogMaterial: Missing cached shader map for material e_Turtle_mat, compiling. 
-[2017.12.07-00.26.58:999][975]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
-[2017.12.07-00.26.58:999][975]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.12.07-00.26.58:999][975]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
-[2017.12.07-00.26.58:999][975]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.12.07-00.26.58:999][975]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 128X128)
-[2017.12.07-00.26.58:999][975]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2017.12.07-00.26.58:999][975]LogMaterial: Missing cached shader map for material playerTruck_mat, compiling. 
-[2017.12.07-00.26.59:060][975]LogMaterial: Missing cached shader map for material e_Snake_mat, compiling. 
-[2017.12.07-00.26.59:110][975]LogMaterial: Missing cached shader map for material e_Falcon_mat, compiling. 
-[2017.12.07-00.26.59:159][975]LogMaterial: Missing cached shader map for material e_Gekko_mat, compiling. 
-[2017.12.07-00.26.59:223][975]LogStaticMesh: Building static mesh e_Gekko_v01...
-[2017.12.07-00.26.59:361][975]LogStaticMesh: Built static mesh [0.14s] /Game/Levels/PlsIgnoreMe/Meshes(ForTesting)/e_Gekko_v01.e_Gekko_v01
-[2017.12.07-00.26.59:388][975]LogMaterial: Missing cached shader map for material e_Duck_mat, compiling. 
-[2017.12.07-00.26.59:458][975]LogMaterial: Missing cached shader map for material e_Eagle_mat, compiling. 
-[2017.12.07-00.26.59:523][975]LogStaticMesh: Building static mesh e_Duck_v01...
-[2017.12.07-00.27.00:011][975]LogStaticMesh: Built static mesh [0.49s] /Game/Levels/PlsIgnoreMe/Meshes(ForTesting)/e_Duck_v01.e_Duck_v01
-[2017.12.07-00.27.00:013][975]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.07-00.27.00:118][975]LogStaticMesh: Building static mesh e_Turtle_v01...
-[2017.12.07-00.27.00:436][975]LogStaticMesh: Built static mesh [0.32s] /Game/Levels/PlsIgnoreMe/Meshes(ForTesting)/e_Turtle_v01.e_Turtle_v01
-[2017.12.07-00.27.00:493][975]LogAIModule: Creating AISystem for world CharacterShaderTest
-[2017.12.07-00.27.00:514][975]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/CharacterShaderTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.07-00.27.00:514][975]LightingResults: New page: Lighting Build
-[2017.12.07-00.27.00:515][975]LoadErrors: New page: Loading map: CharacterShaderTest.umap
-[2017.12.07-00.27.00:515][975]MapCheck: New page: Map Check
-[2017.12.07-00.27.00:516][975]LightingResults: New page: Lighting Build
-[2017.12.07-00.27.00:534][975]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.07-00.27.00:578][975]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.07-00.27.00:654][975]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.488ms to complete.
-[2017.12.07-00.27.00:655][975]LogFileHelpers: Loading map 'CharacterShaderTest' took 0.143
-[2017.12.07-00.27.23:979][241]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (e_Falcon_v00)
-[2017.12.07-00.27.32:625][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Gekko_v01)
-[2017.12.07-00.27.34:157][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Turtle_v01)
-[2017.12.07-00.27.35:267][362]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (e_Snake_v2)
-[2017.12.07-00.27.36:033][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Duck_v01)
-[2017.12.07-00.27.37:918][639]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (e_Eagle_v00)
-[2017.12.07-00.27.46:419][626]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (playerTruck_v05)
-[2017.12.07-00.27.55:972][733]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (e_Falcon_v00)
-[2017.12.07-00.28.08:264][184]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.07-00.28.08:437][185]Cmd: QUIT_EDITOR
-[2017.12.07-00.28.08:465][185]LogExit: Preparing to exit.
-[2017.12.07-00.28.09:202][185]LogDirectoryWatcher: A directory notification for 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/' was aborted.
-[2017.12.07-00.28.09:215][185]LogExit: Editor shut down
-[2017.12.07-00.28.09:217][185]LogExit: Transaction tracking system shut down
-[2017.12.07-00.28.09:304][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.12.07-00.28.09:304][185]LogDirectoryWatcher: A directory notification for '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/' was aborted.
-[2017.12.07-00.28.09:304][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.12.07-00.28.09:304][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2017.12.07-00.28.09:304][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2017.12.07-00.28.09:304][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.12.07-00.28.09:304][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.12.07-00.28.09:343][185]LogExit: Object subsystem successfully closed.
-[2017.12.07-00.28.09:365][185]LogD3D11RHI: Shutdown
-[2017.12.07-00.28.09:365][185]LogD3D11RHI: CleanupD3DDevice
-[2017.12.07-00.28.09:367][185]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.12.07-00.28.09:380][185]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
-[2017.12.07-00.28.09:380][185]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
-[2017.12.07-00.28.09:380][185]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
-[2017.12.07-00.28.09:380][185]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
-[2017.12.07-00.28.09:381][185]LogDirectoryWatcher: A directory notification for 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Collections/' was aborted.
-[2017.12.07-00.28.09:381][185]LogDirectoryWatcher: A directory notification for 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Developers/u1148533/Collections/' was aborted.
-[2017.12.07-00.28.09:381][185]LogDirectoryWatcher: A directory notification for 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Collections/' was aborted.
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2017.12.07-00.28.09:381][185]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2017.12.07-00.28.09:382][185]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2017.12.07-00.28.10:015][185]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2017.12.07-00.28.10:016][185]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2017.12.07-00.28.10:080][185]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2017.12.07-00.28.10:120][185]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2017.12.07-00.28.10:121][185]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2017.12.07-00.28.10:122][185]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2017.12.07-00.28.10:223][185]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2017.12.07-00.28.10:324][185]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2017.12.07-00.28.10:324][185]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2017.12.07-00.28.10:324][185]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2017.12.07-00.28.10:324][185]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2017.12.07-00.28.10:324][185]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2017.12.07-00.28.10:324][185]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2017.12.07-00.28.10:325][185]LogModuleManager: Shutting down and abandoning module Media (221)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2017.12.07-00.28.10:331][185]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module Core (172)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.12.07-00.28.10:333][185]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2017.12.07-00.28.10:435][185]LogDerivedDataCache: Shutdown
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2017.12.07-00.28.10:435][185]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.12.07-00.28.10:436][185]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.12.07-00.28.10:436][185]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.12.07-00.28.10:436][185]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0E3CFC4D-4CE3-7584-AE68-D19013F6AD52%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=f1cee43741e8ddb2065326a35dff0ebe%7Cf4af790ab74741bdb7a6a132e70afb56%7Cf583b69d-8995-4b97-ba94-69debecd0aad&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.07-00.28.10:464][185]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.12.07-00.28.10:465][185]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.12.07-00.28.10:466][185]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.12.07-00.28.10:469][185]LogExit: Exiting.
-[2017.12.07-00.28.10:481][185]Log file closed, 12/06/17 17:28:10
+[2017.12.07-00.50.35:185][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-00.50.35:185][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.07-00.50.35:197][  0]LogInit: Computer: eae-d-042
+[2017.12.07-00.50.35:197][  0]LogInit: User: u1148533
+[2017.12.07-00.50.35:197][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.07-00.50.35:197][  0]LogInit: High frequency timer resolution =3.513592 MHz
+[2017.12.07-00.50.35:197][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.12.07-00.50.35:197][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.07-00.50.35:198][  0]LogMemory: Process Physical Memory: 276.52 MB used, 276.52 MB peak
+[2017.12.07-00.50.35:198][  0]LogMemory: Process Virtual Memory: 273.94 MB used, 273.94 MB peak
+[2017.12.07-00.50.35:198][  0]LogMemory: Physical Memory: 12752.21 MB used,  19892.43 MB free, 32644.64 MB total
+[2017.12.07-00.50.35:198][  0]LogMemory: Virtual Memory: 698.82 MB used,  19892.43 MB free, 134217728.00 MB total
+[2017.12.07-00.50.35:321][  0]LogInit: Using OS detected language (en-US).
+[2017.12.07-00.50.35:321][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.07-00.50.35:324][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.07-00.50.35:707][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.07-00.50.35:933][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.07-00.50.35:979][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.07-00.50.35:979][  0]LogD3D11RHI:       8096/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.07-00.50.35:983][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.12.07-00.50.35:983][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.12.07-00.50.35:984][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.07-00.50.35:984][  0]LogD3D11RHI:       0/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.07-00.50.35:984][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.07-00.50.35:991][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.07-00.50.35:991][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.07-00.50.35:991][  0]LogWindows: EnumDisplayDevices:
+[2017.12.07-00.50.35:991][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.07-00.50.35:991][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.12.07-00.50.35:992][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.07-00.50.35:992][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.07-00.50.35:992][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.12.07-00.50.35:992][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.12.07-00.50.35:992][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.12.07-00.50.35:992][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.07-00.50.35:992][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.07-00.50.35:992][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.12.07-00.50.35:992][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.12.07-00.50.35:992][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2017.12.07-00.50.36:024][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.07-00.50.36:033][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.07-00.50.36:124][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Intermediate/Shaders/WorkingDirectory/14648/).
+[2017.12.07-00.50.36:124][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1148533/AppData/Local/Temp/UnrealShaderWorkingDir/0E50DB9046B7032CA8CF05916F573FD2/'.
+[2017.12.07-00.50.36:124][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.07-00.50.36:959][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.07-00.50.37:005][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.07-00.50.37:053][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.07-00.50.37:098][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.07-00.50.37:142][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.07-00.50.37:187][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.07-00.50.37:231][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.07-00.50.37:277][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.07-00.50.37:316][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.07-00.50.37:359][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.07-00.50.37:404][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.07-00.50.37:447][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.07-00.50.37:490][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.07-00.50.37:533][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.07-00.50.37:620][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.07-00.50.37:620][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.07-00.50.37:664][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.07-00.50.37:697][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.07-00.50.37:777][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.07-00.50.37:802][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.07-00.50.37:845][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.07-00.50.37:890][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.07-00.50.37:934][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.07-00.50.37:977][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.07-00.50.37:977][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.07-00.50.38:373][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.07-00.50.38:448][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/u1148533/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.07-00.50.38:448][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u1148533/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.07-00.50.38:448][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.07-00.50.38:448][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.07-00.50.38:449][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.07-00.50.38:449][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.07-00.50.38:463][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.07-00.50.38:475][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1148533/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.07-00.50.38:485][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.07-00.50.38:486][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.07-00.50.38:486][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-00.50.38:486][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-00.50.38:814][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-00.50.39:100][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.07-00.50.39:133][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.07-00.50.39:133][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.07-00.50.39:133][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.07-00.50.39:133][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.07-00.50.39:133][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.07-00.50.39:160][  0]LogNetVersion: MadCatzv2 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 834051207)
+[2017.12.07-00.50.39:306][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.12.07-00.50.39:767][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.064313 seconds
+[2017.12.07-00.50.39:772][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.07-00.50.39:772][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.12.07-00.50.39:772][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.07-00.50.39:817][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.07-00.50.42:142][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.07-00.50.42:181][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.07-00.50.42:876][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.07-00.50.43:243][  0]SourceControl: Source control is disabled
+[2017.12.07-00.50.44:545][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.07-00.50.44:787][  0]LogOcInput: OculusInput pre-init called
+[2017.12.07-00.50.45:044][  0]LogEngine: Initializing Engine...
+[2017.12.07-00.50.45:046][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.07-00.50.45:251][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.07-00.50.45:251][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.07-00.50.45:366][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.07-00.50.45:383][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-00.50.45:392][  0]LogInit: FAudioDevice initialized.
+[2017.12.07-00.50.45:465][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/u1148533/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.07-00.50.45:481][  0]LogInit: Texture streaming: Enabled
+[2017.12.07-00.50.45:566][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.07-00.50.45:674][  0]LogInit: Transaction tracking system initialized
+[2017.12.07-00.50.45:938][  0]BlueprintLog: New page: Editor Load
+[2017.12.07-00.50.46:683][  0]LocalizationService: Localization service is disabled
+[2017.12.07-00.50.47:325][  0]LogConsoleResponse: Display: 
+[2017.12.07-00.50.47:486][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.07-00.50.47:486][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.07-00.50.47:486][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.07-00.50.48:478][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/' took 0.01s
+[2017.12.07-00.50.48:518][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-00.50.48:518][  0]LightingResults: New page: Lighting Build
+[2017.12.07-00.50.48:554][  0]MapCheck: New page: Map Check
+[2017.12.07-00.50.48:554][  0]LightingResults: New page: Lighting Build
+[2017.12.07-00.50.48:751][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.12.07-00.50.48:757][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-00.50.48:767][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-00.50.48:809][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.336ms to complete.
+[2017.12.07-00.50.48:809][  0]LogFileHelpers: Loading map 'Template_Default' took 0.291
+[2017.12.07-00.50.48:961][  0]LogCollectionManager: Loaded 0 collections in 0.002251 seconds
+[2017.12.07-00.50.49:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Collections/' took 0.01s
+[2017.12.07-00.50.49:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Developers/u1148533/Collections/' took 0.01s
+[2017.12.07-00.50.49:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Collections/' took 0.01s
+[2017.12.07-00.50.49:041][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.07-00.50.49:049][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2372 classes and 524 folders.
+[2017.12.07-00.50.49:107][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.07-00.50.49:142][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.07-00.50.49:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.12.07-00.50.49:194][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-00.50.49:197][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.07-00.50.49:202][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.07-00.50.49:289][  0]LogRenderer: Reallocating scene render targets to support 1224x640 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-00.50.49:462][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.12.07-00.50.49:462][  0]LogLoad: (Engine Initialization) Total time: 17.00 seconds
+[2017.12.07-00.50.49:462][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.07-00.50.49:462][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.07-00.50.49:462][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.07-00.50.49:472][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.07-00.50.49:488][  0]LogAssetRegistry: Asset discovery search completed in 10.2042 seconds
+[2017.12.07-00.50.49:490][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.07-00.50.49:490][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.12.07-00.50.49:492][  0]SourceControl: On branch Nick_Audio
+[2017.12.07-00.50.49:492][  0]SourceControl: Changes to be committed:
+[2017.12.07-00.50.49:492][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/Athing_Cue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/MainMusic_Cue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/MainMusic_MadCatz.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/PlayerDeathCue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/PlayerDeath_Cue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/PlayerFire.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/PlayerFire_Cue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/mad_catz_enemy_destroy.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/mad_catz_enemy_powerup.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/madcatz_athing.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/madcatz_playerfire.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	new file:   Content/Assets/Audio/player_death.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: Changes not staged for commit:
+[2017.12.07-00.50.49:492][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.12.07-00.50.49:492][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/Athing_Cue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/MainMusic_Cue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/MainMusic_MadCatz.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/PlayerDeathCue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/PlayerDeath_Cue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/PlayerFire.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/PlayerFire_Cue.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/mad_catz_enemy_destroy.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/mad_catz_enemy_powerup.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/madcatz_athing.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/madcatz_playerfire.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	deleted:    Content/Assets/Audio/player_death.uasset
+[2017.12.07-00.50.49:492][  0]SourceControl: 	modified:   Content/Assets/Models/background1.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/background2.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/background3.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/farground1.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/farground2.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/farground3.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/foreground1.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/foreground2.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/foreground3.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/midground1.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/midground2.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Models/midground3.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Stuff/cactus.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Stuff/pineTree.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Stuff/plasmaBall.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Stuff/plasmaMask.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Stuff/rock.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Assets/Stuff/tree.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Blueprints/Character_BP.uasset
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Content/Levels/MainGame_NickTest.umap
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Intermediate/ReimportCache/3688439234.bin
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.12.07-00.50.49:493][  0]SourceControl: 	modified:   Saved/Logs/MadCatzv2.log
+[2017.12.07-00.50.49:493][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.07-00.50.49:531][  0]LogSlate: Took 0.000475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-00.51.16:767][249]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-00.51.16:948][249]LogAIModule: Creating AISystem for world CharacterShaderTest
+[2017.12.07-00.51.16:966][249]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/CharacterShaderTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-00.51.16:967][249]LightingResults: New page: Lighting Build
+[2017.12.07-00.51.16:967][249]LoadErrors: New page: Loading map: CharacterShaderTest.umap
+[2017.12.07-00.51.16:967][249]MapCheck: New page: Map Check
+[2017.12.07-00.51.16:967][249]LightingResults: New page: Lighting Build
+[2017.12.07-00.51.16:980][249]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-00.51.17:013][249]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-00.51.17:061][249]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.447ms to complete.
+[2017.12.07-00.51.17:061][249]LogFileHelpers: Loading map 'CharacterShaderTest' took 0.096
+[2017.12.07-00.51.18:238][385]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (playerTruck_v6)
+[2017.12.07-00.51.20:659][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Duck_v01)
+[2017.12.07-00.51.24:270][ 21]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.12.07-00.51.24:911][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.07-00.51.25:505][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Turtle_v01)
+[2017.12.07-00.51.25:863][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Duck_v01)
+[2017.12.07-00.51.38:152][621]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (e_Snake_v2)
+[2017.12.07-00.51.39:944][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Turtle_v01)
+[2017.12.07-00.51.40:264][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Turtle_v01)
+[2017.12.07-00.51.41:568][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Duck_v01)
+[2017.12.07-00.51.51:790][146]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (e_Snake_v2)
+[2017.12.07-00.51.59:989][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (e_Duck_v01)
+[2017.12.07-00.52.26:659][233]LogLinker: Warning: Can't find file '/Game/Assets/Materials/clouds'
+[2017.12.07-00.52.26:659][233]LogLinker: Warning: Can't find file for asset '/Game/Assets/Materials/clouds' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/Enemy/mat_Main__e_Snake_png.uasset.
+[2017.12.07-00.52.26:659][233]LoadErrors: Error: /Game/Assets/Models/Enemy/mat_Main__e_Snake_png : Can't find file for asset. /Game/Assets/Materials/clouds
+[2017.12.07-00.52.26:660][233]LogLinker: Warning: Can't find file '/Game/Assets/Materials/clouds'
+[2017.12.07-00.52.26:660][233]LogLinker: Warning: Can't find file for asset '/Game/Assets/Materials/clouds' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/Enemy/mat_Main__e_Snake_png.uasset.
+[2017.12.07-00.52.26:697][233]LogLinker: Warning: Can't find file '/Game/Assets/Materials/clouds'
+[2017.12.07-00.52.26:698][233]LoadErrors: Failed to load /Game/Assets/Materials/clouds.clouds Referenced by MaterialExpressionTextureSample_3
+[2017.12.07-00.52.26:698][233]LogLinker: Warning: Can't find file for asset '/Game/Assets/Materials/clouds' while loading NULL.
+[2017.12.07-00.52.26:795][233]LogMaterial: Missing cached shader map for material mat_Main__e_Snake_png, compiling. 
+[2017.12.07-00.52.26:796][233]LogMaterial: Warning: C:\Users\u1148533\Desktop\RapidPrototyping\MadCatzv2\Content\Assets\Models\Enemy\mat_Main__e_Snake_png.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.07-00.52.26:796][233]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.07-00.52.26:796][233]LogMaterial: 	Function Disintegrate: (Node If) If input B must be of type float.
+[2017.12.07-00.52.26:813][233]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-00.52.26:832][233]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-00.52.26:832][233]LightingResults: New page: Lighting Build
+[2017.12.07-00.52.26:833][233]LoadErrors: New page: Loading map: MainGame_NickTest.umap
+[2017.12.07-00.52.26:834][233]MapCheck: New page: Map Check
+[2017.12.07-00.52.26:834][233]LightingResults: New page: Lighting Build
+[2017.12.07-00.52.26:848][233]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-00.52.26:882][233]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-00.52.26:935][233]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.862ms to complete.
+[2017.12.07-00.52.26:935][233]LogFileHelpers: Loading map 'MainGame_NickTest' took 0.104
+[2017.12.07-00.53.09:192][400]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\u1148533\Downloads\drive-download-20171207T001228Z-001\madcatz_playerfire.wav)
+[2017.12.07-00.53.09:194][400]LogAudioDerivedData: Display: Building compressed audio format OGG wave madcatz_playerfire...
+[2017.12.07-00.53.09:200][400]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Audio/madcatz_playerfire.madcatz_playerfire.
+[2017.12.07-00.53.09:291][400]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\u1148533\Downloads\drive-download-20171207T001228Z-001\mad_catz_enemy_destroy.wav)
+[2017.12.07-00.53.09:294][400]LogAudioDerivedData: Display: Building compressed audio format OGG wave mad_catz_enemy_destroy...
+[2017.12.07-00.53.09:309][400]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Audio/mad_catz_enemy_destroy.mad_catz_enemy_destroy.
+[2017.12.07-00.53.09:402][400]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\u1148533\Downloads\drive-download-20171207T001228Z-001\mad_catz_enemy_powerup.wav)
+[2017.12.07-00.53.09:404][400]LogAudioDerivedData: Display: Building compressed audio format OGG wave mad_catz_enemy_powerup...
+[2017.12.07-00.53.09:419][400]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Audio/mad_catz_enemy_powerup.mad_catz_enemy_powerup.
+[2017.12.07-00.53.09:522][400]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\u1148533\Downloads\drive-download-20171207T001228Z-001\madcatz_athing.wav)
+[2017.12.07-00.53.09:542][400]LogAudioDerivedData: Display: Building compressed audio format OGG wave madcatz_athing...
+[2017.12.07-00.53.09:925][400]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Audio/madcatz_athing.madcatz_athing.
+[2017.12.07-00.53.15:093][690]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\u1148533\Downloads\drive-download-20171207T001228Z-001\MainMusic_MadCatz.wav)
+[2017.12.07-00.53.15:132][690]LogAudioDerivedData: Display: Building compressed audio format OGG wave MainMusic_MadCatz...
+[2017.12.07-00.53.15:831][690]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Audio/MainMusic_MadCatz.MainMusic_MadCatz.
+[2017.12.07-00.53.15:925][690]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\u1148533\Downloads\drive-download-20171207T001228Z-001\player_death.wav)
+[2017.12.07-00.53.15:934][690]LogAudioDerivedData: Display: Building compressed audio format OGG wave player_death...
+[2017.12.07-00.53.16:079][690]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Audio/player_death.player_death.
+[2017.12.07-00.55.52:628][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.12.07-00.55.52:628][927]LoadErrors: Failed to load /Game/Blueprints/Hazard_BP.Hazard_BP_C Referenced by NODE_AddChildActorComponent-0
+[2017.12.07-00.55.52:628][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/M_Rock_Sandstone.uasset.
+[2017.12.07-00.55.52:628][927]LoadErrors: Error: /Game/Assets/Models/M_Rock_Sandstone : Can't find file for asset. /Game/StarterContent/Textures/T_MacroVariation
+[2017.12.07-00.55.52:628][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Perlin_Noise_M'
+[2017.12.07-00.55.52:628][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Perlin_Noise_M' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/M_Rock_Sandstone.uasset.
+[2017.12.07-00.55.52:628][927]LoadErrors: Error: /Game/Assets/Models/M_Rock_Sandstone : Can't find file for asset. /Game/StarterContent/Textures/T_Perlin_Noise_M
+[2017.12.07-00.55.52:628][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Sandstone_D'
+[2017.12.07-00.55.52:629][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Sandstone_D' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/M_Rock_Sandstone.uasset.
+[2017.12.07-00.55.52:629][927]LoadErrors: Error: /Game/Assets/Models/M_Rock_Sandstone : Can't find file for asset. /Game/StarterContent/Textures/T_Rock_Sandstone_D
+[2017.12.07-00.55.52:629][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Sandstone_N'
+[2017.12.07-00.55.52:629][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Sandstone_N' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/M_Rock_Sandstone.uasset.
+[2017.12.07-00.55.52:629][927]LoadErrors: Error: /Game/Assets/Models/M_Rock_Sandstone : Can't find file for asset. /Game/StarterContent/Textures/T_Rock_Sandstone_N
+[2017.12.07-00.55.52:629][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.12.07-00.55.52:629][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/M_Rock_Sandstone.uasset.
+[2017.12.07-00.55.52:629][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Perlin_Noise_M'
+[2017.12.07-00.55.52:629][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Perlin_Noise_M' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/M_Rock_Sandstone.uasset.
+[2017.12.07-00.55.52:629][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Sandstone_D'
+[2017.12.07-00.55.52:630][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Sandstone_D' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/M_Rock_Sandstone.uasset.
+[2017.12.07-00.55.52:630][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Sandstone_N'
+[2017.12.07-00.55.52:630][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Sandstone_N' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Assets/Models/M_Rock_Sandstone.uasset.
+[2017.12.07-00.55.52:661][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Sandstone_D'
+[2017.12.07-00.55.52:661][927]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Rock_Sandstone_D.T_Rock_Sandstone_D Referenced by MaterialExpressionTextureSample_1
+[2017.12.07-00.55.52:661][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Sandstone_D' while loading NULL.
+[2017.12.07-00.55.52:661][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Sandstone_D'
+[2017.12.07-00.55.52:661][927]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Rock_Sandstone_D.T_Rock_Sandstone_D Referenced by MaterialExpressionTextureSample_2
+[2017.12.07-00.55.52:662][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Sandstone_D' while loading NULL.
+[2017.12.07-00.55.52:662][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Sandstone_N'
+[2017.12.07-00.55.52:662][927]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Rock_Sandstone_N.T_Rock_Sandstone_N Referenced by MaterialExpressionTextureSample_4
+[2017.12.07-00.55.52:662][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Sandstone_N' while loading NULL.
+[2017.12.07-00.55.52:662][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Sandstone_N'
+[2017.12.07-00.55.52:662][927]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Rock_Sandstone_N.T_Rock_Sandstone_N Referenced by MaterialExpressionTextureSample_5
+[2017.12.07-00.55.52:662][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Sandstone_N' while loading NULL.
+[2017.12.07-00.55.52:662][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_Perlin_Noise_M'
+[2017.12.07-00.55.52:662][927]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M Referenced by MaterialExpressionTextureSample_62
+[2017.12.07-00.55.52:662][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Perlin_Noise_M' while loading NULL.
+[2017.12.07-00.55.52:662][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.12.07-00.55.52:663][927]LoadErrors: Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_63
+[2017.12.07-00.55.52:663][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2017.12.07-00.55.52:663][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.12.07-00.55.52:663][927]LoadErrors: Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_64
+[2017.12.07-00.55.52:663][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2017.12.07-00.55.52:663][927]LogLinker: Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2017.12.07-00.55.52:663][927]LoadErrors: Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_65
+[2017.12.07-00.55.52:663][927]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2017.12.07-00.55.52:666][927]LogMaterial: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2017.12.07-00.55.52:667][927]LogMaterial: Warning: C:\Users\u1148533\Desktop\RapidPrototyping\MadCatzv2\Content\Assets\Models\M_Rock_Sandstone.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.07-00.55.52:667][927]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.07-00.55.55:331][211]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.12.07-00.56.05:094][172]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2017.12.07-00.56.05:719][172]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.07-00.56.06:060][173]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.07-00.56.28:569][669]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-00.56.46:873][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-00.56.47:135][ 12]LogSavePackage: Save=229.55ms
+[2017.12.07-00.56.47:135][ 12]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPCD053DDF4A00D16998519BA7EFB9586D.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-00.56.47:139][ 12]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-00.56.47:746][ 53]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-00.56.48:384][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-00.56.48:644][ 53]LogSavePackage: Save=233.92ms
+[2017.12.07-00.56.48:645][ 53]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPE2FE8D2348AE73D4D92BDE9922E1DE7C.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-00.56.48:646][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-00.56.51:170][233]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-00.56.51:235][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-00.56.51:235][233]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 10:56:51 AM)
+[2017.12.07-00.56.51:235][233]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-00.56.51:240][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004332s)
+[2017.12.07-00.56.51:241][233]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-00.56.51:241][233]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2017.12.07-00.56.51:241][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005696s)
+[2017.12.07-00.56.51:270][233]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-00.56.51:276][233]LogInit: FAudioDevice initialized.
+[2017.12.07-00.56.51:321][233]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-00.56.51:323][233]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-17.56.51
+[2017.12.07-00.56.51:323][233]LogWorld: Bringing up level for play took: 0.000897
+[2017.12.07-00.56.51:362][233]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.12.07-00.56.51:378][233]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.02
+[2017.12.07-00.56.55:888][496]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.56.55:888][496]LogBlueprintUserMessages: [Projectile_BP_C_3] X=1844.439 Y=250.478 Z=5.000
+[2017.12.07-00.56.56:037][506]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.56.56:037][506]LogBlueprintUserMessages: [Projectile_BP_C_4] X=1844.373 Y=250.478 Z=5.000
+[2017.12.07-00.56.56:193][517]LogBlueprintUserMessages: [Projectile_BP_C_5] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.56.56:193][517]LogBlueprintUserMessages: [Projectile_BP_C_5] X=1844.374 Y=250.478 Z=5.000
+[2017.12.07-00.56.56:334][527]LogBlueprintUserMessages: [Projectile_BP_C_6] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.56.56:334][527]LogBlueprintUserMessages: [Projectile_BP_C_6] X=1844.431 Y=250.478 Z=5.000
+[2017.12.07-00.56.56:478][537]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.56.56:478][537]LogBlueprintUserMessages: [Projectile_BP_C_0] X=4841.098 Y=-0.106 Z=5.000
+[2017.12.07-00.56.56:805][559]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.56.56:805][559]LogBlueprintUserMessages: [Projectile_BP_C_1] X=4841.093 Y=-0.106 Z=5.000
+[2017.12.07-00.56.56:937][568]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.56.56:937][568]LogBlueprintUserMessages: [Projectile_BP_C_2] X=4841.112 Y=-0.106 Z=5.000
+[2017.12.07-00.56.57:717][621]LogBlueprintUserMessages: [Projectile_BP_C_7] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-00.56.57:717][621]LogBlueprintUserMessages: [Projectile_BP_C_7] X=2470.828 Y=0.636 Z=5.000
+[2017.12.07-00.56.59:162][717]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-00.56.59:162][717]LogBlueprintUserMessages: [Projectile_BP_C_9] X=2470.936 Y=-249.364 Z=5.000
+[2017.12.07-00.57.00:330][793]LogBlueprintUserMessages: [Projectile_BP_C_10] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.57.00:330][793]LogBlueprintUserMessages: [Projectile_BP_C_10] X=3432.336 Y=-249.235 Z=5.000
+[2017.12.07-00.57.01:119][844]LogBlueprintUserMessages: [Projectile_BP_C_11] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.57.01:119][844]LogBlueprintUserMessages: [Projectile_BP_C_11] X=3723.307 Y=0.764 Z=5.000
+[2017.12.07-00.57.03:315][985]LogBlueprintUserMessages: [Projectile_BP_C_12] FloorTile_BP_C_7.Cube Cube
+[2017.12.07-00.57.03:316][985]LogBlueprintUserMessages: [Projectile_BP_C_12] X=4225.369 Y=-249.309 Z=5.000
+[2017.12.07-00.57.29:236][445]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.07-00.57.29:304][446]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MadCatzv2
+[2017.12.07-00.57.29:304][446]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.07-00.57.29:304][446]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.07-00.57.29:304][446]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.07-00.57.29:304][446]LogTemp: BranchPath = eae-d-042/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = eae-d-042/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.07-00.57.29:304][446]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\u1148533\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.07-00.57.52:613][932]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-00.57.52:629][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-00.57.52:629][932]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 10:57:52 AM)
+[2017.12.07-00.57.52:629][932]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-00.57.52:632][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002973s)
+[2017.12.07-00.57.52:633][932]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-00.57.52:633][932]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2017.12.07-00.57.52:633][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.003765s)
+[2017.12.07-00.57.52:660][932]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-00.57.52:667][932]LogInit: FAudioDevice initialized.
+[2017.12.07-00.57.52:700][932]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-00.57.52:701][932]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-17.57.52
+[2017.12.07-00.57.52:701][932]LogWorld: Bringing up level for play took: 0.000774
+[2017.12.07-00.57.52:715][932]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.642
+[2017.12.07-00.58.11:555][ 72]Cmd: TRANSACTION UNDO
+[2017.12.07-00.58.11:555][ 72]LogEditorTransaction: Undo Rename Action Mapping
+[2017.12.07-00.58.13:418][185]Cmd: TRANSACTION UNDO
+[2017.12.07-00.58.13:418][185]LogEditorTransaction: Undo Rename Action Mapping
+[2017.12.07-00.58.52:166][627]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-00.58.52:182][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-00.58.52:182][627]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 10:58:52 AM)
+[2017.12.07-00.58.52:182][627]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-00.58.52:185][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003526s)
+[2017.12.07-00.58.52:186][627]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-00.58.52:186][627]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.12.07-00.58.52:186][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004659s)
+[2017.12.07-00.58.52:220][627]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-00.58.52:226][627]LogInit: FAudioDevice initialized.
+[2017.12.07-00.58.52:261][627]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-00.58.52:262][627]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-17.58.52
+[2017.12.07-00.58.52:263][627]LogWorld: Bringing up level for play took: 0.000860
+[2017.12.07-00.58.52:276][627]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.918
+[2017.12.07-00.58.56:602][882]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.56:602][882]LogBlueprintUserMessages: [Projectile_BP_C_0] X=4841.105 Y=249.894 Z=5.000
+[2017.12.07-00.58.56:767][893]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.56:767][893]LogBlueprintUserMessages: [Projectile_BP_C_1] X=4841.093 Y=249.894 Z=5.000
+[2017.12.07-00.58.56:920][903]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.56:920][903]LogBlueprintUserMessages: [Projectile_BP_C_2] X=4841.092 Y=249.894 Z=5.000
+[2017.12.07-00.58.57:057][912]LogBlueprintUserMessages: [Projectile_BP_C_11] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.58.57:057][912]LogBlueprintUserMessages: [Projectile_BP_C_11] X=2148.831 Y=-249.439 Z=5.000
+[2017.12.07-00.58.57:088][914]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.57:088][914]LogBlueprintUserMessages: [Projectile_BP_C_3] X=4841.101 Y=-0.026 Z=5.000
+[2017.12.07-00.58.57:210][922]LogBlueprintUserMessages: [Projectile_BP_C_12] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.58.57:210][922]LogBlueprintUserMessages: [Projectile_BP_C_12] X=2148.822 Y=-4.996 Z=5.000
+[2017.12.07-00.58.57:242][924]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.57:242][924]LogBlueprintUserMessages: [Projectile_BP_C_4] X=4841.093 Y=-0.106 Z=5.000
+[2017.12.07-00.58.57:368][932]LogBlueprintUserMessages: [Projectile_BP_C_13] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.58.57:368][932]LogBlueprintUserMessages: [Projectile_BP_C_13] X=2148.858 Y=0.561 Z=5.000
+[2017.12.07-00.58.57:414][935]LogBlueprintUserMessages: [Projectile_BP_C_5] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.57:414][935]LogBlueprintUserMessages: [Projectile_BP_C_5] X=4841.092 Y=-250.074 Z=5.000
+[2017.12.07-00.58.57:583][946]LogBlueprintUserMessages: [Projectile_BP_C_6] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.57:583][946]LogBlueprintUserMessages: [Projectile_BP_C_6] X=4841.113 Y=-21.290 Z=5.000
+[2017.12.07-00.58.57:693][953]LogBlueprintUserMessages: [Projectile_BP_C_15] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.58.57:693][953]LogBlueprintUserMessages: [Projectile_BP_C_15] X=2148.833 Y=250.412 Z=5.000
+[2017.12.07-00.58.57:724][955]LogBlueprintUserMessages: [Projectile_BP_C_7] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.57:724][955]LogBlueprintUserMessages: [Projectile_BP_C_7] X=4841.097 Y=-0.106 Z=5.000
+[2017.12.07-00.58.57:882][965]LogBlueprintUserMessages: [Projectile_BP_C_16] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.58.57:882][965]LogBlueprintUserMessages: [Projectile_BP_C_16] X=2148.848 Y=15.984 Z=5.000
+[2017.12.07-00.58.57:899][966]LogBlueprintUserMessages: [Projectile_BP_C_8] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.57:899][966]LogBlueprintUserMessages: [Projectile_BP_C_8] X=4841.086 Y=249.605 Z=5.000
+[2017.12.07-00.58.58:026][974]LogBlueprintUserMessages: [Projectile_BP_C_17] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-00.58.58:026][974]LogBlueprintUserMessages: [Projectile_BP_C_17] X=2148.905 Y=0.561 Z=5.000
+[2017.12.07-00.58.58:061][976]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.58:061][976]LogBlueprintUserMessages: [Projectile_BP_C_9] X=4841.102 Y=249.894 Z=5.000
+[2017.12.07-00.58.58:220][986]LogBlueprintUserMessages: [Projectile_BP_C_10] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-00.58.58:220][986]LogBlueprintUserMessages: [Projectile_BP_C_10] X=4841.089 Y=249.894 Z=5.000
+[2017.12.07-00.58.58:947][ 32]LogBlueprintUserMessages: [Projectile_BP_C_18] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-00.58.58:947][ 32]LogBlueprintUserMessages: [Projectile_BP_C_18] X=2798.587 Y=-249.051 Z=5.000
+[2017.12.07-00.58.59:088][ 41]LogBlueprintUserMessages: [Projectile_BP_C_19] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-00.58.59:088][ 41]LogBlueprintUserMessages: [Projectile_BP_C_19] X=2798.566 Y=-249.302 Z=5.000
+[2017.12.07-00.58.59:244][ 51]LogBlueprintUserMessages: [Projectile_BP_C_20] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-00.58.59:244][ 51]LogBlueprintUserMessages: [Projectile_BP_C_20] X=2798.565 Y=-249.302 Z=5.000
+[2017.12.07-00.58.59:448][ 64]LogBlueprintUserMessages: [Projectile_BP_C_21] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-00.58.59:448][ 64]LogBlueprintUserMessages: [Projectile_BP_C_21] X=2798.632 Y=-249.302 Z=5.000
+[2017.12.07-00.59.44:338][100]LogSlate: Took 0.003997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.12.07-00.59.48:817][396]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-00.59.49:511][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-00.59.49:777][397]LogSavePackage: Save=238.62ms
+[2017.12.07-00.59.49:777][397]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPFF45A1734A7A561E2AE52294F9162DD7.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-00.59.49:781][397]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-00.59.50:512][445]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-00.59.50:556][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-00.59.50:556][445]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 10:59:50 AM)
+[2017.12.07-00.59.50:556][445]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-00.59.50:560][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004211s)
+[2017.12.07-00.59.50:561][445]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-00.59.50:561][445]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2017.12.07-00.59.50:561][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005273s)
+[2017.12.07-00.59.50:591][445]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-00.59.50:597][445]LogInit: FAudioDevice initialized.
+[2017.12.07-00.59.50:631][445]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-00.59.50:632][445]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-17.59.50
+[2017.12.07-00.59.50:632][445]LogWorld: Bringing up level for play took: 0.000770
+[2017.12.07-00.59.50:645][445]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.712
+[2017.12.07-00.59.53:026][545]LogEditorViewport: Clicking on Actor (LMB): Character_BP_C (Character_BP)
+[2017.12.07-01.00.19:969][936]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-01.00.23:760][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.00.24:021][167]LogSavePackage: Save=233.57ms
+[2017.12.07-01.00.24:021][167]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP8E7AA9924ECCD32E248CBEA32FB1C0B8.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.00.24:024][167]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.00.24:585][206]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-01.01.52:466][ 79]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-01.01.57:538][422]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-01.01.58:334][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.01.58:613][431]LogSavePackage: Save=243.76ms
+[2017.12.07-01.01.58:613][431]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPFE4FCAD64D87BF9E9FD4C78D0B969E68.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.01.58:617][431]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.04.07:958][551]LogSavePackage: Save=36.00ms
+[2017.12.07-01.04.07:958][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGame_NickTest_Auto1842986784684C4F5F9E355AB025FF856.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto1.umap'
+[2017.12.07-01.04.07:960][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Levels/MainGame_NickTest_Auto1.umap
+[2017.12.07-01.04.07:965][551]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainGame_NickTest' took 0.096
+[2017.12.07-01.04.07:965][551]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.096
+[2017.12.07-01.04.07:967][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Audio/madcatz_playerfire] ([1] browsable assets)...
+[2017.12.07-01.04.07:971][551]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Audio/madcatz_playerfire.madcatz_playerfire]
+[2017.12.07-01.04.07:971][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/madcatz_playerfire]
+[2017.12.07-01.04.07:980][551]LogSavePackage: Save=6.78ms
+[2017.12.07-01.04.07:980][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/madcatz_playerfire_Auto17AC750684F6F7D12CC14288FDAB9480D.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/madcatz_playerfire_Auto1.uasset'
+[2017.12.07-01.04.07:982][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/madcatz_playerfire_Auto1.uasset
+[2017.12.07-01.04.07:982][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character_BP] ([1] browsable assets)...
+[2017.12.07-01.04.07:994][551]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character_BP.Character_BP]
+[2017.12.07-01.04.07:994][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character_BP]
+[2017.12.07-01.04.08:268][551]LogSavePackage: Save=246.15ms
+[2017.12.07-01.04.08:268][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP_Auto1431BB00A4D96D55228639FA4BAE485A9.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Blueprints/Character_BP_Auto1.uasset'
+[2017.12.07-01.04.08:270][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Blueprints/Character_BP_Auto1.uasset
+[2017.12.07-01.04.08:271][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Audio/mad_catz_enemy_destroy] ([1] browsable assets)...
+[2017.12.07-01.04.08:277][551]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Audio/mad_catz_enemy_destroy.mad_catz_enemy_destroy]
+[2017.12.07-01.04.08:277][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/mad_catz_enemy_destroy]
+[2017.12.07-01.04.08:286][551]LogSavePackage: Save=6.93ms
+[2017.12.07-01.04.08:286][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/mad_catz_enemy_destroy_Auto120E538204A6326154B8A66A6D164A80E.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/mad_catz_enemy_destroy_Auto1.uasset'
+[2017.12.07-01.04.08:287][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/mad_catz_enemy_destroy_Auto1.uasset
+[2017.12.07-01.04.08:288][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Audio/mad_catz_enemy_powerup] ([1] browsable assets)...
+[2017.12.07-01.04.08:294][551]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Audio/mad_catz_enemy_powerup.mad_catz_enemy_powerup]
+[2017.12.07-01.04.08:294][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/mad_catz_enemy_powerup]
+[2017.12.07-01.04.08:303][551]LogSavePackage: Save=6.62ms
+[2017.12.07-01.04.08:303][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/mad_catz_enemy_powerup_Auto1A5C7972340E1A0FE9B30C38BC970EF91.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/mad_catz_enemy_powerup_Auto1.uasset'
+[2017.12.07-01.04.08:304][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/mad_catz_enemy_powerup_Auto1.uasset
+[2017.12.07-01.04.08:305][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Audio/madcatz_athing] ([1] browsable assets)...
+[2017.12.07-01.04.08:312][551]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Audio/madcatz_athing.madcatz_athing]
+[2017.12.07-01.04.08:312][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/madcatz_athing]
+[2017.12.07-01.04.08:322][551]LogSavePackage: Save=8.29ms
+[2017.12.07-01.04.08:322][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/madcatz_athing_Auto10FF274EB4E0A830AA0EC9E8F95DB0F41.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/madcatz_athing_Auto1.uasset'
+[2017.12.07-01.04.08:324][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/madcatz_athing_Auto1.uasset
+[2017.12.07-01.04.08:324][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Audio/MainMusic_MadCatz] ([1] browsable assets)...
+[2017.12.07-01.04.08:335][551]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Audio/MainMusic_MadCatz.MainMusic_MadCatz]
+[2017.12.07-01.04.08:335][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/MainMusic_MadCatz]
+[2017.12.07-01.04.08:346][551]LogSavePackage: Save=9.42ms
+[2017.12.07-01.04.08:346][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainMusic_MadCatz_Auto12E07146843321A7D85CCBA82A3D296A5.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/MainMusic_MadCatz_Auto1.uasset'
+[2017.12.07-01.04.08:348][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/MainMusic_MadCatz_Auto1.uasset
+[2017.12.07-01.04.08:348][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Audio/player_death] ([1] browsable assets)...
+[2017.12.07-01.04.08:354][551]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Audio/player_death.player_death]
+[2017.12.07-01.04.08:354][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/player_death]
+[2017.12.07-01.04.08:365][551]LogSavePackage: Save=8.34ms
+[2017.12.07-01.04.08:365][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/player_death_Auto166A70AA84F241603F83E1A86CDEEBBCF.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/player_death_Auto1.uasset'
+[2017.12.07-01.04.08:366][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/player_death_Auto1.uasset
+[2017.12.07-01.04.08:366][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Audio/PlayerDeath_Cue] ([1] browsable assets)...
+[2017.12.07-01.04.08:366][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/PlayerDeath_Cue]
+[2017.12.07-01.04.08:375][551]LogSavePackage: Save=6.83ms
+[2017.12.07-01.04.08:375][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/PlayerDeath_Cue_Auto189F1F4EC4EC1F3E7305C6EBC1F3A5589.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/PlayerDeath_Cue_Auto1.uasset'
+[2017.12.07-01.04.08:377][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/PlayerDeath_Cue_Auto1.uasset
+[2017.12.07-01.04.08:377][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Audio/MainMusic_Cue] ([1] browsable assets)...
+[2017.12.07-01.04.08:377][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/MainMusic_Cue]
+[2017.12.07-01.04.08:385][551]LogSavePackage: Save=5.78ms
+[2017.12.07-01.04.08:385][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainMusic_Cue_Auto12F9BAC694A09B884812621865D611C49.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/MainMusic_Cue_Auto1.uasset'
+[2017.12.07-01.04.08:386][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/MainMusic_Cue_Auto1.uasset
+[2017.12.07-01.04.08:386][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Audio/PlayerFire_Cue] ([1] browsable assets)...
+[2017.12.07-01.04.08:386][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/PlayerFire_Cue]
+[2017.12.07-01.04.08:395][551]LogSavePackage: Save=6.52ms
+[2017.12.07-01.04.08:395][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/PlayerFire_Cue_Auto1D78ED00A406074D7813157B1C276AB4A.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/PlayerFire_Cue_Auto1.uasset'
+[2017.12.07-01.04.08:396][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/PlayerFire_Cue_Auto1.uasset
+[2017.12.07-01.04.08:396][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Audio/Athing_Cue] ([1] browsable assets)...
+[2017.12.07-01.04.08:397][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/Athing_Cue]
+[2017.12.07-01.04.08:404][551]LogSavePackage: Save=5.66ms
+[2017.12.07-01.04.08:404][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Athing_Cue_Auto1DE3DDBED4942AD81F9715D848E02BDD4.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/Athing_Cue_Auto1.uasset'
+[2017.12.07-01.04.08:405][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/Athing_Cue_Auto1.uasset
+[2017.12.07-01.04.08:406][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Audio/EnemyPowerup_Cue] ([1] browsable assets)...
+[2017.12.07-01.04.08:406][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/EnemyPowerup_Cue]
+[2017.12.07-01.04.08:413][551]LogSavePackage: Save=6.06ms
+[2017.12.07-01.04.08:413][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/EnemyPowerup_Cue_Auto188B497344A739BF2ADFF3EBA75EFF668.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/EnemyPowerup_Cue_Auto1.uasset'
+[2017.12.07-01.04.08:415][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/EnemyPowerup_Cue_Auto1.uasset
+[2017.12.07-01.04.08:415][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Audio/EnemyDestroy_Cue] ([1] browsable assets)...
+[2017.12.07-01.04.08:415][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Audio/EnemyDestroy_Cue]
+[2017.12.07-01.04.08:423][551]LogSavePackage: Save=6.00ms
+[2017.12.07-01.04.08:423][551]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/EnemyDestroy_Cue_Auto1C2A82FC0438F18C6700F4F913D05223C.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/EnemyDestroy_Cue_Auto1.uasset'
+[2017.12.07-01.04.08:425][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Autosaves/Game/Assets/Audio/EnemyDestroy_Cue_Auto1.uasset
+[2017.12.07-01.04.08:425][551]LogFileHelpers: Auto-saving content packages took 0.458
+[2017.12.07-01.05.49:765][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.05.50:042][755]LogSavePackage: Save=248.76ms
+[2017.12.07-01.05.50:042][755]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP7C9328934D93A0F36F0F10A88F323F54.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.05.50:058][755]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.05.55:884][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.05.56:160][183]LogSavePackage: Save=247.41ms
+[2017.12.07-01.05.56:160][183]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPBF5BD4C24E37D47DEF3F82A68D07905B.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.05.56:164][183]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.06.32:400][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.06.32:679][840]LogSavePackage: Save=250.80ms
+[2017.12.07-01.06.32:679][840]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPD1753A8242EB50771B64148D3DAD190B.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.06.32:683][840]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.06.39:493][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.06.39:771][336]LogSavePackage: Save=250.58ms
+[2017.12.07-01.06.39:771][336]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP123AD39D48099D59F8458E941EEE9108.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.06.39:775][336]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.06.44:580][661]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-01.06.45:223][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.06.45:512][661]LogSavePackage: Save=260.36ms
+[2017.12.07-01.06.45:512][661]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP9684B33C443B09B87BD0E6A5E74DE3FA.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.06.45:515][661]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.06.46:829][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.06.47:102][736]LogSavePackage: Save=246.88ms
+[2017.12.07-01.06.47:102][736]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP600787DF4E81ADAD84DDA5913A296CB5.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.06.47:104][736]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.06.48:244][807]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-01.06.48:294][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-01.06.48:294][807]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 11:06:48 AM)
+[2017.12.07-01.06.48:294][807]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-01.06.48:298][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003952s)
+[2017.12.07-01.06.48:299][807]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-01.06.48:299][807]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2017.12.07-01.06.48:300][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005236s)
+[2017.12.07-01.06.48:331][807]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-01.06.48:337][807]LogInit: FAudioDevice initialized.
+[2017.12.07-01.06.48:369][807]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-01.06.48:371][807]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-18.06.48
+[2017.12.07-01.06.48:371][807]LogWorld: Bringing up level for play took: 0.000900
+[2017.12.07-01.06.48:384][807]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 1.03
+[2017.12.07-01.07.03:227][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.07.03:523][542]LogSavePackage: Save=261.76ms
+[2017.12.07-01.07.03:523][542]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPA51046654D6E28DAAC75FA8DA5928758.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.07.03:525][542]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.07.09:367][913]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.07-01.07.09:423][914]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MadCatzv2
+[2017.12.07-01.07.09:423][914]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.07-01.07.09:423][914]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.07-01.07.09:423][914]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.07-01.07.09:423][914]LogTemp: BranchPath = eae-d-042/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = eae-d-042/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.07-01.07.09:423][914]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\u1148533\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.07-01.09.00:470][256]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-01.09.12:960][121]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-01.09.13:901][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.09.14:186][139]LogSavePackage: Save=258.19ms
+[2017.12.07-01.09.14:187][139]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP1E7B99194753535DE19CA3B7805ADD09.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.09.14:190][139]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.09.15:428][227]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-01.09.15:478][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-01.09.15:479][227]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 11:09:15 AM)
+[2017.12.07-01.09.15:479][227]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-01.09.15:482][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003304s)
+[2017.12.07-01.09.15:483][227]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-01.09.15:483][227]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2017.12.07-01.09.15:483][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004253s)
+[2017.12.07-01.09.15:511][227]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-01.09.15:517][227]LogInit: FAudioDevice initialized.
+[2017.12.07-01.09.15:549][227]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-01.09.15:550][227]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-18.09.15
+[2017.12.07-01.09.15:550][227]LogWorld: Bringing up level for play took: 0.000884
+[2017.12.07-01.09.15:564][227]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.211
+[2017.12.07-01.09.37:729][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.09.38:021][484]LogSavePackage: Save=264.82ms
+[2017.12.07-01.09.38:021][484]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP03111CD945F54CBAAA0E54B0D410E253.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.09.38:024][484]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.09.38:610][520]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-01.09.39:331][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.09.39:619][523]LogSavePackage: Save=259.87ms
+[2017.12.07-01.09.39:619][523]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPA0CA850442248244EEB5C7B3ABB8F542.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.09.39:621][523]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-01.09.40:289][565]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-01.09.40:349][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-01.09.40:349][565]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 11:09:40 AM)
+[2017.12.07-01.09.40:349][565]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-01.09.40:352][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002934s)
+[2017.12.07-01.09.40:353][565]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-01.09.40:353][565]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2017.12.07-01.09.40:353][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004162s)
+[2017.12.07-01.09.40:384][565]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-01.09.40:390][565]LogInit: FAudioDevice initialized.
+[2017.12.07-01.09.40:419][565]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-01.09.40:420][565]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-18.09.40
+[2017.12.07-01.09.40:420][565]LogWorld: Bringing up level for play took: 0.000734
+[2017.12.07-01.09.40:432][565]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 1.079
+[2017.12.07-01.09.48:667][999]LogScript: Warning: Attempted to access Projectile_BP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but Projectile_BP_C_0 is pending kill
+	Character_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.Character_BP_678
+	Function /Game/Blueprints/Character_BP.Character_BP_C:ExecuteUbergraph_Character_BP:060D
+[2017.12.07-01.09.48:667][999]PIE: Error: Blueprint Runtime Error: Attempted to access Projectile_BP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but Projectile_BP_C_0 is pending kill from function: 'ExecuteUbergraph_Character_BP' from node: Set Velocity in Local Space in graph: EventGraph in object: Character_BP with description: Attempted to access Projectile_BP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but Projectile_BP_C_0 is pending kill
+[2017.12.07-01.09.48:667][999]LogScript: Warning: Accessed None
+	Character_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.Character_BP_678
+	Function /Game/Blueprints/Character_BP.Character_BP_C:ExecuteUbergraph_Character_BP:0622
+[2017.12.07-01.09.48:668][999]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Character_BP' from node: Set Velocity in Local Space in graph: EventGraph in object: Character_BP with description: Accessed None
+[2017.12.07-01.09.50:027][ 70]LogBlueprintUserMessages: [Projectile_BP_C_2] Projectile_BP_C_1.Sphere Sphere
+[2017.12.07-01.09.50:027][ 70]LogBlueprintUserMessages: [Projectile_BP_C_2] X=2540.498 Y=-0.104 Z=1235.437
+[2017.12.07-01.09.50:027][ 70]LogBlueprintUserMessages: [Projectile_BP_C_1] Projectile_BP_C_2.Sphere Sphere
+[2017.12.07-01.09.50:027][ 70]LogBlueprintUserMessages: [Projectile_BP_C_1] X=2540.498 Y=-0.104 Z=1235.437
+[2017.12.07-01.09.51:078][125]LogBlueprintUserMessages: [Projectile_BP_C_5] Projectile_BP_C_6.Sphere Sphere
+[2017.12.07-01.09.51:078][125]LogBlueprintUserMessages: [Projectile_BP_C_5] X=2411.407 Y=-0.104 Z=1262.127
+[2017.12.07-01.09.51:078][125]LogBlueprintUserMessages: [Projectile_BP_C_6] Projectile_BP_C_5.Sphere Sphere
+[2017.12.07-01.09.51:078][125]LogBlueprintUserMessages: [Projectile_BP_C_6] X=2411.407 Y=-0.104 Z=1262.127
+[2017.12.07-01.09.51:492][149]LogBlueprintUserMessages: [Projectile_BP_C_7] Projectile_BP_C_8.Sphere Sphere
+[2017.12.07-01.09.51:492][149]LogBlueprintUserMessages: [Projectile_BP_C_7] X=3122.750 Y=-0.104 Z=1276.216
+[2017.12.07-01.09.51:492][149]LogBlueprintUserMessages: [Projectile_BP_C_8] Projectile_BP_C_7.Sphere Sphere
+[2017.12.07-01.09.51:492][149]LogBlueprintUserMessages: [Projectile_BP_C_8] X=3122.750 Y=-0.104 Z=1276.216
+[2017.12.07-01.09.51:577][154]LogScript: Warning: Attempted to access Projectile_BP_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Projectile_BP_C_11 is pending kill
+	Character_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.Character_BP_678
+	Function /Game/Blueprints/Character_BP.Character_BP_C:ExecuteUbergraph_Character_BP:060D
+[2017.12.07-01.09.51:577][154]PIE: Error: Blueprint Runtime Error: Attempted to access Projectile_BP_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Projectile_BP_C_11 is pending kill from function: 'ExecuteUbergraph_Character_BP' from node: Set Velocity in Local Space in graph: EventGraph in object: Character_BP with description: Attempted to access Projectile_BP_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Projectile_BP_C_11 is pending kill
+[2017.12.07-01.09.51:577][154]LogScript: Warning: Accessed None
+	Character_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.Character_BP_678
+	Function /Game/Blueprints/Character_BP.Character_BP_C:ExecuteUbergraph_Character_BP:0622
+[2017.12.07-01.09.51:577][154]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Character_BP' from node: Set Velocity in Local Space in graph: EventGraph in object: Character_BP with description: Accessed None
+[2017.12.07-01.09.52:215][191]LogBlueprintUserMessages: [Projectile_BP_C_14] Projectile_BP_C_15.Sphere Sphere
+[2017.12.07-01.09.52:215][191]LogBlueprintUserMessages: [Projectile_BP_C_14] X=969.536 Y=0.102 Z=176.609
+[2017.12.07-01.09.52:215][191]LogBlueprintUserMessages: [Projectile_BP_C_15] Projectile_BP_C_14.Sphere Sphere
+[2017.12.07-01.09.52:215][191]LogBlueprintUserMessages: [Projectile_BP_C_15] X=969.536 Y=0.102 Z=176.609
+[2017.12.07-01.09.52:457][205]LogBlueprintUserMessages: [Projectile_BP_C_12] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-01.09.52:457][205]LogBlueprintUserMessages: [Projectile_BP_C_12] X=2350.452 Y=0.545 Z=5.000
+[2017.12.07-01.09.52:475][206]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_8.Cube Cube
+[2017.12.07-01.09.52:475][206]LogBlueprintUserMessages: [Projectile_BP_C_3] X=5285.331 Y=-0.106 Z=5.000
+[2017.12.07-01.09.52:634][215]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_8.Cube Cube
+[2017.12.07-01.09.52:634][215]LogBlueprintUserMessages: [Projectile_BP_C_4] X=5005.314 Y=-0.106 Z=5.000
+[2017.12.07-01.09.52:650][216]LogBlueprintUserMessages: [Projectile_BP_C_13] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-01.09.52:650][216]LogBlueprintUserMessages: [Projectile_BP_C_13] X=2070.343 Y=0.545 Z=5.000
+[2017.12.07-01.09.53:452][261]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_9.Cube Cube
+[2017.12.07-01.09.53:452][261]LogBlueprintUserMessages: [Projectile_BP_C_9] X=5985.313 Y=-0.106 Z=5.000
+[2017.12.07-01.09.53:624][271]LogBlueprintUserMessages: [Projectile_BP_C_10] FloorTile_BP_C_9.Cube Cube
+[2017.12.07-01.09.53:624][271]LogBlueprintUserMessages: [Projectile_BP_C_10] X=6125.330 Y=-0.106 Z=5.000
+[2017.12.07-01.09.53:868][285]LogBlueprintUserMessages: [Projectile_BP_C_17] FloorTile_BP_C_7.Cube Cube
+[2017.12.07-01.09.53:868][285]LogBlueprintUserMessages: [Projectile_BP_C_17] X=3604.297 Y=0.686 Z=5.000
+[2017.12.07-01.09.54:023][294]LogBlueprintUserMessages: [Projectile_BP_C_18] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-01.09.54:023][294]LogBlueprintUserMessages: [Projectile_BP_C_18] X=3289.286 Y=0.686 Z=5.000
+[2017.12.07-01.09.54:200][304]LogBlueprintUserMessages: [Projectile_BP_C_19] FloorTile_BP_C_7.Cube Cube
+[2017.12.07-01.09.54:200][304]LogBlueprintUserMessages: [Projectile_BP_C_19] X=3499.291 Y=0.686 Z=5.000
+[2017.12.07-01.10.16:021][549]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-01.10.16:037][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-01.10.16:037][549]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 11:10:16 AM)
+[2017.12.07-01.10.16:037][549]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-01.10.16:041][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003376s)
+[2017.12.07-01.10.16:041][549]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-01.10.16:042][549]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2017.12.07-01.10.16:042][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004384s)
+[2017.12.07-01.10.16:079][549]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-01.10.16:085][549]LogInit: FAudioDevice initialized.
+[2017.12.07-01.10.16:119][549]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-01.10.16:120][549]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-18.10.16
+[2017.12.07-01.10.16:120][549]LogWorld: Bringing up level for play took: 0.000757
+[2017.12.07-01.10.16:133][549]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.78
+[2017.12.07-01.10.18:580][667]LogEditorViewport: Clicking on Actor (LMB): Character_BP_C (Character_BP)
+[2017.12.07-01.10.34:748][574]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-01.10.35:445][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-01.10.35:732][575]LogSavePackage: Save=258.41ms
+[2017.12.07-01.10.35:732][575]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPA8B8DEE64D6A67019BE362BCDADABD6D.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-01.10.35:735][575]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
