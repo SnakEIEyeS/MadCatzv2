@@ -1,4 +1,4 @@
-﻿Log file open, 12/07/17 00:24:20
+﻿Log file open, 12/07/17 02:33:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,15 +7,13 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MadCatzv2
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-525982836) SRandInit(-525982835).
+LogInit: Display: RandInit(-133177712) SRandInit(-133177712).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.167408
+LogStats: Stats thread started at 0.162498
 LogD3D11RHI: Aftermath initialized
-LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestruction.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestructionEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
@@ -169,7 +167,6 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogHMD: Failed initializing OVRPlugin 1.19.0
 LogInit: Build: ++UE4+Release-4.18-CL-3754814
 LogInit: Engine Version: 4.18.1-3754814+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
@@ -195,674 +192,459 @@ LogInit: Compiled (64-bit): Nov 14 2017 02:05:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  /Game/Levels/MainGame_NickTest -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.07-07.24.22:573][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.07-07.24.22:573][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.07-07.24.22:577][  0]LogInit: Computer: eae-d-042
-[2017.12.07-07.24.22:577][  0]LogInit: User: u1148533
-[2017.12.07-07.24.22:577][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.07-07.24.22:577][  0]LogInit: High frequency timer resolution =3.513592 MHz
-[2017.12.07-07.24.22:578][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.12.07-07.24.22:578][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.07-07.24.22:578][  0]LogMemory: Process Physical Memory: 277.66 MB used, 277.66 MB peak
-[2017.12.07-07.24.22:578][  0]LogMemory: Process Virtual Memory: 274.00 MB used, 274.00 MB peak
-[2017.12.07-07.24.22:578][  0]LogMemory: Physical Memory: 14497.48 MB used,  18147.16 MB free, 32644.64 MB total
-[2017.12.07-07.24.22:578][  0]LogMemory: Virtual Memory: 698.82 MB used,  18147.16 MB free, 134217728.00 MB total
-[2017.12.07-07.24.22:724][  0]LogInit: Using OS detected language (en-US).
-[2017.12.07-07.24.22:724][  0]LogInit: Using OS detected locale (en-US).
-[2017.12.07-07.24.22:726][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.07-07.24.23:188][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.07-07.24.23:235][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.12.07-07.24.23:235][  0]LogD3D11RHI:       8096/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.12.07-07.24.23:240][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.12.07-07.24.23:240][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.12.07-07.24.23:241][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.07-07.24.23:241][  0]LogD3D11RHI:       0/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.07-07.24.23:241][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.07-07.24.23:248][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.07-07.24.23:248][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.07-07.24.23:248][  0]LogWindows: EnumDisplayDevices:
-[2017.12.07-07.24.23:248][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.12.07-07.24.23:248][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.12.07-07.24.23:248][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.12.07-07.24.23:248][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.12.07-07.24.23:248][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.12.07-07.24.23:249][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.12.07-07.24.23:249][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.12.07-07.24.23:249][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.12.07-07.24.23:249][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.12.07-07.24.23:249][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2017.12.07-07.24.23:249][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2017.12.07-07.24.23:249][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2017.12.07-07.24.23:277][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.07-07.24.23:287][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.12.07-07.24.23:377][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Intermediate/Shaders/WorkingDirectory/13036/).
-[2017.12.07-07.24.23:377][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1148533/AppData/Local/Temp/UnrealShaderWorkingDir/99D283344DC84D288F8593B1BDCC1625/'.
-[2017.12.07-07.24.23:377][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.07-07.24.24:221][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.07-07.24.24:268][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.07-07.24.24:314][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.07-07.24.24:356][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.07-07.24.24:356][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.07-07.24.24:749][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.07-07.24.24:824][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/u1148533/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.07-07.24.24:824][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u1148533/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.12.07-07.24.24:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.07-07.24.24:825][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.07-07.24.24:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.07-07.24.24:825][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.07-07.24.24:840][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.07-07.24.24:851][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1148533/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.07-07.24.24:861][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.07-07.24.24:861][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.07-07.24.24:862][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.07-07.24.24:862][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.07-07.24.25:110][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
-[2017.12.07-07.24.25:120][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.009416 seconds
-[2017.12.07-07.24.25:208][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.07-07.24.25:487][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.07-07.24.25:523][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.07-07.24.25:523][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.07-07.24.25:523][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.07-07.24.25:523][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.07-07.24.25:523][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.07-07.24.25:551][  0]LogNetVersion: MadCatzv2 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 834051207)
-[2017.12.07-07.24.25:716][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2017.12.07-07.24.25:716][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2017.12.07-07.24.25:717][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2017.12.07-07.24.25:983][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.07-07.24.27:067][  0]LogMoviePlayer: Initializing movie player
-[2017.12.07-07.24.27:358][  0]LogCollectionManager: Loaded 0 collections in 0.001687 seconds
-[2017.12.07-07.24.27:408][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Collections/' took 0.01s
-[2017.12.07-07.24.27:408][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Developers/u1148533/Collections/' took 0.01s
-[2017.12.07-07.24.27:408][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Collections/' took 0.01s
-[2017.12.07-07.24.27:408][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.07-07.24.27:408][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
-[2017.12.07-07.24.27:563][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.07-07.24.27:602][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.07-07.24.28:137][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2017.12.07-07.24.28:137][  0]SourceControl: Source control is disabled
-[2017.12.07-07.24.28:137][  0]SourceControl: Source control is disabled
-[2017.12.07-07.24.28:184][  0]SourceControl: Source control is disabled
-[2017.12.07-07.24.28:536][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.07-07.24.28:764][  0]LogOcInput: OculusInput pre-init called
-[2017.12.07-07.24.28:863][  0]LogUObjectArray: 39112 objects as part of root set at end of initial load.
-[2017.12.07-07.24.28:863][  0]LogUObjectAllocator: 8391224 out of 0 bytes used by permanent object pool.
-[2017.12.07-07.24.28:863][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.07-07.24.28:953][  0]LogEngine: Initializing Engine...
-[2017.12.07-07.24.28:954][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.12.07-07.24.29:121][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.07-07.24.29:121][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.07-07.24.29:142][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.12.07-07.24.29:152][  0]LogInit: FAudioDevice initialized.
-[2017.12.07-07.24.29:176][  0]LogInit: Texture streaming: Enabled
-[2017.12.07-07.24.29:190][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.07-07.24.29:468][  0]LogInit: Warning: Passing commandline switches using / instead of - has been deprecated and will be removed in future versions of Unreal Engine.
-[2017.12.07-07.24.29:507][  0]LogInit: Display: Game Engine Initialized.
-[2017.12.07-07.24.29:507][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.07-07.24.29:659][  0]LogInit: Display: Starting Game.
-[2017.12.07-07.24.29:659][  0]LogNet: Browse: /Game/Levels/MainGame_NickTest?Name=Player
-[2017.12.07-07.24.29:659][  0]LogLoad: LoadMap: /Game/Levels/MainGame_NickTest?Name=Player
-[2017.12.07-07.24.30:047][  0]LogLinker: Warning: Can't find file '/Game/Assets/Materials/clouds'
-[2017.12.07-07.24.30:047][  0]LoadErrors: Failed to load /Game/Assets/Materials/clouds.clouds Referenced by MaterialExpressionTextureSample_3
-[2017.12.07-07.24.30:047][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Assets/Materials/clouds': Can't find file '/Game/Assets/Materials/clouds'
-[2017.12.07-07.24.30:047][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Materials/clouds' while loading NULL.
-[2017.12.07-07.24.30:047][  0]LoadErrors: Failed to load /Game/Assets/Materials/clouds.clouds Referenced by MaterialExpressionTextureSample_3
-[2017.12.07-07.24.30:047][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Assets/Materials/clouds': Can't find file for asset '/Game/Assets/Materials/clouds' while loading NULL.
-[2017.12.07-07.24.30:069][  0]LogMaterial: Missing cached shader map for material mat_Main__e_Snake_png, compiling. 
-[2017.12.07-07.24.30:069][  0]LogMaterial: Warning: C:\Users\u1148533\Desktop\RapidPrototyping\MadCatzv2\Content\Assets\Models\Enemy\mat_Main__e_Snake_png.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2017.12.07-07.24.30:069][  0]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.12.07-07.24.30:069][  0]LogMaterial: 	Function Disintegrate: (Node If) If input B must be of type float.
-[2017.12.07-07.24.30:349][  0]LogAIModule: Creating AISystem for world MainGame_NickTest
-[2017.12.07-07.24.30:349][  0]LogLoad: Game class is 'GameMode_BP_C'
-[2017.12.07-07.24.30:363][  0]LogWorld: Bringing World /Game/Levels/MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.07-00.24.30
-[2017.12.07-07.24.30:364][  0]LogWorld: Bringing up level for play took: 0.013689
-[2017.12.07-07.24.30:410][  0]LogLoad: Took 0.750753 seconds to LoadMap(/Game/Levels/MainGame_NickTest)
-[2017.12.07-07.24.30:586][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2017.12.07-07.24.30:586][  0]LogLoad: (Engine Initialization) Total time: 10.82 seconds
-[2017.12.07-07.24.30:586][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.07-07.24.30:586][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.12.07-07.24.30:586][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.12.07-07.24.30:603][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.07-07.24.30:607][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.07-07.24.36:742][374]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_17.Cube Cube
-[2017.12.07-07.24.36:742][374]LogBlueprintUserMessages: [Projectile_BP_C_0] X=2820.928 Y=-249.363 Z=5.000
-[2017.12.07-07.24.36:888][383]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_17.Cube Cube
-[2017.12.07-07.24.36:888][383]LogBlueprintUserMessages: [Projectile_BP_C_1] X=2820.928 Y=-249.363 Z=5.000
-[2017.12.07-07.24.37:028][392]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_17.Cube Cube
-[2017.12.07-07.24.37:028][392]LogBlueprintUserMessages: [Projectile_BP_C_2] X=2820.928 Y=-249.363 Z=5.000
-[2017.12.07-07.24.37:484][420]LogBlueprintUserMessages: [Projectile_BP_C_3] NODE_AddChildActorComponent-0_Hazard_BP_C_CAT_6.rock_DM rock_DM
-[2017.12.07-07.24.37:484][420]LogBlueprintUserMessages: [Projectile_BP_C_3] X=1389.536 Y=266.933 Z=147.979
-[2017.12.07-07.24.40:763][622]LogBlueprintUserMessages: [Projectile_BP_C_4] NODE_AddChildActorComponent-0_Hazard_BP_C_CAT_8.rock_DM rock_DM
-[2017.12.07-07.24.40:763][622]LogBlueprintUserMessages: [Projectile_BP_C_4] X=2362.342 Y=-249.527 Z=147.829
-[2017.12.07-07.24.41:233][651]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:233][651]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:236][651]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:236][651]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:236][651]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:236][651]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:246][652]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:246][652]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:249][652]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:249][652]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:249][652]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:249][652]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:262][653]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:262][653]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:265][653]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:265][653]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:265][653]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:265][653]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:278][654]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:279][654]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:281][654]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:281][654]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:281][654]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:281][654]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:295][655]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:295][655]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:297][655]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:298][655]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:298][655]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:298][655]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:311][656]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:311][656]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:314][656]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:314][656]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:314][656]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:314][656]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:327][657]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:327][657]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:329][657]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:329][657]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:329][657]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:329][657]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:343][658]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:343][658]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:346][658]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:346][658]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:346][658]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:346][658]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:361][659]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:361][659]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:364][659]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:364][659]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:364][659]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:364][659]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:375][660]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:375][660]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:378][660]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:378][660]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:378][660]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:378][660]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:392][661]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:392][661]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:394][661]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:394][661]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:394][661]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:394][661]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:408][662]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:408][662]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:411][662]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:411][662]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:411][662]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:411][662]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:423][663]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:423][663]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:426][663]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:426][663]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:426][663]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:426][663]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:442][664]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:442][664]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:444][664]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:444][664]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:444][664]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:444][664]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:457][665]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:457][665]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:460][665]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:460][665]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:460][665]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:460][665]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:473][666]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:473][666]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:476][666]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:476][666]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:476][666]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:476][666]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:489][667]LogScript: Warning: Attempted to access DecalComponent_0 via property DecalRef, but DecalComponent_0 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_0
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:489][667]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:492][667]LogScript: Warning: Attempted to access DecalComponent_1 via property DecalRef, but DecalComponent_1 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_1
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:492][667]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.41:492][667]LogScript: Warning: Attempted to access DecalComponent_2 via property DecalRef, but DecalComponent_2 is pending kill
-	DecalCollider_BP_C /Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_2
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0026
-[2017.12.07-07.24.41:492][667]LogScript: Warning: Script call stack:
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ReceiveTick
-	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP
-
-[2017.12.07-07.24.42:808][748]LogBlueprintUserMessages: [Projectile_BP_C_5] NODE_AddChildActorComponent-0_Hazard_BP_C_CAT_9.rock_DM rock_DM
-[2017.12.07-07.24.42:808][748]LogBlueprintUserMessages: [Projectile_BP_C_5] X=2790.577 Y=0.579 Z=140.413
-[2017.12.07-07.24.44:832][871]LogEngine: All Windows Closed
-[2017.12.07-07.24.44:832][871]LogWindows: FPlatformMisc::RequestExit(0)
-[2017.12.07-07.24.44:961][872]LogExit: Preparing to exit.
-[2017.12.07-07.24.44:961][872]LogMoviePlayer: Shutting down movie player
-[2017.12.07-07.24.45:662][872]LogExit: Game engine shut down
-[2017.12.07-07.24.45:732][872]LogExit: Object subsystem successfully closed.
-[2017.12.07-07.24.45:749][872]LogD3D11RHI: Shutdown
-[2017.12.07-07.24.45:749][872]LogD3D11RHI: CleanupD3DDevice
-[2017.12.07-07.24.45:751][872]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (316)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module SequenceRecorder (314)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module AutomationController (312)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module AutomationWorker (310)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module AIModule (308)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module GameplayDebugger (307)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module AITestSuite (305)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (302)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (300)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (298)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (296)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module CharacterAI (294)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module SessionServices (292)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (290)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (288)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module MovieScene (286)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module GeometryCache (284)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (283)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (280)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module PortalServices (278)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module PortalRpc (276)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module MessagingRpc (274)
-[2017.12.07-07.24.45:759][872]LogModuleManager: Shutting down and abandoning module ProfilerService (272)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module TaskGraph (270)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module SteamVRController (268)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (266)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module OculusInput (264)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (262)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (260)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module CableComponent (258)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (256)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module AndroidPermission (254)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module ActorSequence (250)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module MediaCompositing (248)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module HTML5Networking (246)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (244)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module HotReload (243)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (240)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module UObjectPlugin (238)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (236)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (234)
-[2017.12.07-07.24.45:936][872]LogModuleManager: Shutting down and abandoning module SourceControl (233)
-[2017.12.07-07.24.45:937][872]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (230)
-[2017.12.07-07.24.45:937][872]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (228)
-[2017.12.07-07.24.45:937][872]LogModuleManager: Shutting down and abandoning module PhysXVehicles (226)
-[2017.12.07-07.24.45:937][872]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (224)
-[2017.12.07-07.24.45:937][872]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (222)
-[2017.12.07-07.24.45:937][872]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (220)
-[2017.12.07-07.24.45:937][872]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (218)
-[2017.12.07-07.24.45:937][872]LogModuleManager: Shutting down and abandoning module ApexDestruction (216)
-[2017.12.07-07.24.45:937][872]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
-[2017.12.07-07.24.46:038][872]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (206)
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module GraphEditor (205)
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module ContentBrowser (203)
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module CollectionManager (202)
-[2017.12.07-07.24.46:569][872]LogDirectoryWatcher: A directory notification for 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Collections/' was aborted.
-[2017.12.07-07.24.46:569][872]LogDirectoryWatcher: A directory notification for 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Developers/u1148533/Collections/' was aborted.
-[2017.12.07-07.24.46:569][872]LogDirectoryWatcher: A directory notification for 'C:/Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Collections/' was aborted.
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (201)
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (196)
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module Paper2D (194)
-[2017.12.07-07.24.46:569][872]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (192)
-[2017.12.07-07.24.46:570][872]LogModuleManager: Shutting down and abandoning module WmfMedia (190)
-[2017.12.07-07.24.46:570][872]LogModuleManager: Shutting down and abandoning module ImgMedia (188)
-[2017.12.07-07.24.46:570][872]LogModuleManager: Shutting down and abandoning module PacketHandler (186)
-[2017.12.07-07.24.46:570][872]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (184)
-[2017.12.07-07.24.46:570][872]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (182)
-[2017.12.07-07.24.46:570][872]LogModuleManager: Shutting down and abandoning module MediaAssets (180)
-[2017.12.07-07.24.46:570][872]LogModuleManager: Shutting down and abandoning module Media (179)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module Overlay (176)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module OverlayEditor (175)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module VREditor (172)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module StringTableEditor (170)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (168)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (166)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module FunctionalTesting (164)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (162)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (161)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module UMG (158)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module UMGEditor (157)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module Sequencer (156)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module MessageLog (153)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module SlateReflector (148)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module Slate (146)
-[2017.12.07-07.24.46:576][872]LogModuleManager: Shutting down and abandoning module EditorStyle (144)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module MRMesh (142)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module Messaging (140)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (138)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (136)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module XAudio2 (134)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module Networking (132)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module Core (128)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module LevelSequence (126)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module KismetCompiler (124)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module MeshUtilities (122)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (121)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (120)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (119)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (117)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (115)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module MaterialBaking (111)
-[2017.12.07-07.24.46:578][872]LogModuleManager: Shutting down and abandoning module DerivedDataCache (106)
-[2017.12.07-07.24.46:856][872]LogDerivedDataCache: Shutdown
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module TargetPlatform (104)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (103)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (101)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (99)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (97)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (95)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (93)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (91)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (89)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (87)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (85)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module ImageWrapper (84)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (81)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (79)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (77)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (75)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (73)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (71)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (69)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (67)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.12.07-07.24.46:856][872]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.12.07-07.24.46:884][872]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.12.07-07.24.46:885][872]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.12.07-07.24.46:885][872]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.12.07-07.24.46:885][872]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.12.07-07.24.46:885][872]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.12.07-07.24.46:885][872]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.12.07-07.24.46:885][872]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.12.07-07.24.46:885][872]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.12.07-07.24.46:886][872]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.12.07-07.24.46:888][872]LogExit: Exiting.
-[2017.12.07-07.24.46:890][872]Log file closed, 12/07/17 00:24:46
+[2017.12.07-09.33.24:773][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-09.33.24:774][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.07-09.33.24:788][  0]LogInit: Computer: eae-d-077
+[2017.12.07-09.33.24:788][  0]LogInit: User: u1078164
+[2017.12.07-09.33.24:788][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.07-09.33.24:788][  0]LogInit: High frequency timer resolution =3.318393 MHz
+[2017.12.07-09.33.24:789][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.12.07-09.33.24:789][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.07-09.33.24:789][  0]LogMemory: Process Physical Memory: 272.30 MB used, 272.30 MB peak
+[2017.12.07-09.33.24:789][  0]LogMemory: Process Virtual Memory: 269.89 MB used, 269.89 MB peak
+[2017.12.07-09.33.24:789][  0]LogMemory: Physical Memory: 8334.95 MB used,  24370.77 MB free, 32705.71 MB total
+[2017.12.07-09.33.24:789][  0]LogMemory: Virtual Memory: 644.50 MB used,  24370.77 MB free, 134217728.00 MB total
+[2017.12.07-09.33.24:938][  0]LogInit: Using OS detected language (en-US).
+[2017.12.07-09.33.24:938][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.07-09.33.24:941][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.07-09.33.25:319][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.07-09.33.25:536][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.07-09.33.25:574][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.07-09.33.25:574][  0]LogD3D11RHI:       8096/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.07-09.33.25:575][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.07-09.33.25:575][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.07-09.33.25:575][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.07-09.33.25:582][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.07-09.33.25:582][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.07-09.33.25:582][  0]LogWindows: EnumDisplayDevices:
+[2017.12.07-09.33.25:582][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.12.07-09.33.25:582][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.07-09.33.25:582][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.07-09.33.25:582][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.07-09.33.25:582][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.07-09.33.25:582][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.07-09.33.25:582][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.12.07-09.33.25:582][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.12.07-09.33.25:582][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2017.12.07-09.33.25:614][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.07-09.33.25:778][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.07-09.33.25:869][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Intermediate/Shaders/WorkingDirectory/17844/).
+[2017.12.07-09.33.25:869][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1078164/AppData/Local/Temp/UnrealShaderWorkingDir/147699ED48953789E06F2C885A2A7A9F/'.
+[2017.12.07-09.33.25:869][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.07-09.33.26:752][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.07-09.33.26:798][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.07-09.33.26:844][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.07-09.33.26:892][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.07-09.33.26:940][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.07-09.33.26:998][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.07-09.33.27:047][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.07-09.33.27:096][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.07-09.33.27:136][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.07-09.33.27:182][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.07-09.33.27:230][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.07-09.33.27:278][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.07-09.33.27:335][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.07-09.33.27:388][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.07-09.33.27:481][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.07-09.33.27:481][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.07-09.33.27:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.07-09.33.27:561][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.07-09.33.27:644][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.07-09.33.27:668][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.07-09.33.27:714][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.07-09.33.27:758][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.07-09.33.27:802][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.07-09.33.27:845][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.07-09.33.27:845][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.07-09.33.28:264][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.07-09.33.28:338][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/u1078164/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.07-09.33.28:338][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u1078164/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.07-09.33.28:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.07-09.33.28:338][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.07-09.33.28:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.07-09.33.28:338][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.07-09.33.28:353][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.07-09.33.28:365][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1078164/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.07-09.33.28:374][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.07-09.33.28:374][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.07-09.33.28:375][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-09.33.28:375][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.07-09.33.28:716][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.07-09.33.29:014][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.07-09.33.29:050][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.07-09.33.29:050][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.07-09.33.29:050][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.07-09.33.29:050][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.07-09.33.29:050][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.07-09.33.29:082][  0]LogNetVersion: MadCatzv2 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 834051207)
+[2017.12.07-09.33.29:233][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.12.07-09.33.29:764][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.127772 seconds
+[2017.12.07-09.33.29:769][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.07-09.33.29:769][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.12.07-09.33.29:769][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.07-09.33.29:815][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.07-09.33.32:276][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.07-09.33.32:315][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.07-09.33.33:037][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.07-09.33.33:429][  0]SourceControl: Source control is disabled
+[2017.12.07-09.33.33:429][  0]SourceControl: Source control is disabled
+[2017.12.07-09.33.33:476][  0]SourceControl: Source control is disabled
+[2017.12.07-09.33.33:525][  0]SourceControl: Source control is disabled
+[2017.12.07-09.33.34:284][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.07-09.33.34:532][  0]LogOcInput: OculusInput pre-init called
+[2017.12.07-09.33.34:795][  0]LogEngine: Initializing Engine...
+[2017.12.07-09.33.34:797][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.07-09.33.35:010][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.07-09.33.35:010][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.07-09.33.35:119][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.07-09.33.35:127][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-09.33.35:137][  0]LogInit: FAudioDevice initialized.
+[2017.12.07-09.33.35:210][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/u1078164/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.07-09.33.35:223][  0]LogInit: Texture streaming: Enabled
+[2017.12.07-09.33.35:311][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.07-09.33.35:426][  0]LogInit: Transaction tracking system initialized
+[2017.12.07-09.33.35:700][  0]BlueprintLog: New page: Editor Load
+[2017.12.07-09.33.36:486][  0]LocalizationService: Localization service is disabled
+[2017.12.07-09.33.37:143][  0]LogConsoleResponse: Display: 
+[2017.12.07-09.33.37:293][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.07-09.33.37:293][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.07-09.33.37:293][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.07-09.33.38:334][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Content/' took 0.01s
+[2017.12.07-09.33.38:373][  0]SourceControl: Source control is disabled
+[2017.12.07-09.33.38:373][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-09.33.38:374][  0]LightingResults: New page: Lighting Build
+[2017.12.07-09.33.38:409][  0]MapCheck: New page: Map Check
+[2017.12.07-09.33.38:409][  0]LightingResults: New page: Lighting Build
+[2017.12.07-09.33.38:610][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.12.07-09.33.38:615][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-09.33.38:625][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-09.33.38:670][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.888ms to complete.
+[2017.12.07-09.33.38:671][  0]LogFileHelpers: Loading map 'Template_Default' took 0.297
+[2017.12.07-09.33.38:807][  0]LogCollectionManager: Loaded 0 collections in 0.001631 seconds
+[2017.12.07-09.33.38:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Saved/Collections/' took 0.01s
+[2017.12.07-09.33.38:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Content/Developers/u1078164/Collections/' took 0.01s
+[2017.12.07-09.33.38:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Content/Collections/' took 0.01s
+[2017.12.07-09.33.38:883][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.07-09.33.38:890][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2372 classes and 524 folders.
+[2017.12.07-09.33.38:947][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.12.07-09.33.38:983][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.07-09.33.39:019][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.12.07-09.33.39:072][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.07-09.33.39:074][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.07-09.33.39:080][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.07-09.33.39:169][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.07-09.33.39:366][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.12.07-09.33.39:366][  0]LogLoad: (Engine Initialization) Total time: 16.95 seconds
+[2017.12.07-09.33.39:366][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.07-09.33.39:366][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.07-09.33.39:366][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.07-09.33.39:737][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.07-09.33.39:772][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-09.33.40:040][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Content/' took 0.32s
+[2017.12.07-09.33.40:048][  1]LogAssetRegistry: Asset discovery search completed in 10.8364 seconds
+[2017.12.07-09.33.40:050][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.07-09.33.40:050][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2017.12.07-09.34.10:047][ 91]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.07-09.35.20:800][649]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.07-09.35.20:985][650]Cmd: QUIT_EDITOR
+[2017.12.07-09.35.21:012][650]LogExit: Preparing to exit.
+[2017.12.07-09.35.21:366][650]LogDirectoryWatcher: A directory notification for 'C:/Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Content/' was aborted.
+[2017.12.07-09.35.21:380][650]LogExit: Editor shut down
+[2017.12.07-09.35.21:382][650]LogExit: Transaction tracking system shut down
+[2017.12.07-09.35.21:561][650]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.07-09.35.21:561][650]LogDirectoryWatcher: A directory notification for '../../../../../../Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Content/' was aborted.
+[2017.12.07-09.35.21:561][650]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.07-09.35.21:561][650]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.12.07-09.35.21:561][650]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.12.07-09.35.21:561][650]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.07-09.35.21:561][650]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.07-09.35.21:601][650]LogExit: Object subsystem successfully closed.
+[2017.12.07-09.35.21:625][650]LogD3D11RHI: Shutdown
+[2017.12.07-09.35.21:625][650]LogD3D11RHI: CleanupD3DDevice
+[2017.12.07-09.35.21:626][650]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.07-09.35.21:640][650]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (554)
+[2017.12.07-09.35.21:640][650]LogModuleManager: Shutting down and abandoning module SceneOutliner (552)
+[2017.12.07-09.35.21:640][650]LogModuleManager: Shutting down and abandoning module AddContentDialog (550)
+[2017.12.07-09.35.21:640][650]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module WidgetCarousel (549)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module EditorWidgets (546)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module CollectionManager (544)
+[2017.12.07-09.35.21:642][650]LogDirectoryWatcher: A directory notification for 'C:/Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Content/Collections/' was aborted.
+[2017.12.07-09.35.21:642][650]LogDirectoryWatcher: A directory notification for 'C:/Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Content/Developers/u1078164/Collections/' was aborted.
+[2017.12.07-09.35.21:642][650]LogDirectoryWatcher: A directory notification for 'C:/Users/u1078164/Shantanu EAE/Unreal Projects/MadCatzv2/Saved/Collections/' was aborted.
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (542)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module StatsViewer (540)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module FoliageEdit (538)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module LandscapeEditor (536)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module MeshPaintMode (534)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (532)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module ActorPickerMode (530)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module GeometryMode (528)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module TextureAlignMode (526)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module BspMode (524)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (522)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module HardwareSurvey (520)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (518)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module AutomationWorker (516)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (514)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (512)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module PlacementMode (511)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (508)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (506)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (504)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (502)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (500)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (498)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (496)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (494)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (492)
+[2017.12.07-09.35.21:642][650]LogModuleManager: Shutting down and abandoning module CharacterAI (490)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module AudioCapture (488)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module SequenceRecorder (487)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module SmartSnapping (484)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module SessionServices (482)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module ViewportSnapping (480)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module ViewportInteraction (478)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module ClothPainter (476)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (475)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module LogVisualizer (472)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module IntroTutorials (470)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (469)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (466)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (464)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (462)
+[2017.12.07-09.35.21:643][650]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (461)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (458)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (456)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (454)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module InputBindingEditor (452)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module MergeActors (450)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module SizeMap (448)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module TreeMap (446)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module ReferenceViewer (444)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (442)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module LocalizationService (441)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module HardwareTargeting (438)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (436)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module UndoHistory (434)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module XmlParser (432)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module Blutility (430)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (428)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (427)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (424)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module SettingsEditor (422)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module ProjectLauncher (420)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module SessionFrontend (418)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module ProfilerClient (416)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module DeviceManager (414)
+[2017.12.07-09.35.21:852][650]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (413)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module AutomationController (410)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module AutomationWindow (408)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module Layers (406)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (404)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module DetailCustomizations (402)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module PackagesDialog (400)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module Persona (398)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (397)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module AnimGraph (395)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module Kismet (392)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module ClassViewer (390)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module Toolbox (388)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module ModuleUI (386)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module MovieSceneTools (384)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module OutputLog (382)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module GammaUI (380)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module Documentation (378)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (376)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module MovieScene (374)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (372)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module LauncherPlatform (370)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module AnalyticsET (368)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module PortalServices (366)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module PortalRpc (364)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module MessagingRpc (362)
+[2017.12.07-09.35.21:929][650]LogModuleManager: Shutting down and abandoning module AIModule (360)
+[2017.12.07-09.35.21:930][650]LogModuleManager: Shutting down and abandoning module GameplayDebugger (359)
+[2017.12.07-09.35.21:930][650]LogModuleManager: Shutting down and abandoning module AITestSuite (357)
+[2017.12.07-09.35.21:930][650]LogModuleManager: Shutting down and abandoning module DesktopPlatform (354)
+[2017.12.07-09.35.21:930][650]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module OculusInput (342)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module CableComponent (336)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
+[2017.12.07-09.35.22:124][650]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module SourceControl (293)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
+[2017.12.07-09.35.22:125][650]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module MainFrame (278)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module HotReload (277)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (272)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (270)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module PhysXVehicles (268)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module OculusEditor (266)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (264)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (262)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (260)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (258)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module ApexDestruction (256)
+[2017.12.07-09.35.22:126][650]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2017.12.07-09.35.22:227][650]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2017.12.07-09.35.22:327][650]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2017.12.07-09.35.22:327][650]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2017.12.07-09.35.22:327][650]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2017.12.07-09.35.22:327][650]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2017.12.07-09.35.22:327][650]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2017.12.07-09.35.22:327][650]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2017.12.07-09.35.22:328][650]LogModuleManager: Shutting down and abandoning module Media (221)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2017.12.07-09.35.22:334][650]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2017.12.07-09.35.22:336][650]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2017.12.07-09.35.22:336][650]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2017.12.07-09.35.22:336][650]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2017.12.07-09.35.22:336][650]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2017.12.07-09.35.22:336][650]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2017.12.07-09.35.22:336][650]LogModuleManager: Shutting down and abandoning module Core (172)
+[2017.12.07-09.35.22:336][650]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2017.12.07-09.35.22:336][650]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2017.12.07-09.35.22:337][650]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.07-09.35.22:337][650]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.12.07-09.35.22:337][650]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.12.07-09.35.22:337][650]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.12.07-09.35.22:337][650]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.12.07-09.35.22:337][650]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.12.07-09.35.22:337][650]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.12.07-09.35.22:337][650]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.12.07-09.35.22:337][650]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.12.07-09.35.22:434][650]LogDerivedDataCache: Shutdown
+[2017.12.07-09.35.22:434][650]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.12.07-09.35.22:434][650]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.12.07-09.35.22:434][650]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.12.07-09.35.22:434][650]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.12.07-09.35.22:434][650]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.07-09.35.22:435][650]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.07-09.35.22:435][650]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.07-09.35.22:435][650]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B99EC88C7-4BC7-C9A0-ABDB-77835CAD3F5B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=5961fb6744f2b9577b7bdb890169b2bd%7Cafc5ee270fad41a4a4de8dacc916771c%7C0c3f5c3c-62f8-4c42-88a0-be96360781b8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.07-09.35.22:454][650]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.07-09.35.22:455][650]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.07-09.35.22:456][650]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.07-09.35.22:459][650]LogExit: Exiting.
+[2017.12.07-09.35.22:475][650]Log file closed, 12/07/17 02:35:22
