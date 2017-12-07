@@ -6050,3 +6050,918 @@ LogInit: Object subsystem initialized
 [2017.12.07-02.30.06:444][ 19]LogBlueprintUserMessages: [Character_BP_678] 2
 [2017.12.07-02.30.08:501][158]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
 [2017.12.07-02.30.08:534][158]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.30.55:358][313]LogLinker: Warning: Can't find file '/Game/Levels/1stMap_BuiltData'
+[2017.12.07-02.30.55:358][313]LogLinker: Warning: Can't find file for asset '/Game/Levels/1stMap_BuiltData' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/1stMap.umap.
+[2017.12.07-02.30.55:359][313]LoadErrors: Error: /Game/Levels/1stMap : Can't find file for asset. /Game/Levels/1stMap_BuiltData
+[2017.12.07-02.30.55:361][313]LogLinker: Warning: Can't find file '/Game/Levels/1stMap_BuiltData'
+[2017.12.07-02.30.55:361][313]LogLinker: Warning: Can't find file for asset '/Game/Levels/1stMap_BuiltData' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/1stMap.umap.
+[2017.12.07-02.30.55:365][313]LogLinker: Warning: Can't find file '/Game/Levels/1stMap_BuiltData'
+[2017.12.07-02.30.55:365][313]LoadErrors: Failed to load /Game/Levels/1stMap_BuiltData.1stMap_BuiltData Referenced by PersistentLevel
+[2017.12.07-02.30.55:365][313]LogLinker: Warning: Can't find file for asset '/Game/Levels/1stMap_BuiltData' while loading NULL.
+[2017.12.07-02.30.55:369][313]LogAIModule: Creating AISystem for world 1stMap
+[2017.12.07-02.31.21:826][449]LogActorFactory: Actor Factory created farground3
+[2017.12.07-02.31.22:011][460]LogActorFactory: Actor Factory created farground3
+[2017.12.07-02.31.34:050][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (farground3)
+[2017.12.07-02.31.34:187][148]Cmd: DELETE
+[2017.12.07-02.31.34:187][148]Cmd: ACTOR DELETE
+[2017.12.07-02.31.34:192][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.07-02.31.34:213][148]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2017.12.07-02.31.40:007][533]LogLinker: Warning: Can't find file '/Game/Levels/Effects_BuiltData'
+[2017.12.07-02.31.40:008][533]LogLinker: Warning: Can't find file for asset '/Game/Levels/Effects_BuiltData' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap.
+[2017.12.07-02.31.40:008][533]LoadErrors: Error: /Game/Levels/Effects : Can't find file for asset. /Game/Levels/Effects_BuiltData
+[2017.12.07-02.31.40:031][533]LogLinker: Warning: Can't find file '/Game/Levels/Effects_BuiltData'
+[2017.12.07-02.31.40:032][533]LogLinker: Warning: Can't find file for asset '/Game/Levels/Effects_BuiltData' while loading ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap.
+[2017.12.07-02.31.40:058][533]LogLinker: Warning: Can't find file '/Game/Levels/Effects_BuiltData'
+[2017.12.07-02.31.40:058][533]LoadErrors: Failed to load /Game/Levels/Effects_BuiltData.Effects_BuiltData Referenced by PersistentLevel
+[2017.12.07-02.31.40:058][533]LogLinker: Warning: Can't find file for asset '/Game/Levels/Effects_BuiltData' while loading NULL.
+[2017.12.07-02.31.40:068][533]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
+[2017.12.07-02.31.40:098][533]LogTexture: Display: Building textures: plasmaMask (BGRA8, 1019X1024)
+[2017.12.07-02.31.40:098][533]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.12.07-02.31.40:186][533]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2017.12.07-02.31.40:227][533]LogMaterial: Missing cached shader map for material m_flare_01, compiling. 
+[2017.12.07-02.31.40:270][533]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2017.12.07-02.31.40:299][533]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2017.12.07-02.31.40:349][533]LogMaterial: Missing cached shader map for material glow, compiling. 
+[2017.12.07-02.31.40:403][533]LogStaticMesh: Building static mesh plasmaBall...
+[2017.12.07-02.31.40:409][533]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Models/plasmaBall.plasmaBall
+[2017.12.07-02.31.40:443][533]LogMaterial: Missing cached shader map for material plasmaCloud, compiling. 
+[2017.12.07-02.31.40:615][533]LogAIModule: Creating AISystem for world Effects
+[2017.12.07-02.31.42:537][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.31.42:992][533]LogSavePackage: Save=407.03ms
+[2017.12.07-02.31.42:992][533]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP49B532D64399259E45E0AFA8BB4D5466.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.31.42:997][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.31.43:377][533]LogSavePackage: Save=205.15ms
+[2017.12.07-02.31.43:377][533]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGame_NickTestD5AA237D40E50FBF837B38BD7BEF67B0.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap'
+[2017.12.07-02.31.43:381][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap
+[2017.12.07-02.31.43:421][533]LogFileHelpers: Saving map 'MainGame_NickTest' took 0.423
+[2017.12.07-02.31.43:423][533]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/Effects.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-02.31.43:423][533]LightingResults: New page: Lighting Build
+[2017.12.07-02.31.43:424][533]LoadErrors: New page: Loading map: Effects.umap
+[2017.12.07-02.31.43:425][533]MapCheck: New page: Map Check
+[2017.12.07-02.31.43:425][533]LightingResults: New page: Lighting Build
+[2017.12.07-02.31.43:546][533]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-02.31.43:627][533]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-02.31.43:718][533]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.298ms to complete.
+[2017.12.07-02.31.43:718][533]LogFileHelpers: Loading map 'Effects' took 0.298
+[2017.12.07-02.32.46:931][248]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (rock_DM2)
+[2017.12.07-02.32.50:627][454]LogEditorViewport: Clicking on Actor (LMB): MuzzleSmoke_C (MuzzleSmoke)
+[2017.12.07-02.32.56:663][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (foreground3)
+[2017.12.07-02.32.57:908][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (midground2)
+[2017.12.07-02.32.59:795][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (background3)
+[2017.12.07-02.33.00:740][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (farground3)
+[2017.12.07-02.33.39:355][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.12.07-02.33.50:533][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.07-02.33.51:021][102]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.12.07-02.33.58:052][521]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (rock_DM2)
+[2017.12.07-02.34.02:838][770]LogEditorViewport: Clicking on Actor (LMB): Emitter (muzzleFlash)
+[2017.12.07-02.34.04:849][892]LogEditorViewport: Clicking on Actor (LMB): MuzzleSmoke_C (MuzzleSmoke)
+[2017.12.07-02.34.05:857][950]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.34.05:884][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.34.05:884][950]PIE: New page: PIE session: Effects (Dec 6, 2017, 12:34:05 PM)
+[2017.12.07-02.34.05:884][950]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Effects
+[2017.12.07-02.34.05:889][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005634s)
+[2017.12.07-02.34.05:890][950]LogAIModule: Creating AISystem for world Effects
+[2017.12.07-02.34.05:891][950]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2017.12.07-02.34.05:891][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Effects.Effects to /Game/Levels/UEDPIE_0_Effects.Effects (0.007057s)
+[2017.12.07-02.34.05:925][950]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.34.05:931][950]LogInit: FAudioDevice initialized.
+[2017.12.07-02.34.05:967][950]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.34.05:973][950]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Effects.Effects up for play (max tick rate 0) at 2017.12.06-19.34.05
+[2017.12.07-02.34.05:973][950]LogWorld: Bringing up level for play took: 0.004582
+[2017.12.07-02.34.05:985][950]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Effects 0.66
+[2017.12.07-02.34.28:456][371]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (e_Snake_v02)
+[2017.12.07-02.35.14:618][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Enemy.uasset" SILENT=true
+[2017.12.07-02.35.14:688][147]LogSavePackage: Save=38.46ms
+[2017.12.07-02.35.14:688][147]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/EnemyEE933F2D453AA3F6190C30BD6A732A33.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Enemy.uasset'
+[2017.12.07-02.35.14:692][147]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Enemy.uasset
+[2017.12.07-02.35.15:038][171]BlueprintLog: New page: Compile Enemy
+[2017.12.07-02.35.16:044][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enemy" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Enemy.uasset" SILENT=true
+[2017.12.07-02.35.16:111][204]LogSavePackage: Save=38.43ms
+[2017.12.07-02.35.16:111][204]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Enemy915F314C4A5016D10F78BE80C12F7107.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Enemy.uasset'
+[2017.12.07-02.35.16:112][204]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Enemy.uasset
+[2017.12.07-02.35.31:843][233]LogEditorViewport: Clicking on Actor (LMB): Emitter (gatheringEnergy)
+[2017.12.07-02.36.02:316][886]LogEditorViewport: Clicking on Actor (LMB): Emitter (DisintigrateSparks)
+[2017.12.07-02.36.07:646][266]LogEditorViewport: Clicking on Actor (LMB): Emitter (damageSparks_2)
+[2017.12.07-02.36.11:016][519]LogEditorViewport: Clicking on Actor (LMB): Emitter (damageSparks_2)
+[2017.12.07-02.36.18:160][ 51]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.12.07-02.36.23:460][424]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.12.07-02.36.26:246][601]LogEditorViewport: Clicking on Actor (LMB): MuzzleSmoke_C (MuzzleSmoke)
+[2017.12.07-02.36.49:743][339]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.36.49:776][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.36.49:776][339]PIE: New page: PIE session: Effects (Dec 6, 2017, 12:36:49 PM)
+[2017.12.07-02.36.49:776][339]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Effects
+[2017.12.07-02.36.49:780][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003946s)
+[2017.12.07-02.36.49:781][339]LogAIModule: Creating AISystem for world Effects
+[2017.12.07-02.36.49:781][339]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2017.12.07-02.36.49:782][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Effects.Effects to /Game/Levels/UEDPIE_0_Effects.Effects (0.005366s)
+[2017.12.07-02.36.49:817][339]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.36.49:823][339]LogInit: FAudioDevice initialized.
+[2017.12.07-02.36.49:853][339]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.36.49:855][339]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Effects.Effects up for play (max tick rate 0) at 2017.12.06-19.36.49
+[2017.12.07-02.36.49:856][339]LogWorld: Bringing up level for play took: 0.001553
+[2017.12.07-02.36.49:868][339]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Effects 0.544
+[2017.12.07-02.36.56:523][889]LogEditorViewport: Clicking on Actor (LMB): Emitter (muzzleFlash)
+[2017.12.07-02.36.58:415][ 17]LogEditorViewport: Clicking on Actor (LMB): MuzzleSmoke_C (MuzzleSmoke)
+[2017.12.07-02.37.03:290][365]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.37.03:317][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.37.03:317][365]PIE: New page: PIE session: Effects (Dec 6, 2017, 12:37:03 PM)
+[2017.12.07-02.37.03:317][365]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Effects
+[2017.12.07-02.37.03:321][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003897s)
+[2017.12.07-02.37.03:321][365]LogAIModule: Creating AISystem for world Effects
+[2017.12.07-02.37.03:322][365]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2017.12.07-02.37.03:322][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Effects.Effects to /Game/Levels/UEDPIE_0_Effects.Effects (0.004859s)
+[2017.12.07-02.37.03:358][365]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.37.03:364][365]LogInit: FAudioDevice initialized.
+[2017.12.07-02.37.03:399][365]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.37.03:401][365]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Effects.Effects up for play (max tick rate 0) at 2017.12.06-19.37.03
+[2017.12.07-02.37.03:401][365]LogWorld: Bringing up level for play took: 0.001290
+[2017.12.07-02.37.03:413][365]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Effects 0.089
+[2017.12.07-02.37.53:095][924]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.07-02.38.21:038][746]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-02.38.22:025][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.38.22:382][762]LogSavePackage: Save=324.48ms
+[2017.12.07-02.38.22:382][762]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP588048724CDCDC7C5F409382431F9A02.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.38.22:385][762]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.38.53:392][670]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (rock_DM2)
+[2017.12.07-02.38.58:567][770]LogEditorViewport: Clicking on Actor (LMB): MuzzleSmoke_C (MuzzleSmoke)
+[2017.12.07-02.39.02:569][ 17]LogEditorViewport: Clicking on Actor (LMB): Emitter (muzzleFlash)
+[2017.12.07-02.40.08:366][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.40.08:694][927]LogSavePackage: Save=300.43ms
+[2017.12.07-02.40.08:694][927]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP88CAC67046422BC6EDF172BBFF8D97F2.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.40.08:697][927]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.40.11:702][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.40.12:023][ 93]LogSavePackage: Save=294.60ms
+[2017.12.07-02.40.12:023][ 93]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPC9C663F646E18235DD10A296D8BD1C44.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.40.12:027][ 93]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.40.12:126][ 98]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-02.40.12:812][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.40.13:140][100]LogSavePackage: Save=301.95ms
+[2017.12.07-02.40.13:140][100]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP88A9FA5A40701B08805A63B720194350.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.40.13:142][100]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.40.17:788][373]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.40.19:079][373]Cmd: MAP LOAD FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.07-02.40.19:080][373]LightingResults: New page: Lighting Build
+[2017.12.07-02.40.19:081][373]LoadErrors: New page: Loading map: MainGame_NickTest.umap
+[2017.12.07-02.40.19:082][373]MapCheck: New page: Map Check
+[2017.12.07-02.40.19:082][373]LightingResults: New page: Lighting Build
+[2017.12.07-02.40.19:111][373]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.07-02.40.19:164][373]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.07-02.40.19:231][373]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.087ms to complete.
+[2017.12.07-02.40.19:231][373]LogFileHelpers: Loading map 'MainGame_NickTest' took 0.154
+[2017.12.07-02.40.20:222][439]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.40.20:306][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.40.20:306][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.40.20:306][439]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 12:40:20 PM)
+[2017.12.07-02.40.20:307][439]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-02.40.20:312][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004865s)
+[2017.12.07-02.40.20:312][439]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.40.20:312][439]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2017.12.07-02.40.20:313][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005926s)
+[2017.12.07-02.40.20:351][439]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.40.20:357][439]LogInit: FAudioDevice initialized.
+[2017.12.07-02.40.20:393][439]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.40.20:395][439]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-19.40.20
+[2017.12.07-02.40.20:395][439]LogWorld: Bringing up level for play took: 0.000958
+[2017.12.07-02.40.20:407][439]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 1.085
+[2017.12.07-02.40.20:408][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.40.23:822][620]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.40.23:822][620]LogBlueprintUserMessages: [Projectile_BP_C_1] X=3432.271 Y=0.765 Z=5.000
+[2017.12.07-02.40.24:270][645]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.40.24:270][645]LogBlueprintUserMessages: [Projectile_BP_C_2] X=3432.262 Y=0.765 Z=5.000
+[2017.12.07-02.40.24:793][674]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.40.24:793][674]LogBlueprintUserMessages: [Projectile_BP_C_3] X=3187.272 Y=0.765 Z=5.000
+[2017.12.07-02.40.25:239][699]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.40.25:239][699]LogBlueprintUserMessages: [Projectile_BP_C_4] X=3537.253 Y=0.765 Z=5.000
+[2017.12.07-02.40.25:419][709]LogBlueprintUserMessages: [Projectile_BP_C_5] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.40.25:419][709]LogBlueprintUserMessages: [Projectile_BP_C_5] X=3572.271 Y=0.765 Z=5.000
+[2017.12.07-02.40.25:706][725]LogBlueprintUserMessages: [Projectile_BP_C_6] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.40.25:706][725]LogBlueprintUserMessages: [Projectile_BP_C_6] X=3747.254 Y=0.765 Z=5.000
+[2017.12.07-02.40.25:870][734]LogBlueprintUserMessages: [Projectile_BP_C_7] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.40.25:870][734]LogBlueprintUserMessages: [Projectile_BP_C_7] X=3747.245 Y=0.765 Z=5.000
+[2017.12.07-02.40.26:268][756]LogBlueprintUserMessages: [Projectile_BP_C_8] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.40.26:268][756]LogBlueprintUserMessages: [Projectile_BP_C_8] X=3432.289 Y=0.765 Z=5.000
+[2017.12.07-02.40.26:542][771]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.40.26:542][771]LogBlueprintUserMessages: [Projectile_BP_C_9] X=3292.334 Y=0.765 Z=5.000
+[2017.12.07-02.40.26:815][786]LogBlueprintUserMessages: [Projectile_BP_C_10] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.40.26:815][786]LogBlueprintUserMessages: [Projectile_BP_C_10] X=3117.293 Y=0.765 Z=5.000
+[2017.12.07-02.40.27:346][815]LogBlueprintUserMessages: [Projectile_BP_C_11] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.40.27:346][815]LogBlueprintUserMessages: [Projectile_BP_C_11] X=3117.274 Y=0.765 Z=5.000
+[2017.12.07-02.40.32:036][ 79]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.40.32:127][ 79]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.41.35:622][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.41.35:951][ 39]LogSavePackage: Save=301.76ms
+[2017.12.07-02.41.35:951][ 39]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP690E69BE4DAE437DBBA9258F26644FAE.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.41.35:955][ 39]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.41.36:496][ 72]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-02.41.37:456][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.41.37:785][ 83]LogSavePackage: Save=302.84ms
+[2017.12.07-02.41.37:785][ 83]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPA90E046341AE6A9F9F2554861E1A5CC0.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.41.37:787][ 83]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.41.39:131][165]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.41.39:217][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.41.39:217][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.41.39:217][165]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 12:41:39 PM)
+[2017.12.07-02.41.39:217][165]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-02.41.39:221][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003940s)
+[2017.12.07-02.41.39:222][165]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.41.39:222][165]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.12.07-02.41.39:222][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004792s)
+[2017.12.07-02.41.39:258][165]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.41.39:264][165]LogInit: FAudioDevice initialized.
+[2017.12.07-02.41.39:295][165]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.41.39:297][165]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-19.41.39
+[2017.12.07-02.41.39:297][165]LogWorld: Bringing up level for play took: 0.000842
+[2017.12.07-02.41.39:310][165]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.013
+[2017.12.07-02.41.39:310][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.41.42:173][304]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.41.42:173][304]LogBlueprintUserMessages: [Projectile_BP_C_0] X=3989.208 Y=0.741 Z=5.000
+[2017.12.07-02.41.44:814][451]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.41.44:814][451]LogBlueprintUserMessages: [Projectile_BP_C_1] X=3793.293 Y=0.764 Z=5.000
+[2017.12.07-02.41.46:685][557]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.41.46:685][557]LogBlueprintUserMessages: [Projectile_BP_C_2] X=3121.770 Y=0.742 Z=5.000
+[2017.12.07-02.41.47:913][626]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.41.47:913][626]LogBlueprintUserMessages: [Projectile_BP_C_3] X=2841.771 Y=0.742 Z=5.000
+[2017.12.07-02.41.48:178][641]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.41.48:178][641]LogBlueprintUserMessages: [Projectile_BP_C_4] X=2841.788 Y=0.742 Z=5.000
+[2017.12.07-02.41.48:319][649]LogBlueprintUserMessages: [Projectile_BP_C_5] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.41.48:319][649]LogBlueprintUserMessages: [Projectile_BP_C_5] X=2841.764 Y=0.742 Z=5.000
+[2017.12.07-02.41.48:480][658]LogBlueprintUserMessages: [Projectile_BP_C_6] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.41.48:480][658]LogBlueprintUserMessages: [Projectile_BP_C_6] X=2841.756 Y=0.742 Z=5.000
+[2017.12.07-02.41.48:621][666]LogBlueprintUserMessages: [Projectile_BP_C_7] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.41.48:621][666]LogBlueprintUserMessages: [Projectile_BP_C_7] X=2841.757 Y=0.742 Z=5.000
+[2017.12.07-02.41.48:765][674]LogBlueprintUserMessages: [Projectile_BP_C_8] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.41.48:765][674]LogBlueprintUserMessages: [Projectile_BP_C_8] X=2841.744 Y=0.742 Z=5.000
+[2017.12.07-02.41.48:928][683]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.41.48:928][683]LogBlueprintUserMessages: [Projectile_BP_C_9] X=2841.795 Y=0.742 Z=5.000
+[2017.12.07-02.41.50:515][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.41.50:606][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.42.04:047][665]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-02.42.04:797][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.42.05:125][666]LogSavePackage: Save=302.88ms
+[2017.12.07-02.42.05:125][666]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPC2C82EF64F3FD700EBA20690AEBC2B98.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.42.05:129][666]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.42.07:089][805]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.42.07:174][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.42.07:174][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.42.07:174][805]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 12:42:07 PM)
+[2017.12.07-02.42.07:174][805]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-02.42.07:177][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003233s)
+[2017.12.07-02.42.07:178][805]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.42.07:178][805]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2017.12.07-02.42.07:178][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004061s)
+[2017.12.07-02.42.07:212][805]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.42.07:218][805]LogInit: FAudioDevice initialized.
+[2017.12.07-02.42.07:250][805]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.42.07:251][805]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-19.42.07
+[2017.12.07-02.42.07:251][805]LogWorld: Bringing up level for play took: 0.000896
+[2017.12.07-02.42.07:265][805]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.057
+[2017.12.07-02.42.07:266][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.42.10:317][965]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.42.10:317][965]LogBlueprintUserMessages: [Projectile_BP_C_0] X=4225.367 Y=0.691 Z=5.000
+[2017.12.07-02.42.13:623][163]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.42.13:623][163]LogBlueprintUserMessages: [Projectile_BP_C_1] X=2190.868 Y=0.636 Z=5.000
+[2017.12.07-02.42.14:322][205]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.42.14:322][205]LogBlueprintUserMessages: [Projectile_BP_C_2] X=2190.878 Y=0.636 Z=5.000
+[2017.12.07-02.42.14:831][235]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.42.14:831][235]LogBlueprintUserMessages: [Projectile_BP_C_3] X=2190.853 Y=0.636 Z=5.000
+[2017.12.07-02.42.16:016][303]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.42.16:016][303]LogBlueprintUserMessages: [Projectile_BP_C_4] X=2728.435 Y=0.698 Z=5.000
+[2017.12.07-02.42.16:223][315]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.42.16:223][315]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-02.42.16:276][318]LogBlueprintUserMessages: [Projectile_BP_C_7] Projectile_BP_C_6.Sphere Sphere
+[2017.12.07-02.42.16:276][318]LogBlueprintUserMessages: [Projectile_BP_C_7] X=1387.879 Y=0.135 Z=252.085
+[2017.12.07-02.42.16:277][318]LogBlueprintUserMessages: [Projectile_BP_C_6] Projectile_BP_C_7.Sphere Sphere
+[2017.12.07-02.42.16:277][318]LogBlueprintUserMessages: [Projectile_BP_C_6] X=1387.879 Y=0.135 Z=252.085
+[2017.12.07-02.42.16:278][318]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:279][318]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:296][319]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:297][319]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:314][320]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:315][320]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:334][321]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:335][321]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:351][322]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:351][322]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:367][323]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:367][323]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:383][324]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:383][324]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:399][325]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:399][325]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:416][326]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:416][326]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:432][327]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:432][327]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:448][328]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:448][328]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:466][329]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:466][329]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:483][330]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:483][330]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:500][331]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:501][331]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:518][332]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:518][332]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:535][333]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:535][333]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:553][334]LogScript: Warning: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_5
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.16:553][334]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:571][335]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:588][336]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:605][337]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:623][338]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:639][339]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:655][340]LogBlueprintUserMessages: [Projectile_BP_C_5] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.42.16:655][340]LogBlueprintUserMessages: [Projectile_BP_C_5] X=2483.616 Y=0.698 Z=5.000
+[2017.12.07-02.42.16:656][340]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:676][341]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:694][342]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:712][343]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:730][344]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:748][345]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:765][346]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:783][347]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:800][348]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:819][349]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:837][350]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:857][351]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:874][352]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:892][353]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_5 via property DecalRef, but DecalComponent_5 is pending kill
+[2017.12.07-02.42.16:909][354]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.42.16:909][354]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-02.42.17:933][412]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.42.17:933][412]LogBlueprintUserMessages: [Projectile_BP_C_9] X=2728.601 Y=0.698 Z=5.000
+[2017.12.07-02.42.18:007][416]LogBlueprintUserMessages: [Projectile_BP_C_14] Projectile_BP_C_13.Sphere Sphere
+[2017.12.07-02.42.18:007][416]LogBlueprintUserMessages: [Projectile_BP_C_14] X=720.938 Y=0.053 Z=231.652
+[2017.12.07-02.42.18:007][416]LogBlueprintUserMessages: [Projectile_BP_C_13] Projectile_BP_C_14.Sphere Sphere
+[2017.12.07-02.42.18:007][416]LogBlueprintUserMessages: [Projectile_BP_C_13] X=720.938 Y=0.053 Z=231.652
+[2017.12.07-02.42.18:009][416]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:010][416]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:026][417]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:026][417]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:046][418]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:046][418]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:066][419]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:066][419]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:083][420]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:083][420]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:100][421]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:100][421]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:117][422]LogBlueprintUserMessages: [Projectile_BP_C_10] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.42.18:117][422]LogBlueprintUserMessages: [Projectile_BP_C_10] X=2483.563 Y=0.698 Z=5.000
+[2017.12.07-02.42.18:117][422]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:118][422]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:134][423]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:134][423]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:154][424]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:154][424]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:170][425]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:171][425]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:187][426]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:187][426]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:206][427]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:206][427]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:224][428]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:224][428]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:242][429]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:242][429]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:260][430]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:260][430]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:278][431]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:278][431]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:296][432]LogScript: Warning: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+	DecalCollider_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.DecalCollider_BP_C_9
+	Function /Game/Blueprints/DecalCollider_BP.DecalCollider_BP_C:ExecuteUbergraph_DecalCollider_BP:0028
+[2017.12.07-02.42.18:296][432]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:314][433]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:336][434]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:355][435]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:373][436]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:391][437]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:408][438]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:427][439]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:444][440]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:463][441]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:483][442]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:501][443]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:519][444]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:536][445]LogBlueprintUserMessages: [Projectile_BP_C_11] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.42.18:536][445]LogBlueprintUserMessages: [Projectile_BP_C_11] X=2483.562 Y=0.698 Z=5.000
+[2017.12.07-02.42.18:537][445]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:555][446]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:574][447]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:592][448]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:609][449]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:628][450]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:646][451]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:665][452]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:683][453]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:701][454]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:718][455]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:718][455]LogBlueprintUserMessages: [Projectile_BP_C_12] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.42.18:718][455]LogBlueprintUserMessages: [Projectile_BP_C_12] X=2483.550 Y=0.698 Z=5.000
+[2017.12.07-02.42.18:736][456]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:754][457]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:772][458]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:791][459]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:807][460]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:824][461]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:840][462]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:858][463]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:875][464]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:892][465]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:909][466]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:927][467]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:944][468]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:964][469]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:982][470]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.18:999][471]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:018][472]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:034][473]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.42.19:034][473]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-02.42.19:035][473]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:052][474]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:069][475]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:085][476]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:102][477]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:119][478]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:136][479]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:152][480]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:171][481]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:190][482]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:207][483]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:224][484]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:240][485]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:257][486]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:273][487]LogBlueprintUserMessages: [Projectile_BP_C_15] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-02.42.19:273][487]LogBlueprintUserMessages: [Projectile_BP_C_15] X=2973.530 Y=0.698 Z=5.000
+[2017.12.07-02.42.19:274][487]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:291][488]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:307][489]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:327][490]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:344][491]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:359][492]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:375][493]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:391][494]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:407][495]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:424][496]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:440][497]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:457][498]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:473][499]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:489][500]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:506][501]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:524][502]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:541][503]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:557][504]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:573][505]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:589][506]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:606][507]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:606][507]LogBlueprintUserMessages: [Projectile_BP_C_16] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-02.42.19:606][507]LogBlueprintUserMessages: [Projectile_BP_C_16] X=2693.557 Y=0.698 Z=5.000
+[2017.12.07-02.42.19:623][508]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:638][509]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:653][510]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:668][511]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:685][512]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:701][513]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:718][514]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:734][515]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:750][516]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:767][517]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:784][518]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:784][518]LogBlueprintUserMessages: [Projectile_BP_C_17] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-02.42.19:784][518]LogBlueprintUserMessages: [Projectile_BP_C_17] X=2693.546 Y=0.698 Z=5.000
+[2017.12.07-02.42.19:800][519]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:816][520]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:831][521]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:849][522]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:865][523]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:882][524]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:898][525]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:914][526]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:931][527]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:948][528]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:964][529]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:980][530]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.19:995][531]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:012][532]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:028][533]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:045][534]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:061][535]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:077][536]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:093][537]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:109][538]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:126][539]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:140][540]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:156][541]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:172][542]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:188][543]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:205][544]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:221][545]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:238][546]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:253][547]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:270][548]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:286][549]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:302][550]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:318][551]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:342][552]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:358][553]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:374][554]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:390][555]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:406][556]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:423][557]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:439][558]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:457][559]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:473][560]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:488][561]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:505][562]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:521][563]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:537][564]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:553][565]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:569][566]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:585][567]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:602][568]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:618][569]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:634][570]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:650][571]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:666][572]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:683][573]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:699][574]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:715][575]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:731][576]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:747][577]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:764][578]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:780][579]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:796][580]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:812][581]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:828][582]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:844][583]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:859][584]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:875][585]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:891][586]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:907][587]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:922][588]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:939][589]PIE: Error: Blueprint Runtime Error: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill from function: 'ExecuteUbergraph_DecalCollider_BP' from node: SetWorldLocation in graph: EventGraph in object: DecalCollider_BP with description: Attempted to access DecalComponent_9 via property DecalRef, but DecalComponent_9 is pending kill
+[2017.12.07-02.42.20:941][589]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.42.21:030][589]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.42.47:430][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.42.47:756][ 84]LogSavePackage: Save=298.70ms
+[2017.12.07-02.42.47:757][ 84]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP6D6617AC4F8DED7E4E7145A11D878A66.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.42.47:758][ 84]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.42.54:913][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.42.55:232][567]LogSavePackage: Save=292.28ms
+[2017.12.07-02.42.55:232][567]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP4530E84D414063ECB1565792878BDABA.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.42.55:236][567]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.42.55:430][580]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-02.42.56:290][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.42.56:618][587]LogSavePackage: Save=302.86ms
+[2017.12.07-02.42.56:618][587]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPD67C521048828A75B28066B6CFE6E549.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.42.56:620][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.42.57:442][647]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.42.57:526][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.42.57:526][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.42.57:526][647]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 12:42:57 PM)
+[2017.12.07-02.42.57:526][647]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-02.42.57:530][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003543s)
+[2017.12.07-02.42.57:531][647]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.42.57:531][647]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.12.07-02.42.57:531][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004586s)
+[2017.12.07-02.42.57:566][647]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.42.57:572][647]LogInit: FAudioDevice initialized.
+[2017.12.07-02.42.57:605][647]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.42.57:606][647]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-19.42.57
+[2017.12.07-02.42.57:607][647]LogWorld: Bringing up level for play took: 0.000897
+[2017.12.07-02.42.57:619][647]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.298
+[2017.12.07-02.42.57:620][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.42.57:898][651]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.42.57:898][651]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-02.43.00:397][805]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.00:397][805]LogBlueprintUserMessages: [Projectile_BP_C_0] X=4225.327 Y=0.691 Z=5.000
+[2017.12.07-02.43.01:643][886]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.01:643][886]LogBlueprintUserMessages: [Projectile_BP_C_1] X=3478.857 Y=0.561 Z=5.000
+[2017.12.07-02.43.01:800][896]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.01:800][896]LogBlueprintUserMessages: [Projectile_BP_C_2] X=3478.818 Y=0.561 Z=5.000
+[2017.12.07-02.43.01:959][906]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.01:959][906]LogBlueprintUserMessages: [Projectile_BP_C_3] X=3478.835 Y=0.561 Z=5.000
+[2017.12.07-02.43.02:104][915]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.02:104][915]LogBlueprintUserMessages: [Projectile_BP_C_4] X=3478.861 Y=0.561 Z=5.000
+[2017.12.07-02.43.02:297][927]LogBlueprintUserMessages: [Projectile_BP_C_5] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.02:297][927]LogBlueprintUserMessages: [Projectile_BP_C_5] X=3478.896 Y=0.561 Z=5.000
+[2017.12.07-02.43.02:432][935]LogBlueprintUserMessages: [Projectile_BP_C_6] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.02:432][935]LogBlueprintUserMessages: [Projectile_BP_C_6] X=3478.837 Y=0.561 Z=5.000
+[2017.12.07-02.43.02:602][946]LogBlueprintUserMessages: [Projectile_BP_C_7] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.02:602][946]LogBlueprintUserMessages: [Projectile_BP_C_7] X=3478.876 Y=0.561 Z=5.000
+[2017.12.07-02.43.02:778][957]LogBlueprintUserMessages: [Projectile_BP_C_8] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.02:778][957]LogBlueprintUserMessages: [Projectile_BP_C_8] X=3268.840 Y=0.561 Z=5.000
+[2017.12.07-02.43.02:939][967]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.02:939][967]LogBlueprintUserMessages: [Projectile_BP_C_9] X=2918.843 Y=0.561 Z=5.000
+[2017.12.07-02.43.03:121][978]LogBlueprintUserMessages: [Projectile_BP_C_10] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.03:121][978]LogBlueprintUserMessages: [Projectile_BP_C_10] X=2533.838 Y=0.561 Z=5.000
+[2017.12.07-02.43.03:297][989]LogBlueprintUserMessages: [Projectile_BP_C_11] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.43.03:297][989]LogBlueprintUserMessages: [Projectile_BP_C_11] X=2148.826 Y=0.561 Z=5.000
+[2017.12.07-02.43.03:474][  0]LogBlueprintUserMessages: [Projectile_BP_C_12] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.43.03:474][  0]LogBlueprintUserMessages: [Projectile_BP_C_12] X=2113.802 Y=0.561 Z=5.000
+[2017.12.07-02.43.03:759][ 18]LogBlueprintUserMessages: [Projectile_BP_C_13] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.43.03:759][ 18]LogBlueprintUserMessages: [Projectile_BP_C_13] X=2113.862 Y=0.561 Z=5.000
+[2017.12.07-02.43.04:048][ 36]LogBlueprintUserMessages: [Projectile_BP_C_14] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.04:048][ 36]LogBlueprintUserMessages: [Projectile_BP_C_14] X=2113.894 Y=0.561 Z=5.000
+[2017.12.07-02.43.04:359][ 55]LogBlueprintUserMessages: [Projectile_BP_C_15] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.04:359][ 55]LogBlueprintUserMessages: [Projectile_BP_C_15] X=2113.813 Y=0.561 Z=5.000
+[2017.12.07-02.43.04:924][ 90]LogBlueprintUserMessages: [Projectile_BP_C_16] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.04:924][ 90]LogBlueprintUserMessages: [Projectile_BP_C_16] X=2113.869 Y=0.561 Z=5.000
+[2017.12.07-02.43.05:343][116]LogBlueprintUserMessages: [Projectile_BP_C_17] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.05:343][116]LogBlueprintUserMessages: [Projectile_BP_C_17] X=2113.813 Y=0.561 Z=5.000
+[2017.12.07-02.43.05:637][134]LogBlueprintUserMessages: [Projectile_BP_C_18] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.05:637][134]LogBlueprintUserMessages: [Projectile_BP_C_18] X=2113.867 Y=0.561 Z=5.000
+[2017.12.07-02.43.05:938][153]LogBlueprintUserMessages: [Projectile_BP_C_19] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.05:938][153]LogBlueprintUserMessages: [Projectile_BP_C_19] X=2113.830 Y=0.561 Z=5.000
+[2017.12.07-02.43.06:160][167]LogBlueprintUserMessages: [Projectile_BP_C_20] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.06:160][167]LogBlueprintUserMessages: [Projectile_BP_C_20] X=2113.893 Y=0.561 Z=5.000
+[2017.12.07-02.43.06:501][188]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.43.06:590][188]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.43.10:557][462]LogEditorTransaction: Undo Delete current selection
+[2017.12.07-02.43.13:758][676]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-02.43.15:205][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.43.15:534][733]LogSavePackage: Save=302.32ms
+[2017.12.07-02.43.15:534][733]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP8B3CA9F7494E062A6F4DB5A7B7BB7191.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.43.15:538][733]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.43.19:363][ 30]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.43.19:450][ 30]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.43.19:450][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.43.19:450][ 30]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 12:43:19 PM)
+[2017.12.07-02.43.19:450][ 30]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-02.43.19:454][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003807s)
+[2017.12.07-02.43.19:454][ 30]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.43.19:455][ 30]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2017.12.07-02.43.19:455][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004944s)
+[2017.12.07-02.43.19:488][ 30]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.43.19:494][ 30]LogInit: FAudioDevice initialized.
+[2017.12.07-02.43.19:528][ 30]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.43.19:529][ 30]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-19.43.19
+[2017.12.07-02.43.19:529][ 30]LogWorld: Bringing up level for play took: 0.000911
+[2017.12.07-02.43.19:543][ 30]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.221
+[2017.12.07-02.43.19:543][ 30]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.43.22:021][170]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.22:021][170]LogBlueprintUserMessages: [Projectile_BP_C_0] X=3989.202 Y=0.741 Z=5.000
+[2017.12.07-02.43.24:195][304]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.24:195][304]LogBlueprintUserMessages: [Projectile_BP_C_1] X=3723.327 Y=0.764 Z=5.000
+[2017.12.07-02.43.24:343][313]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.24:343][313]LogBlueprintUserMessages: [Projectile_BP_C_2] X=3723.304 Y=0.764 Z=5.000
+[2017.12.07-02.43.24:636][331]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.24:636][331]LogBlueprintUserMessages: [Projectile_BP_C_3] X=3723.299 Y=0.764 Z=5.000
+[2017.12.07-02.43.24:906][347]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.24:906][347]LogBlueprintUserMessages: [Projectile_BP_C_4] X=3723.349 Y=0.764 Z=5.000
+[2017.12.07-02.43.25:223][366]LogBlueprintUserMessages: [Projectile_BP_C_5] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.25:223][366]LogBlueprintUserMessages: [Projectile_BP_C_5] X=3723.293 Y=0.764 Z=5.000
+[2017.12.07-02.43.25:522][384]LogBlueprintUserMessages: [Projectile_BP_C_6] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.25:522][384]LogBlueprintUserMessages: [Projectile_BP_C_6] X=3723.291 Y=0.764 Z=5.000
+[2017.12.07-02.43.25:772][399]LogBlueprintUserMessages: [Projectile_BP_C_7] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.25:772][399]LogBlueprintUserMessages: [Projectile_BP_C_7] X=3723.301 Y=0.764 Z=5.000
+[2017.12.07-02.43.26:120][420]LogBlueprintUserMessages: [Projectile_BP_C_8] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.26:120][420]LogBlueprintUserMessages: [Projectile_BP_C_8] X=3478.302 Y=0.764 Z=5.000
+[2017.12.07-02.43.26:470][441]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.26:470][441]LogBlueprintUserMessages: [Projectile_BP_C_9] X=3478.315 Y=0.764 Z=5.000
+[2017.12.07-02.43.26:906][467]LogBlueprintUserMessages: [Projectile_BP_C_10] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.26:906][467]LogBlueprintUserMessages: [Projectile_BP_C_10] X=3478.356 Y=0.764 Z=5.000
+[2017.12.07-02.43.28:466][564]LogBlueprintUserMessages: [Projectile_BP_C_12] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.28:466][564]LogBlueprintUserMessages: [Projectile_BP_C_12] X=2533.857 Y=0.561 Z=5.000
+[2017.12.07-02.43.28:482][565]LogBlueprintUserMessages: [Projectile_BP_C_11] FloorTile_BP_C_7.Cube Cube
+[2017.12.07-02.43.28:482][565]LogBlueprintUserMessages: [Projectile_BP_C_11] X=4528.290 Y=0.764 Z=5.000
+[2017.12.07-02.43.28:782][584]LogBlueprintUserMessages: [Projectile_BP_C_13] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.28:782][584]LogBlueprintUserMessages: [Projectile_BP_C_13] X=2253.852 Y=0.561 Z=5.000
+[2017.12.07-02.43.28:977][596]LogBlueprintUserMessages: [Projectile_BP_C_14] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.28:977][596]LogBlueprintUserMessages: [Projectile_BP_C_14] X=2253.850 Y=0.561 Z=5.000
+[2017.12.07-02.43.29:233][612]LogBlueprintUserMessages: [Projectile_BP_C_15] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.29:233][612]LogBlueprintUserMessages: [Projectile_BP_C_15] X=2253.890 Y=0.561 Z=5.000
+[2017.12.07-02.43.29:541][631]LogBlueprintUserMessages: [Projectile_BP_C_16] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.43.29:541][631]LogBlueprintUserMessages: [Projectile_BP_C_16] X=1973.808 Y=0.561 Z=5.000
+[2017.12.07-02.43.29:783][646]LogBlueprintUserMessages: [Projectile_BP_C_17] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.29:783][646]LogBlueprintUserMessages: [Projectile_BP_C_17] X=1973.837 Y=0.561 Z=5.000
+[2017.12.07-02.43.30:020][661]LogBlueprintUserMessages: [Projectile_BP_C_18] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.30:020][661]LogBlueprintUserMessages: [Projectile_BP_C_18] X=1973.850 Y=0.561 Z=5.000
+[2017.12.07-02.43.30:339][681]LogBlueprintUserMessages: [Projectile_BP_C_19] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.30:339][681]LogBlueprintUserMessages: [Projectile_BP_C_19] X=1973.839 Y=0.561 Z=5.000
+[2017.12.07-02.43.30:549][694]LogBlueprintUserMessages: [Projectile_BP_C_20] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.30:549][694]LogBlueprintUserMessages: [Projectile_BP_C_20] X=1973.927 Y=0.561 Z=5.000
+[2017.12.07-02.43.30:867][714]LogBlueprintUserMessages: [Projectile_BP_C_21] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.43.30:867][714]LogBlueprintUserMessages: [Projectile_BP_C_21] X=1973.907 Y=0.561 Z=5.000
+[2017.12.07-02.43.31:221][736]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.43.31:315][736]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.44.06:715][229]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-02.44.07:834][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.44.08:169][255]LogSavePackage: Save=301.03ms
+[2017.12.07-02.44.08:169][255]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP57E222554A705720259C1F9E385926AA.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.44.08:173][255]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.44.10:864][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.44.11:182][449]LogSavePackage: Save=291.56ms
+[2017.12.07-02.44.11:182][449]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP4282E58848E912B7485C42BCFBC819E5.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.44.11:186][449]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.44.12:222][524]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.44.12:308][524]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.44.12:308][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.44.12:308][524]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 12:44:12 PM)
+[2017.12.07-02.44.12:316][524]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-02.44.12:319][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003633s)
+[2017.12.07-02.44.12:320][524]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.44.12:320][524]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2017.12.07-02.44.12:321][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005042s)
+[2017.12.07-02.44.12:355][524]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.44.12:361][524]LogInit: FAudioDevice initialized.
+[2017.12.07-02.44.12:393][524]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.44.12:394][524]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-19.44.12
+[2017.12.07-02.44.12:394][524]LogWorld: Bringing up level for play took: 0.000918
+[2017.12.07-02.44.12:408][524]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 1.086
+[2017.12.07-02.44.12:408][524]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.44.12:684][528]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.44.12:684][528]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-02.44.18:679][861]LogEditorViewport: Clicking on Actor (LMB): FloorTile_BP_C (FloorTile_BP2)
+[2017.12.07-02.44.22:085][  2]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.44.22:183][  2]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.44.27:195][252]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.44.27:222][252]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.44.27:222][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.44.27:222][252]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 12:44:27 PM)
+[2017.12.07-02.44.27:224][252]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-02.44.27:228][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003829s)
+[2017.12.07-02.44.27:228][252]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.44.27:229][252]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2017.12.07-02.44.27:229][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.005521s)
+[2017.12.07-02.44.27:263][252]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.44.27:269][252]LogInit: FAudioDevice initialized.
+[2017.12.07-02.44.27:299][252]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.44.27:301][252]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-19.44.27
+[2017.12.07-02.44.27:301][252]LogWorld: Bringing up level for play took: 0.000948
+[2017.12.07-02.44.27:314][252]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest -0.007
+[2017.12.07-02.44.27:314][252]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.44.30:057][373]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.44.30:057][373]LogBlueprintUserMessages: [Projectile_BP_C_1] X=3121.817 Y=0.742 Z=5.000
+[2017.12.07-02.44.30:252][382]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.44.30:252][382]LogBlueprintUserMessages: [Projectile_BP_C_2] X=3121.751 Y=0.742 Z=5.000
+[2017.12.07-02.44.30:319][385]LogBlueprintUserMessages: [Projectile_BP_C_0] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.44.30:319][385]LogBlueprintUserMessages: [Projectile_BP_C_0] X=4427.699 Y=0.618 Z=5.000
+[2017.12.07-02.44.30:409][389]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.44.30:409][389]LogBlueprintUserMessages: [Projectile_BP_C_3] X=3121.825 Y=0.742 Z=5.000
+[2017.12.07-02.44.30:609][398]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.44.30:609][398]LogBlueprintUserMessages: [Projectile_BP_C_4] X=3121.750 Y=0.742 Z=5.000
+[2017.12.07-02.44.30:802][407]LogBlueprintUserMessages: [Projectile_BP_C_5] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.44.30:802][407]LogBlueprintUserMessages: [Projectile_BP_C_5] X=3121.771 Y=0.742 Z=5.000
+[2017.12.07-02.44.31:255][428]LogBlueprintUserMessages: [Projectile_BP_C_7] FloorTile_BP_C_2.Cube Cube
+[2017.12.07-02.44.31:255][428]LogBlueprintUserMessages: [Projectile_BP_C_7] X=2019.390 Y=0.478 Z=5.000
+[2017.12.07-02.44.31:319][431]LogBlueprintUserMessages: [Projectile_BP_C_6] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.44.31:319][431]LogBlueprintUserMessages: [Projectile_BP_C_6] X=3121.754 Y=0.742 Z=5.000
+[2017.12.07-02.44.31:623][445]LogBlueprintUserMessages: [Projectile_BP_C_8] FloorTile_BP_C_2.Cube Cube
+[2017.12.07-02.44.31:623][445]LogBlueprintUserMessages: [Projectile_BP_C_8] X=1739.418 Y=0.478 Z=5.000
+[2017.12.07-02.44.32:034][464]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_2.Cube Cube
+[2017.12.07-02.44.32:034][464]LogBlueprintUserMessages: [Projectile_BP_C_9] X=1529.377 Y=0.478 Z=5.000
+[2017.12.07-02.44.32:124][468]LogBlueprintUserMessages: [Projectile_BP_C_11] Projectile_BP_C_10.Sphere Sphere
+[2017.12.07-02.44.32:124][468]LogBlueprintUserMessages: [Projectile_BP_C_11] X=1075.667 Y=0.079 Z=158.324
+[2017.12.07-02.44.32:125][468]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.44.32:125][468]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-02.44.32:125][468]LogScript: Warning: Attempted to access DecalCollider_BP_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but DecalCollider_BP_C_10 is pending kill
+	Projectile_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.Projectile_BP_C_11
+	Function /Game/Blueprints/Projectile_BP.Projectile_BP_C:ExecuteUbergraph_Projectile_BP:02BF
+[2017.12.07-02.44.32:125][468]PIE: Error: Blueprint Runtime Error: Attempted to access DecalCollider_BP_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but DecalCollider_BP_C_10 is pending kill from function: 'ExecuteUbergraph_Projectile_BP' from node: Set Decal Ref in graph: EventGraph in object: Projectile_BP with description: Attempted to access DecalCollider_BP_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but DecalCollider_BP_C_10 is pending kill
+[2017.12.07-02.44.32:125][468]LogBlueprintUserMessages: [Projectile_BP_C_10] Projectile_BP_C_11.Sphere Sphere
+[2017.12.07-02.44.32:125][468]LogBlueprintUserMessages: [Projectile_BP_C_10] X=1075.667 Y=0.079 Z=158.324
+[2017.12.07-02.44.32:125][468]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.44.32:125][468]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-02.44.32:125][468]LogScript: Warning: Attempted to access DecalCollider_BP_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but DecalCollider_BP_C_11 is pending kill
+	Projectile_BP_C /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest:PersistentLevel.Projectile_BP_C_10
+	Function /Game/Blueprints/Projectile_BP.Projectile_BP_C:ExecuteUbergraph_Projectile_BP:02BF
+[2017.12.07-02.44.32:125][468]PIE: Error: Blueprint Runtime Error: Attempted to access DecalCollider_BP_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but DecalCollider_BP_C_11 is pending kill from function: 'ExecuteUbergraph_Projectile_BP' from node: Set Decal Ref in graph: EventGraph in object: Projectile_BP with description: Attempted to access DecalCollider_BP_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but DecalCollider_BP_C_11 is pending kill
+[2017.12.07-02.44.32:302][476]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.44.32:302][476]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-02.44.32:909][505]LogBlueprintUserMessages: [Projectile_BP_C_12] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.44.32:909][505]LogBlueprintUserMessages: [Projectile_BP_C_12] X=2544.350 Y=0.478 Z=5.000
+[2017.12.07-02.44.33:593][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.44.33:688][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.45.20:050][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.45.20:385][984]LogSavePackage: Save=306.59ms
+[2017.12.07-02.45.20:385][984]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP6DAA2F1A4414B37E13BE838BC2F4D210.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.45.20:388][984]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.45.21:452][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.45.21:774][ 55]LogSavePackage: Save=295.10ms
+[2017.12.07-02.45.21:774][ 55]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BPC8DD478D44CE03E1316D04A2631E87FA.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.45.21:776][ 55]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.45.22:914][139]BlueprintLog: New page: Compile Character_BP
+[2017.12.07-02.45.24:232][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset" SILENT=true
+[2017.12.07-02.45.24:564][183]LogSavePackage: Save=305.60ms
+[2017.12.07-02.45.24:564][183]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Character_BP211ABBB4465B9051D9B88E86718FCFAC.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset'
+[2017.12.07-02.45.24:566][183]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Character_BP.uasset
+[2017.12.07-02.45.25:481][251]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-02.45.25:568][251]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.45.25:568][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-02.45.25:568][251]PIE: New page: PIE session: MainGame_NickTest (Dec 6, 2017, 12:45:25 PM)
+[2017.12.07-02.45.25:575][251]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame_NickTest
+[2017.12.07-02.45.25:579][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003555s)
+[2017.12.07-02.45.25:580][251]LogAIModule: Creating AISystem for world MainGame_NickTest
+[2017.12.07-02.45.25:580][251]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2017.12.07-02.45.25:580][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame_NickTest.MainGame_NickTest to /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest (0.004547s)
+[2017.12.07-02.45.25:614][251]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-02.45.25:620][251]LogInit: FAudioDevice initialized.
+[2017.12.07-02.45.25:650][251]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-02.45.25:651][251]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame_NickTest.MainGame_NickTest up for play (max tick rate 0) at 2017.12.06-19.45.25
+[2017.12.07-02.45.25:652][251]LogWorld: Bringing up level for play took: 0.000918
+[2017.12.07-02.45.25:664][251]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame_NickTest 0.343
+[2017.12.07-02.45.25:665][251]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.45.28:461][404]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.45.28:461][404]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-02.45.30:696][546]LogBlueprintUserMessages: [Projectile_BP_C_1] FloorTile_BP_C_5.Cube Cube
+[2017.12.07-02.45.30:696][546]LogBlueprintUserMessages: [Projectile_BP_C_1] X=4514.236 Y=0.741 Z=5.000
+[2017.12.07-02.45.30:865][557]LogBlueprintUserMessages: [Projectile_BP_C_2] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-02.45.30:865][557]LogBlueprintUserMessages: [Projectile_BP_C_2] X=4514.208 Y=0.741 Z=5.000
+[2017.12.07-02.45.31:112][573]LogBlueprintUserMessages: [Projectile_BP_C_3] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-02.45.31:112][573]LogBlueprintUserMessages: [Projectile_BP_C_3] X=4514.207 Y=0.741 Z=5.000
+[2017.12.07-02.45.31:336][587]LogBlueprintUserMessages: [Projectile_BP_C_4] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-02.45.31:336][587]LogBlueprintUserMessages: [Projectile_BP_C_4] X=4514.202 Y=0.741 Z=5.000
+[2017.12.07-02.45.31:559][601]LogBlueprintUserMessages: [Projectile_BP_C_5] FloorTile_BP_C_6.Cube Cube
+[2017.12.07-02.45.31:559][601]LogBlueprintUserMessages: [Projectile_BP_C_5] X=4514.213 Y=0.741 Z=5.000
+[2017.12.07-02.45.31:775][615]LogBlueprintUserMessages: [Projectile_BP_C_6] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.45.31:775][615]LogBlueprintUserMessages: [Projectile_BP_C_6] X=2693.564 Y=0.698 Z=5.000
+[2017.12.07-02.45.32:148][639]LogBlueprintUserMessages: [Projectile_BP_C_7] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.45.32:148][639]LogBlueprintUserMessages: [Projectile_BP_C_7] X=2833.596 Y=0.698 Z=5.000
+[2017.12.07-02.45.32:307][649]LogBlueprintUserMessages: [Projectile_BP_C_8] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.45.32:307][649]LogBlueprintUserMessages: [Projectile_BP_C_8] X=2833.621 Y=0.698 Z=5.000
+[2017.12.07-02.45.32:802][681]LogBlueprintUserMessages: [Projectile_BP_C_9] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.45.32:802][681]LogBlueprintUserMessages: [Projectile_BP_C_9] X=2124.371 Y=0.478 Z=5.000
+[2017.12.07-02.45.33:600][733]LogBlueprintUserMessages: [Projectile_BP_C_10] FloorTile_BP_C_3.Cube Cube
+[2017.12.07-02.45.33:600][733]LogBlueprintUserMessages: [Projectile_BP_C_10] X=1529.409 Y=0.478 Z=5.000
+[2017.12.07-02.45.33:782][745]LogBlueprintUserMessages: [Projectile_BP_C_11] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.45.33:782][745]LogBlueprintUserMessages: [Projectile_BP_C_11] X=1529.437 Y=0.478 Z=5.000
+[2017.12.07-02.45.34:050][763]LogBlueprintUserMessages: [Projectile_BP_C_12] FloorTile_BP_C_4.Cube Cube
+[2017.12.07-02.45.34:050][763]LogBlueprintUserMessages: [Projectile_BP_C_12] X=1529.358 Y=0.478 Z=5.000
+[2017.12.07-02.45.34:321][781]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.45.34:322][781]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-02.45.34:351][783]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-02.45.34:351][783]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-02.45.35:639][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.45.35:729][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest' with GeneratedClass '/Game/Levels/MainGame_NickTest.MainGame_NickTest_C' with ClassGeneratedBy '/Game/Levels/MainGame_NickTest.MainGame_NickTest:PersistentLevel.MainGame_NickTest'
+[2017.12.07-02.45.36:916][923]LogSavePackage: Save=142.99ms
+[2017.12.07-02.45.36:916][923]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGame_NickTestDA5EC727445CEB0E9A721A8485BD5FFD.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap'
+[2017.12.07-02.45.36:920][923]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame_NickTest.umap
