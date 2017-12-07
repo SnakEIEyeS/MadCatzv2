@@ -12563,3 +12563,216 @@ LogInit: Object subsystem initialized
 [2017.12.07-10.16.31:864][838]LogBlueprintUserMessages: [EnemyProjectile_BP_C_57] Character_BP
 [2017.12.07-10.16.32:445][856]LogBlueprintUserMessages: [EnemyProjectile_BP_C_60] Enemy hit
 [2017.12.07-10.16.32:445][856]LogBlueprintUserMessages: [EnemyProjectile_BP_C_60] Character_BP
+[2017.12.07-10.17.23:322][143]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.07-10.17.48:600][229]BlueprintLog: New page: Compile Snake
+[2017.12.07-10.17.49:267][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Snake" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset" SILENT=true
+[2017.12.07-10.17.49:342][245]LogSavePackage: Save=52.34ms
+[2017.12.07-10.17.49:342][245]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Snake04FECBB147CDBAB2BB88E09646A919EE.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset'
+[2017.12.07-10.17.49:345][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset
+[2017.12.07-10.17.52:994][542]BlueprintLog: New page: Compile Turtle
+[2017.12.07-10.17.53:682][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.17.53:759][559]LogSavePackage: Save=49.82ms
+[2017.12.07-10.17.53:759][559]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Turtle0F68F21C408A84B7E5026AB3EA462DA0.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.17.53:762][559]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.17.58:963][981]BlueprintLog: New page: Compile Duck
+[2017.12.07-10.17.59:660][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Duck" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset" SILENT=true
+[2017.12.07-10.17.59:730][998]LogSavePackage: Save=47.80ms
+[2017.12.07-10.17.59:730][998]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Duck24040BAF487D747A3CA3A6BE7C60A853.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset'
+[2017.12.07-10.17.59:734][998]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset
+[2017.12.07-10.18.02:922][257]BlueprintLog: New page: Compile Falcon
+[2017.12.07-10.18.03:653][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Falcon" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset" SILENT=true
+[2017.12.07-10.18.03:724][279]LogSavePackage: Save=48.92ms
+[2017.12.07-10.18.03:724][279]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Falcon3FFA57144160DCC6A4274CBB76D70B9B.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset'
+[2017.12.07-10.18.03:727][279]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset
+[2017.12.07-10.18.26:208][197]BlueprintLog: New page: Compile Snake
+[2017.12.07-10.18.26:912][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Snake" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset" SILENT=true
+[2017.12.07-10.18.26:986][214]LogSavePackage: Save=52.70ms
+[2017.12.07-10.18.26:986][214]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Snake038C0C074005EFB5D66784A4C8FD1AE3.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset'
+[2017.12.07-10.18.26:989][214]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset
+[2017.12.07-10.18.52:951][356]BlueprintLog: New page: Compile Snake
+[2017.12.07-10.18.53:999][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Snake" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset" SILENT=true
+[2017.12.07-10.18.54:073][403]LogSavePackage: Save=53.12ms
+[2017.12.07-10.18.54:074][403]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/SnakeD87404514C28B22E979088B2CDD1EEEC.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset'
+[2017.12.07-10.18.54:077][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset
+[2017.12.07-10.19.06:163][431]BlueprintLog: New page: Compile Snake
+[2017.12.07-10.19.06:902][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Snake" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset" SILENT=true
+[2017.12.07-10.19.06:978][452]LogSavePackage: Save=55.14ms
+[2017.12.07-10.19.06:978][452]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Snake17A425854E792764CFC19794BACF2397.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset'
+[2017.12.07-10.19.06:982][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset
+[2017.12.07-10.19.18:228][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.19.18:299][387]LogSavePackage: Save=48.54ms
+[2017.12.07-10.19.18:299][387]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/TurtleCBB533434C0A97CCB218488DC0E24B85.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.19.18:302][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.19.19:170][460]BlueprintLog: New page: Compile Turtle
+[2017.12.07-10.19.19:867][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.19.19:940][477]LogSavePackage: Save=50.58ms
+[2017.12.07-10.19.19:940][477]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Turtle16199D78439B08EA71D54EA5AF81B939.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.19.19:941][477]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.19.25:531][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.19.25:600][950]LogSavePackage: Save=47.10ms
+[2017.12.07-10.19.25:600][950]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Turtle5FC6525D415B4E0EA6EE90A9B5661DB6.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.19.25:603][950]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.19.25:896][975]BlueprintLog: New page: Compile Turtle
+[2017.12.07-10.19.26:691][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.19.26:759][  0]LogSavePackage: Save=47.15ms
+[2017.12.07-10.19.26:759][  0]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/TurtleB070FEBF40BBF44FD7FD97986A68B179.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.19.26:760][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.19.31:457][408]BlueprintLog: New page: Compile Turtle
+[2017.12.07-10.19.32:311][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.19.32:380][440]LogSavePackage: Save=48.00ms
+[2017.12.07-10.19.32:380][440]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Turtle701D1875404E8F44F8ED41999DFE7D7D.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.19.32:383][440]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.19.32:717][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainGame" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.07-10.19.32:811][458]LogSavePackage: Save=38.23ms
+[2017.12.07-10.19.32:811][458]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGame5567803F4BD83D69CB49AD9EB1138271.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame.umap'
+[2017.12.07-10.19.32:817][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame.umap
+[2017.12.07-10.19.35:806][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.19.35:865][690]LogSavePackage: Save=39.50ms
+[2017.12.07-10.19.35:866][690]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Turtle0202AAB24EF3E1B39F7ABAAAEACD36D4.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.19.35:869][690]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.20.05:769][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.20.05:830][752]LogSavePackage: Save=40.15ms
+[2017.12.07-10.20.05:830][752]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Turtle9A942D284EC16505347667A3614C5EFC.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.20.05:833][752]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.20.06:115][774]BlueprintLog: New page: Compile Turtle
+[2017.12.07-10.20.06:977][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.20.07:045][805]LogSavePackage: Save=46.67ms
+[2017.12.07-10.20.07:045][805]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/TurtleE7E793934D024B4A3F379EBFA38DDC0A.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.20.07:046][805]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.20.14:838][436]BlueprintLog: New page: Compile Snake
+[2017.12.07-10.20.15:587][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Snake" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset" SILENT=true
+[2017.12.07-10.20.15:669][457]LogSavePackage: Save=54.91ms
+[2017.12.07-10.20.15:669][457]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/SnakeEC5F8CE44E772333AE6918BFCDB41597.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset'
+[2017.12.07-10.20.15:672][457]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset
+[2017.12.07-10.20.24:098][119]BlueprintLog: New page: Compile Duck
+[2017.12.07-10.20.24:888][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Duck" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset" SILENT=true
+[2017.12.07-10.20.24:963][144]LogSavePackage: Save=47.38ms
+[2017.12.07-10.20.24:964][144]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Duck75B9C23C498766DBDB32039B34D7BEE8.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset'
+[2017.12.07-10.20.24:967][144]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset
+[2017.12.07-10.20.33:762][882]BlueprintLog: New page: Compile Duck
+[2017.12.07-10.20.34:547][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Duck" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset" SILENT=true
+[2017.12.07-10.20.34:614][909]LogSavePackage: Save=45.21ms
+[2017.12.07-10.20.34:614][909]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/DuckA7FEEA114D24FF65756539A89F05EB6F.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset'
+[2017.12.07-10.20.34:617][909]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset
+[2017.12.07-10.20.41:559][487]BlueprintLog: New page: Compile Falcon
+[2017.12.07-10.20.42:854][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Falcon" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset" SILENT=true
+[2017.12.07-10.20.42:924][560]LogSavePackage: Save=48.13ms
+[2017.12.07-10.20.42:924][560]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/FalconE33500C74EE37CC007E013842F7EBBF6.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset'
+[2017.12.07-10.20.42:927][560]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset
+[2017.12.07-10.20.53:257][392]BlueprintLog: New page: Compile Falcon
+[2017.12.07-10.20.53:909][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Falcon" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset" SILENT=true
+[2017.12.07-10.20.53:984][406]LogSavePackage: Save=48.41ms
+[2017.12.07-10.20.53:984][406]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/FalconECA2DB6641FB55C40B47B79D8936D24E.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset'
+[2017.12.07-10.20.53:986][406]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset
+[2017.12.07-10.20.54:568][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainGame" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.07-10.20.54:655][443]LogSavePackage: Save=37.67ms
+[2017.12.07-10.20.54:655][443]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGame58C75217419E0B32C76C42BE8AB45685.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame.umap'
+[2017.12.07-10.20.54:657][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame.umap
+[2017.12.07-10.20.57:500][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Falcon" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset" SILENT=true
+[2017.12.07-10.20.57:562][661]LogSavePackage: Save=41.73ms
+[2017.12.07-10.20.57:562][661]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Falcon2F1AD95D4D142981F5277698A6A870B1.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset'
+[2017.12.07-10.20.57:565][661]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset
+[2017.12.07-10.21.45:575][487]BlueprintLog: New page: Compile EnemyProjectile_BP
+[2017.12.07-10.21.46:284][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyProjectile_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/EnemyProjectile_BP.uasset" SILENT=true
+[2017.12.07-10.21.46:340][503]LogSavePackage: Save=25.40ms
+[2017.12.07-10.21.46:340][503]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/EnemyProjectile_BP22D163B5488E356ACD5047B228A99BC3.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/EnemyProjectile_BP.uasset'
+[2017.12.07-10.21.46:344][503]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/EnemyProjectile_BP.uasset
+[2017.12.07-10.21.46:931][553]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-10.21.46:972][553]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.07-10.21.46:979][553]LogPlayLevel: [PlayLevel] Compiling EnemyFalconProjectile_BP before play...
+[2017.12.07-10.21.47:329][553]LogPlayLevel: PlayLevel: Blueprint regeneration took 357 ms (1 blueprints)
+[2017.12.07-10.21.47:329][553]PIE: New page: PIE session: MainGame (Dec 6, 2017, 8:21:47 PM)
+[2017.12.07-10.21.47:330][553]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame
+[2017.12.07-10.21.47:333][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003352s)
+[2017.12.07-10.21.47:334][553]LogAIModule: Creating AISystem for world MainGame
+[2017.12.07-10.21.47:334][553]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2017.12.07-10.21.47:334][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame.MainGame to /Game/Levels/UEDPIE_0_MainGame.MainGame (0.004568s)
+[2017.12.07-10.21.47:374][553]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-10.21.47:380][553]LogInit: FAudioDevice initialized.
+[2017.12.07-10.21.47:416][553]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-10.21.47:417][553]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame.MainGame up for play (max tick rate 0) at 2017.12.07-03.21.47
+[2017.12.07-10.21.47:417][553]LogWorld: Bringing up level for play took: 0.000776
+[2017.12.07-10.21.47:464][553]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame 0.297
+[2017.12.07-10.22.05:216][242]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-10.22.05:216][242]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-10.22.06:519][294]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-10.22.06:519][294]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-10.22.07:373][325]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-10.22.07:373][325]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-10.22.26:911][144]BlueprintLog: New page: Compile Snake
+[2017.12.07-10.22.27:576][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Snake" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset" SILENT=true
+[2017.12.07-10.22.27:653][156]LogSavePackage: Save=54.66ms
+[2017.12.07-10.22.27:653][156]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/SnakeF84B02464111083717AFBA8913B413CC.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset'
+[2017.12.07-10.22.27:657][156]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset
+[2017.12.07-10.22.33:669][635]BlueprintLog: New page: Compile Snake
+[2017.12.07-10.22.34:487][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Snake" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset" SILENT=true
+[2017.12.07-10.22.34:563][661]LogSavePackage: Save=53.48ms
+[2017.12.07-10.22.34:563][661]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/SnakeAD1F2E214FD657802B0BF6816EC5B201.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset'
+[2017.12.07-10.22.34:566][661]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset
+[2017.12.07-10.22.38:778][  2]BlueprintLog: New page: Compile Turtle
+[2017.12.07-10.22.39:479][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turtle" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset" SILENT=true
+[2017.12.07-10.22.39:549][ 21]LogSavePackage: Save=47.86ms
+[2017.12.07-10.22.39:549][ 21]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Turtle35B8129247D01F0FC54A739AA2F13CA7.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset'
+[2017.12.07-10.22.39:552][ 21]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Turtle.uasset
+[2017.12.07-10.22.42:239][236]BlueprintLog: New page: Compile Duck
+[2017.12.07-10.22.42:901][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Duck" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset" SILENT=true
+[2017.12.07-10.22.42:968][251]LogSavePackage: Save=45.34ms
+[2017.12.07-10.22.42:968][251]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/DuckF89090EB4F0AC14D8A20BC8A5EEA64B9.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset'
+[2017.12.07-10.22.42:971][251]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Duck.uasset
+[2017.12.07-10.22.46:078][498]BlueprintLog: New page: Compile Falcon
+[2017.12.07-10.22.46:840][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Falcon" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset" SILENT=true
+[2017.12.07-10.22.46:908][522]LogSavePackage: Save=45.93ms
+[2017.12.07-10.22.46:908][522]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Falcon8C0DD2B643AEC99CF1D65B92724F1F38.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset'
+[2017.12.07-10.22.46:911][522]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Falcon.uasset
+[2017.12.07-10.23.14:945][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Snake" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset" SILENT=true
+[2017.12.07-10.23.15:020][654]LogSavePackage: Save=53.71ms
+[2017.12.07-10.23.15:020][654]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/SnakeFBDA1C5D4A02A0DFA6C65BB0C5C47C91.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset'
+[2017.12.07-10.23.15:023][654]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset
+[2017.12.07-10.23.15:982][725]BlueprintLog: New page: Compile Snake
+[2017.12.07-10.23.16:870][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Snake" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset" SILENT=true
+[2017.12.07-10.23.16:945][753]LogSavePackage: Save=54.56ms
+[2017.12.07-10.23.16:945][753]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/Snake677E777E42DE559A6279F5BB62708C7D.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset'
+[2017.12.07-10.23.16:947][753]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/Snake.uasset
+[2017.12.07-10.23.28:971][704]BlueprintLog: New page: Compile EnemyProjectile_BP
+[2017.12.07-10.23.29:655][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyProjectile_BP" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/EnemyProjectile_BP.uasset" SILENT=true
+[2017.12.07-10.23.29:702][721]LogSavePackage: Save=26.31ms
+[2017.12.07-10.23.29:702][721]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/EnemyProjectile_BP8978DD28458B1A8BD833CA80449E525B.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/EnemyProjectile_BP.uasset'
+[2017.12.07-10.23.29:704][721]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/EnemyProjectile_BP.uasset
+[2017.12.07-10.23.36:217][224]BlueprintLog: New page: Compile EnemyFalconProjectile_BP
+[2017.12.07-10.23.36:943][233]LogSavePackage: Save=26.42ms
+[2017.12.07-10.23.36:943][233]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/EnemyFalconProjectile_BP614E71FF4B41BFD8A88F98B1FD687DA2.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/EnemyFalconProjectile_BP.uasset'
+[2017.12.07-10.23.36:946][233]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Blueprints/EnemyFalconProjectile_BP.uasset
+[2017.12.07-10.23.38:343][351]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.07-10.23.38:380][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.07-10.23.38:380][351]PIE: New page: PIE session: MainGame (Dec 6, 2017, 8:23:38 PM)
+[2017.12.07-10.23.38:410][351]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainGame
+[2017.12.07-10.23.38:414][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004059s)
+[2017.12.07-10.23.38:415][351]LogAIModule: Creating AISystem for world MainGame
+[2017.12.07-10.23.38:415][351]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2017.12.07-10.23.38:415][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainGame.MainGame to /Game/Levels/UEDPIE_0_MainGame.MainGame (0.005201s)
+[2017.12.07-10.23.38:453][351]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.07-10.23.38:460][351]LogInit: FAudioDevice initialized.
+[2017.12.07-10.23.38:492][351]LogLoad: Game class is 'GameMode_BP_C'
+[2017.12.07-10.23.38:494][351]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainGame.MainGame up for play (max tick rate 0) at 2017.12.07-03.23.38
+[2017.12.07-10.23.38:494][351]LogWorld: Bringing up level for play took: 0.000797
+[2017.12.07-10.23.38:543][351]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainGame -0.622
+[2017.12.07-10.23.56:457][ 36]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-10.23.56:457][ 36]LogBlueprintUserMessages: [Character_BP_678] 2
+[2017.12.07-10.24.02:048][244]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-10.24.02:048][244]LogBlueprintUserMessages: [Character_BP_678] 1
+[2017.12.07-10.24.02:757][270]LogBlueprintUserMessages: [Projectile_BP_C_0] NODE_AddChildActorComponent-0_Hazard_BP_C_CAT_81
+[2017.12.07-10.24.03:922][309]LogBlueprintUserMessages: [Character_BP_678] Life
+[2017.12.07-10.24.03:922][309]LogBlueprintUserMessages: [Character_BP_678] 0
+[2017.12.07-10.24.08:117][482]LogBlueprintUserMessages: [EnemyProjectile_BP_C_8] Enemy hit
+[2017.12.07-10.24.08:117][482]LogBlueprintUserMessages: [EnemyProjectile_BP_C_8] Character_BP
+[2017.12.07-10.24.10:123][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainGame" FILE="../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.07-10.24.10:212][549]LogSavePackage: Save=37.68ms
+[2017.12.07-10.24.10:212][549]LogSavePackage: Moving '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Saved/MainGameFD1CAEA147B776E016811CB8E3F273BD.tmp' to '../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame.umap'
+[2017.12.07-10.24.10:214][549]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/u1148533/Desktop/RapidPrototyping/MadCatzv2/Content/Levels/MainGame.umap
+[2017.12.07-10.24.12:565][635]LogBlueprintUserMessages: [EnemyProjectile_BP_C_11] Enemy hit
+[2017.12.07-10.24.12:565][635]LogBlueprintUserMessages: [EnemyProjectile_BP_C_11] Character_BP
+[2017.12.07-10.24.16:536][729]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-2500.000 Y=250.000 Z=0.000] for [Gecko_C]
+[2017.12.07-10.24.16:861][730]LogBlueprintUserMessages: [EnemyProjectile_BP_C_14] Enemy hit
+[2017.12.07-10.24.16:861][730]LogBlueprintUserMessages: [EnemyProjectile_BP_C_14] Character_BP
+[2017.12.07-10.24.22:192][746]LogBlueprintUserMessages: [EnemyProjectile_BP_C_17] Enemy hit
+[2017.12.07-10.24.22:192][746]LogBlueprintUserMessages: [EnemyProjectile_BP_C_17] Character_BP
